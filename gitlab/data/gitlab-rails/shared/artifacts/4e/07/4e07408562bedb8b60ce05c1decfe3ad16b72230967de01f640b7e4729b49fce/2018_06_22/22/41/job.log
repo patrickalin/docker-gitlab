@@ -1,0 +1,25 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on runner-1 44e8701a
+[0;m[0KUsing Docker executor with image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KPulling docker image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KUsing docker image sha256:83ccfaae424dffa470653d8ecc72d20852f51360117b2e7cd984ce4710461953 for registry.gitlab.com/build-images/docker:latest ...
+[0;msection_start:1529676803:prepare_script[0KRunning on runner-44e8701a-project-3-concurrent-0 via 7b49bf192a60...
+section_end:1529676804:prepare_script[0Ksection_start:1529676804:get_sources[0K[32;1mCloning repository...[0;m
+Cloning into '/builds/pa/docker-ssb'...
+[32;1mChecking out e820ccbe as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529676808:get_sources[0Ksection_start:1529676808:restore_cache[0Ksection_end:1529676810:restore_cache[0Ksection_start:1529676810:download_artifacts[0Ksection_end:1529676811:download_artifacts[0Ksection_start:1529676811:build_script[0K[32;1m$ ls -la[0;m
+total 32
+drwxrwxrwx 4 root root 4096 juin  22 14:13 .
+drwxrwxrwx 4 root root 4096 juin  22 14:13 ..
+lrwxrwxrwx 1 root root   23 juin  22 14:13 content -> hugo-image/src/content/
+-rw-rw-rw- 1 root root  580 juin  22 14:13 docker-compose.yml
+drwxrwxrwx 5 root root 4096 juin  22 14:13 .git
+-rw-rw-rw- 1 root root   18 juin  22 14:13 .gitignore
+-rw-rw-rw- 1 root root  228 juin  22 14:13 .gitlab-ci.yml
+-rwxrwxrwx 1 root root 1073 juin  22 14:13 menu.sh
+drwxrwxrwx 3 root root 4096 juin  22 14:13 ssb-image
+[32;1m$ echo $PATRICK[0;m
+
+section_end:1529676813:build_script[0Ksection_start:1529676813:after_script[0Ksection_end:1529676815:after_script[0Ksection_start:1529676815:archive_cache[0Ksection_end:1529676817:archive_cache[0Ksection_start:1529676817:upload_artifacts[0Ksection_end:1529676818:upload_artifacts[0K[32;1mJob succeeded
+[0;m

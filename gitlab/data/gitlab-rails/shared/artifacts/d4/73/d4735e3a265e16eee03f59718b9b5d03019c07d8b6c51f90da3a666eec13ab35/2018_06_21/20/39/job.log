@@ -1,0 +1,57 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.services.alin.be/monachus/hugo ...
+[0;m[0KStarting service docker:dind ...
+[0;m[0KPulling docker image docker:dind ...
+[0;m[0KUsing docker image sha256:1f44348b3ad523d5dc4ae7d53bd873879e06e0df2d686e9029a666945443ef42 for docker:dind ...
+[0;m[0KWaiting for services to be up and running...
+[0;m[0KPulling docker image registry.services.alin.be/monachus/hugo ...
+[0;m[0KUsing docker image sha256:67d43c1a2a13202086c90260fa72754f443cb19065cb0939b9d1dd91bd6c96db for registry.services.alin.be/monachus/hugo ...
+[0;msection_start:1529616209:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via c6655eff57e6...
+section_end:1529616210:prepare_script[0Ksection_start:1529616210:get_sources[0K[32;1mFetching changes...[0;m
+Removing hugo-image/public/
+HEAD is now at cdf82f4 essai
+From http://gitlab.services.alin.be/pa/ssb
+   cdf82f4..642b150  master     -> origin/master
+[32;1mChecking out 642b1502 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529616230:get_sources[0Ksection_start:1529616230:restore_cache[0Ksection_end:1529616232:restore_cache[0Ksection_start:1529616232:download_artifacts[0Ksection_end:1529616233:download_artifacts[0Ksection_start:1529616233:build_script[0K[32;1m$ hugo[0;m
+[?25lBuilding sites … [?25h[K
+                   | EN   
++------------------+-----+
+  Pages            | 407  
+  Paginator pages  |  23  
+  Non-page files   |   0  
+  Static files     | 245  
+  Processed images |   0  
+  Aliases          |  98  
+  Sitemaps         |   1  
+  Cleaned          |   0  
+
+Total in 2617 ms
+[32;1m$ ls -lart[0;m
+total 36376
+drwxr-xr-x  4 root root     4096 Jun 21 20:49 ..
+-rw-rw-rw-  1 root root     1843 Jun 21 20:49 config.toml
+-rwxrwxrwx  1 root root       82 Jun 21 20:49 build.sh
+drwxrwxrwx  2 root root     4096 Jun 21 20:49 archetypes
+-rw-rw-rw-  1 root root      178 Jun 21 20:49 .gitlab-ci.yml.bck
+-rwxrwxrwx  1 root root      533 Jun 21 20:49 createFolder.sh
+drwxrwxrwx 15 root root     4096 Jun 21 20:49 content
+-rwxrwxrwx  1 root root 17377312 Jun 21 20:49 hugo
+-rwxrwxrwx  1 root root       35 Jun 21 20:49 runMac.sh
+-rwxrwxrwx  1 root root       32 Jun 21 20:49 runLinux.sh
+drwxrwxrwx  5 root root     4096 Jun 21 20:49 layouts
+-rwxrwxrwx  1 root root 19798000 Jun 21 20:49 hugoMac
+drwxrwxrwx  3 root root     4096 Jun 21 20:49 themes
+drwxrwxrwx  4 root root     4096 Jun 21 20:49 static
+drwxrwxrwx  3 root root     4096 Jun 21 21:23 hugo-image
+-rw-rw-rw-  1 root root      815 Jun 21 21:23 .gitlab-ci.yml
+drwxrwxrwx  5 root root     4096 Jun 21 21:23 .git
+drwxrwxrwx 10 root root     4096 Jun 21 21:23 .
+drwxrwxrwx 30 root root     4096 Jun 21 21:23 public
+section_end:1529616237:build_script[0Ksection_start:1529616237:after_script[0Ksection_end:1529616238:after_script[0Ksection_start:1529616238:archive_cache[0Ksection_end:1529616240:archive_cache[0Ksection_start:1529616240:upload_artifacts[0K[32;1mUploading artifacts...[0;m
+public: found 1285 matching files                 [0;m 
+Uploading artifacts to coordinator... ok          [0;m  id[0;m=20 responseStatus[0;m=201 Created token[0;m=EodT6xCZ
+section_end:1529616246:upload_artifacts[0K[32;1mJob succeeded
+[0;m

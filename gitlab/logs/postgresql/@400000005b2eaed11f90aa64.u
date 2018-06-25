@@ -1,0 +1,512 @@
+2018-06-23_17:58:16.43509 LOG:  using stale statistics instead of current ones because stats collector is not responding
+2018-06-23_18:12:40.94179 ERROR:  canceling statement due to statement timeout
+2018-06-23_18:12:40.94238 STATEMENT:  SELECT
+2018-06-23_18:12:40.94239 	  COUNT(*) AS queries,
+2018-06-23_18:12:40.94239 	  MAX(EXTRACT(EPOCH FROM (clock_timestamp() - query_start))) AS age_in_seconds
+2018-06-23_18:12:40.94239 	FROM pg_catalog.pg_stat_activity
+2018-06-23_18:12:40.94239 	WHERE state = 'active' AND trim(query) ~* '\AVACUUM ANALYZE'
+2018-06-23_18:12:40.94240 	
+2018-06-23_18:12:41.98995 LOG:  server process (PID 27298) was terminated by signal 7: Bus error
+2018-06-23_18:12:41.98996 LOG:  terminating any other active server processes
+2018-06-23_18:12:41.99454 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:41.99455 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:41.99456 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:41.99591 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:41.99592 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:41.99592 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:41.99896 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:41.99898 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:41.99898 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:41.99931 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:41.99931 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:41.99931 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:41.99945 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:41.99946 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:41.99946 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.00082 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.00083 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.00083 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.00083 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.00083 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.00083 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.00626 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.00627 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.00628 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.00628 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.00628 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.00628 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.00628 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.00629 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.00629 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.04593 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.04595 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.04595 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.05386 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.05388 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.05388 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.05392 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.05392 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.05393 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.05483 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.05484 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.05484 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.05487 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.05488 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.05488 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.07203 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.07204 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.07204 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.08318 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.08319 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.08319 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.10083 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.10084 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.10084 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.10084 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.10085 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.10085 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.10885 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:12:42.10886 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:12:42.10886 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:12:42.33524 LOG:  all server processes terminated; reinitializing
+2018-06-23_18:12:58.27840 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.27945 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.27946 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.27946 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.27947 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.27947 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.28062 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.28521 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.29253 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30384 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30427 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30528 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30741 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30820 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30859 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30895 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30933 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.30968 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31005 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31044 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31256 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31322 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31352 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31395 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31464 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31472 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31491 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31538 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31549 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31622 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31693 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31772 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31816 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31854 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31890 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.31953 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32047 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32086 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32137 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32173 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32223 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32269 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32311 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32348 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32381 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32420 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32463 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32500 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32560 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32597 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32633 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32669 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32709 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32745 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32780 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32817 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32853 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32888 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32923 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32959 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.32997 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33034 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33130 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33166 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33202 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33249 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33283 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.33367 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34618 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34669 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34703 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34743 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34813 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34874 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34911 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34947 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.34987 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35022 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35060 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35097 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35140 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35184 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35220 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35271 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35313 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35363 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35393 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35435 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35477 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35517 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35570 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35600 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35646 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35685 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35722 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35795 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35843 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35940 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.35987 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36029 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36069 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36122 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36173 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36221 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36262 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36298 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36340 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36379 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36419 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36463 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36502 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36541 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36583 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36623 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36663 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36704 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36742 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36781 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36871 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36915 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36954 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.36999 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37715 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37734 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37782 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37798 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37829 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37860 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.37880 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38013 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38206 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38246 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38285 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38371 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38416 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38468 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38936 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38936 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.38971 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.39673 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41044 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41152 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41169 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41248 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41285 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41320 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41363 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41416 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41568 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41612 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.41719 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.43625 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.43630 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.45109 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.45175 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46209 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46253 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46305 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46340 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46422 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46498 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46509 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46574 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46733 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46786 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46809 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46917 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.46958 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47015 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47112 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47126 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47195 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47243 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47345 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47411 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47487 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47804 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.47828 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48070 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48171 LOG:  database system was interrupted; last known up at 2018-06-23 17:37:24 GMT
+2018-06-23_18:12:58.48184 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48304 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48381 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48485 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48488 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48534 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48708 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48753 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.48983 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49091 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49127 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49220 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49256 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49311 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49370 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.49969 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50115 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50247 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50247 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50316 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50366 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50411 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50486 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.50731 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51037 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51125 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51167 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51207 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51248 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51287 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51331 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51378 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51601 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51661 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51719 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51770 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51823 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.51903 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53042 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53083 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53158 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53236 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53310 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53434 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53673 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53674 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53674 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53681 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53769 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53882 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53930 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.53994 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54298 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54353 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54419 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54520 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54623 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54674 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54748 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54797 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54849 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54903 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.54953 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55173 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55354 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55506 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55577 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55644 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55711 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.55840 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56143 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56306 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56349 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56423 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56485 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56718 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56773 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.56850 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57070 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57214 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57305 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57626 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57726 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57778 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57849 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57908 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.57959 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58009 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58058 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58107 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58157 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58242 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58330 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58379 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58428 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58470 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58574 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58623 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58682 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58732 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.58850 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.59129 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.59202 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.59271 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.59339 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.59411 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.59772 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60214 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60293 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60387 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60434 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60608 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60656 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60749 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60791 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60835 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60877 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60918 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.60989 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61142 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61199 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61252 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61297 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61341 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61390 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61463 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61558 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61786 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61792 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61912 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.61999 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62093 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62139 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62196 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62287 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62341 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62631 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62688 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.62932 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63155 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63342 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63362 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63467 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63510 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63562 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63611 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63889 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63904 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.63960 FATAL:  the database system is in recovery mode
+2018-06-23_18:12:58.64166 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16528 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16608 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16653 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16703 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16746 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16789 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16832 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16872 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16910 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16947 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.16985 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.17024 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.17066 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.17103 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.17149 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.17185 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:02.17223 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:08.57762 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-23_18:13:08.64392 LOG:  invalid record length at 0/2078520: wanted 24, got 0
+2018-06-23_18:13:08.64392 LOG:  redo is not required
+2018-06-23_18:13:08.68689 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:08.69715 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:08.75701 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-23_18:13:08.75944 LOG:  database system is ready to accept connections
+2018-06-23_18:13:08.75949 LOG:  autovacuum launcher started
+2018-06-23_18:13:17.32794 LOG:  server process (PID 27808) was terminated by signal 7: Bus error
+2018-06-23_18:13:17.32796 LOG:  terminating any other active server processes
+2018-06-23_18:13:17.32854 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:13:17.32854 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:13:17.32854 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:13:17.32880 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.32934 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.33156 LOG:  all server processes terminated; reinitializing
+2018-06-23_18:13:17.34203 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34254 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34286 LOG:  database system was interrupted; last known up at 2018-06-23 18:13:08 GMT
+2018-06-23_18:13:17.34313 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34357 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34404 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34447 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34489 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34531 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34569 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34613 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34658 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34696 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34739 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:17.34783 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:20.01085 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-23_18:13:20.01609 LOG:  invalid record length at 0/2078590: wanted 24, got 0
+2018-06-23_18:13:20.01609 LOG:  redo is not required
+2018-06-23_18:13:20.02826 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-23_18:13:20.02971 LOG:  database system is ready to accept connections
+2018-06-23_18:13:20.02985 LOG:  autovacuum launcher started
+2018-06-23_18:13:23.79009 LOG:  server process (PID 27841) was terminated by signal 7: Bus error
+2018-06-23_18:13:23.79010 LOG:  terminating any other active server processes
+2018-06-23_18:13:23.79037 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:13:23.79038 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:13:23.79038 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:13:23.79382 LOG:  all server processes terminated; reinitializing
+2018-06-23_18:13:23.80477 LOG:  database system was interrupted; last known up at 2018-06-23 18:13:20 GMT
+2018-06-23_18:13:23.81798 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:25.92312 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-23_18:13:25.92850 LOG:  invalid record length at 0/2078600: wanted 24, got 0
+2018-06-23_18:13:25.92850 LOG:  redo is not required
+2018-06-23_18:13:25.94076 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-23_18:13:25.94231 LOG:  database system is ready to accept connections
+2018-06-23_18:13:25.94237 LOG:  autovacuum launcher started
+2018-06-23_18:13:32.37179 LOG:  server process (PID 27862) was terminated by signal 7: Bus error
+2018-06-23_18:13:32.37180 LOG:  terminating any other active server processes
+2018-06-23_18:13:32.37251 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:13:32.37251 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:13:32.37252 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:13:32.37269 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.37319 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.37554 LOG:  all server processes terminated; reinitializing
+2018-06-23_18:13:32.38603 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38656 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38683 LOG:  database system was interrupted; last known up at 2018-06-23 18:13:25 GMT
+2018-06-23_18:13:32.38712 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38758 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38796 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38835 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38874 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38913 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38955 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.38995 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.39037 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.39077 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.39118 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:32.39161 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:34.66288 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-23_18:13:34.66843 LOG:  invalid record length at 0/2078670: wanted 24, got 0
+2018-06-23_18:13:34.66843 LOG:  redo is not required
+2018-06-23_18:13:34.68039 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-23_18:13:34.68184 LOG:  database system is ready to accept connections
+2018-06-23_18:13:34.68191 LOG:  autovacuum launcher started
+2018-06-23_18:13:38.78858 LOG:  server process (PID 27896) was terminated by signal 7: Bus error
+2018-06-23_18:13:38.78860 LOG:  terminating any other active server processes
+2018-06-23_18:13:38.78898 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:13:38.78899 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:13:38.78899 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:13:38.79269 LOG:  all server processes terminated; reinitializing
+2018-06-23_18:13:38.80364 FATAL:  the database system is in recovery mode
+2018-06-23_18:13:38.80447 LOG:  database system was interrupted; last known up at 2018-06-23 18:13:34 GMT
+2018-06-23_18:13:41.21898 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-23_18:13:41.22640 LOG:  invalid record length at 0/20786E0: wanted 24, got 0
+2018-06-23_18:13:41.22641 LOG:  redo is not required
+2018-06-23_18:13:41.23964 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-23_18:13:41.24136 LOG:  database system is ready to accept connections
+2018-06-23_18:13:41.24149 LOG:  autovacuum launcher started

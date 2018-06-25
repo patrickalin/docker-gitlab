@@ -1,0 +1,6 @@
+2018-06-22_13:15:01.29634 adopted new unicorn master 617
+2018-06-22_13:22:49.80660 Received TERM from runit, sending to process group (-PID)
+2018-06-22_13:22:49.83460 Terminated
+2018-06-22_13:22:49.83487 forwarding TERM to unicorn master 617
+2018-06-22_13:22:49.83715 Waiting for unicorn to die...
+2018-06-22_13:22:50.83870 Waiting for unicorn to die...

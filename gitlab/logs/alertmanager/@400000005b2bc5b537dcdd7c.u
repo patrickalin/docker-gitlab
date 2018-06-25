@@ -1,0 +1,13 @@
+2018-06-21_15:34:06.85284 level=info ts=2018-06-21T15:34:06.852792082Z caller=main.go:136 msg="Starting Alertmanager" version="(version=, branch=, revision=)"
+2018-06-21_15:34:06.85294 level=info ts=2018-06-21T15:34:06.852834464Z caller=main.go:137 build_context="(go=go1.9.2, user=, date=)"
+2018-06-21_15:34:06.85714 level=info ts=2018-06-21T15:34:06.857111251Z caller=main.go:275 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2018-06-21_15:34:06.86651 level=info ts=2018-06-21T15:34:06.866454188Z caller=main.go:350 msg=Listening address=localhost:9093
+2018-06-21_15:35:07.36129 level=info ts=2018-06-21T15:35:07.358041005Z caller=main.go:378 msg="Received SIGTERM, exiting gracefully..."
+2018-06-21_15:35:07.36181 level=info ts=2018-06-21T15:35:07.360535719Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-21_15:35:07.36182 level=info ts=2018-06-21T15:35:07.36102735Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-21_15:35:07.36707 level=info ts=2018-06-21T15:35:07.366755248Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=6.220566ms size=0
+2018-06-21_15:35:07.36745 level=info ts=2018-06-21T15:35:07.367414295Z caller=silence.go:271 component=silences msg="Maintenance done" duration=6.842715ms size=0
+2018-06-21_15:35:07.44703 level=info ts=2018-06-21T15:35:07.446979658Z caller=main.go:136 msg="Starting Alertmanager" version="(version=, branch=, revision=)"
+2018-06-21_15:35:07.44704 level=info ts=2018-06-21T15:35:07.447021917Z caller=main.go:137 build_context="(go=go1.9.2, user=, date=)"
+2018-06-21_15:35:07.44940 level=info ts=2018-06-21T15:35:07.449356481Z caller=main.go:275 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2018-06-21_15:35:07.45928 level=info ts=2018-06-21T15:35:07.459237979Z caller=main.go:350 msg=Listening address=localhost:9093

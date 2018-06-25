@@ -1,0 +1,7 @@
+2018-03-31_21:34:26.12544 starting new unicorn master
+2018-03-31_21:34:48.35254 adopted new unicorn master 496
+2018-03-31_21:35:28.23696 Received TERM from runit, sending to process group (-PID)
+2018-03-31_21:35:28.23820 Terminated
+2018-03-31_21:35:28.23832 forwarding TERM to unicorn master 496
+2018-03-31_21:35:28.23836 forwarding CONT to unicorn master 496
+2018-03-31_21:35:28.23850 wrapper for unicorn master 496 exiting

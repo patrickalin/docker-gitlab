@@ -1,0 +1,6 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.services.alin.be/monachus/hugo ...
+[0;m[0KPulling docker image registry.services.alin.be/monachus/hugo ...
+[0;m[31;1mERROR: Job failed: Error response from daemon: manifest for registry.services.alin.be/monachus/hugo:latest not found
+[0;m

@@ -1,0 +1,4 @@
+2018-06-21_16:17:15.05504 level=info ts=2018-06-21T16:17:15.054572059Z caller=main.go:136 msg="Starting Alertmanager" version="(version=, branch=, revision=)"
+2018-06-21_16:17:15.05511 level=info ts=2018-06-21T16:17:15.054952018Z caller=main.go:137 build_context="(go=go1.9.2, user=, date=)"
+2018-06-21_16:17:15.05956 level=info ts=2018-06-21T16:17:15.058494439Z caller=main.go:275 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2018-06-21_16:17:15.06982 level=info ts=2018-06-21T16:17:15.068201179Z caller=main.go:350 msg=Listening address=localhost:9093

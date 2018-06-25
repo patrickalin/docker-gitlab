@@ -1,0 +1,9 @@
+2018-06-22_13:14:55.85994 time="2018-06-22T15:14:55+02:00" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-06-22_13:14:55.93407 localhost @ - - [2018/06/22:15:14:55 +0200] "GET /help HTTP/1.1" 502 2916 "" "curl/7.59.0" 0.075
+2018-06-22_13:15:57.83876 localhost @ - - [2018/06/22:15:15:57 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 1.759
+2018-06-22_13:16:59.94418 localhost @ - - [2018/06/22:15:16:59 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 1.939
+2018-06-22_13:18:00.96379 localhost @ - - [2018/06/22:15:18:00 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 0.903
+2018-06-22_13:19:03.31179 localhost @ - - [2018/06/22:15:19:03 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 2.249
+2018-06-22_13:20:06.06126 localhost @ - - [2018/06/22:15:20:06 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 2.633
+2018-06-22_13:21:09.24123 localhost @ - - [2018/06/22:15:21:09 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 3.059
+2018-06-22_13:22:11.78313 localhost @ - - [2018/06/22:15:22:11 +0200] "GET /help HTTP/1.1" 200 38195 "" "curl/7.59.0" 2.441

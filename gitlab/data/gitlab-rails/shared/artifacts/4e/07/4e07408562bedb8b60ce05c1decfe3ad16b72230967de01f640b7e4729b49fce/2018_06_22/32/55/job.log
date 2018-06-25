@@ -1,0 +1,31 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on runner-1 44e8701a
+[0;m[0KUsing Docker executor with image docker:latest ...
+[0;m[0KPulling docker image docker:latest ...
+[0;m[0KUsing docker image sha256:2232c0bbbb8cc9238eefc10721db5662156a2624bc7405dc1cade624dde9aaec for docker:latest ...
+[0;msection_start:1529681556:prepare_script[0KRunning on runner-44e8701a-project-3-concurrent-0 via fddd9d444684...
+section_end:1529681557:prepare_script[0Ksection_start:1529681557:get_sources[0K[32;1mFetching changes...[0;m
+HEAD is now at ffe9ba7 essai
+From http://gitlab.services.alin.be/pa/docker-ssb
+   ffe9ba7..7d29bc4  master     -> origin/master
+[32;1mChecking out 7d29bc49 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529681561:get_sources[0Ksection_start:1529681561:restore_cache[0Ksection_end:1529681562:restore_cache[0Ksection_start:1529681562:download_artifacts[0Ksection_end:1529681564:download_artifacts[0Ksection_start:1529681564:build_script[0K[32;1m$ ls -la[0;m
+total 32
+drwxrwxrwx    4 root     root          4096 Jun 22 15:32 .
+drwxr-xr-x    4 root     root          4096 Jun 22 14:20 ..
+drwxrwxrwx    5 root     root          4096 Jun 22 15:32 .git
+-rw-rw-rw-    1 root     root            18 Jun 22 14:20 .gitignore
+-rw-rw-rw-    1 root     root           312 Jun 22 15:32 .gitlab-ci.yml
+lrwxrwxrwx    1 root     root            23 Jun 22 14:20 content -> hugo-image/src/content/
+-rw-rw-rw-    1 root     root           580 Jun 22 14:20 docker-compose.yml
+-rwxrwxrwx    1 root     root          1073 Jun 22 14:20 menu.sh
+drwxrwxrwx    3 root     root          4096 Jun 22 14:20 ssb-image
+[32;1m$ echo $TAG_DOCKER[0;m
+
+[32;1m$ export DOCKER_HOST=tcp://192.168.10.11:2375[0;m
+[32;1m$ docker stack deploy --compose-file docker-compose.yml ssb[0;m
+time="2018-06-22T15:32:46Z" level=warning msg="network default: network.external.name is deprecated in favor of network.name"
+Creating service ssb_documentation
+section_end:1529681566:build_script[0Ksection_start:1529681566:after_script[0Ksection_end:1529681568:after_script[0Ksection_start:1529681568:archive_cache[0Ksection_end:1529681570:archive_cache[0Ksection_start:1529681570:upload_artifacts[0Ksection_end:1529681571:upload_artifacts[0K[32;1mJob succeeded
+[0;m

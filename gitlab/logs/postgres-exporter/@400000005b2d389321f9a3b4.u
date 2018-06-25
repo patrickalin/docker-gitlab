@@ -1,0 +1,1 @@
+2018-06-22_13:25:27.95706 time="2018-06-22T15:25:27+02:00" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1114"

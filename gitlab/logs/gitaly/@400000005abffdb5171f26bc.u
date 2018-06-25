@@ -1,0 +1,26 @@
+2018-03-31_21:24:00.49679 time="2018-03-31T21:24:00Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.91.0, built 20180329.122459"
+2018-03-31_21:24:00.49686 time="2018-03-31T21:24:00Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-03-31_21:24:00.49921 time="2018-03-31T21:24:00Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-03-31_21:24:01.06290 time="2018-03-31T21:24:01Z" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+2018-03-31_21:24:01.06347 time="2018-03-31T21:24:01Z" level=info msg="listening on unix socket" address=/var/opt/gitlab/gitaly/gitaly.socket
+2018-03-31_21:24:01.06348 time="2018-03-31T21:24:01Z" level=info msg="Starting prometheus listener" address="localhost:9236"
+2018-03-31_21:24:01.06419 time="2018-03-31T21:24:01Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=314572800
+2018-03-31_21:24:01.06424 time="2018-03-31T21:24:01Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=314572800
+2018-03-31_21:24:01.06921 time="2018-03-31T21:24:01Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 528 /tmp/gitaly-ruby071517003/socket.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=540
+2018-03-31_21:24:01.08822 time="2018-03-31T21:24:01Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 528 /tmp/gitaly-ruby071517003/socket.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=547
+2018-03-31_21:24:21.47718 time="2018-03-31T21:24:21Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 528 /tmp/gitaly-ruby071517003/socket.0]" supervisor.name=gitaly-ruby.0
+2018-03-31_21:24:21.48014 time="2018-03-31T21:24:21Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 528 /tmp/gitaly-ruby071517003/socket.1]" supervisor.name=gitaly-ruby.1
+2018-03-31_21:24:21.48043 time="2018-03-31T21:24:21Z" level=fatal msg="shutting down" error="received signal \"terminated\""
+2018-03-31_21:24:21.50181 time="2018-03-31T21:24:21Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.91.0, built 20180329.122459"
+2018-03-31_21:24:21.50184 time="2018-03-31T21:24:21Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-03-31_21:24:21.50367 time="2018-03-31T21:24:21Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-03-31_21:24:22.03218 time="2018-03-31T21:24:22Z" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+2018-03-31_21:24:22.03327 time="2018-03-31T21:24:22Z" level=info msg="listening on unix socket" address=/var/opt/gitlab/gitaly/gitaly.socket
+2018-03-31_21:24:22.03328 time="2018-03-31T21:24:22Z" level=info msg="Starting prometheus listener" address="localhost:9236"
+2018-03-31_21:24:22.03361 time="2018-03-31T21:24:22Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=314572800
+2018-03-31_21:24:22.03361 time="2018-03-31T21:24:22Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=314572800
+2018-03-31_21:24:22.03397 time="2018-03-31T21:24:22Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 813 /tmp/gitaly-ruby983734704/socket.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=840
+2018-03-31_21:24:22.03414 time="2018-03-31T21:24:22Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 813 /tmp/gitaly-ruby983734704/socket.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=841
+2018-03-31_21:28:31.29781 time="2018-03-31T21:28:31Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 813 /tmp/gitaly-ruby983734704/socket.0]" supervisor.name=gitaly-ruby.0
+2018-03-31_21:28:31.30126 time="2018-03-31T21:28:31Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 813 /tmp/gitaly-ruby983734704/socket.1]" supervisor.name=gitaly-ruby.1
+2018-03-31_21:28:31.30151 time="2018-03-31T21:28:31Z" level=fatal msg="shutting down" error="received signal \"terminated\""

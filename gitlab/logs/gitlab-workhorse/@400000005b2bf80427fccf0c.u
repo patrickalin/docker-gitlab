@@ -1,0 +1,6 @@
+2018-06-21_19:08:57.14874 time="2018-06-21T21:08:57+02:00" level=info msg=Starting version="gitlab-workhorse v4.2.1-20180606.210537"
+2018-06-21_19:08:57.15113 time="2018-06-21T21:08:57+02:00" level=info msg="keywatcher: starting process loop"
+2018-06-21_19:08:57.15117 time="2018-06-21T21:08:57+02:00" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-06-21_19:09:44.92178 time="2018-06-21T21:09:44+02:00" level=info msg=Starting version="gitlab-workhorse v4.2.1-20180606.210537"
+2018-06-21_19:09:44.92358 time="2018-06-21T21:09:44+02:00" level=info msg="keywatcher: starting process loop"
+2018-06-21_19:09:44.92359 time="2018-06-21T21:09:44+02:00" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix

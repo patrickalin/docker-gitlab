@@ -1,0 +1,21 @@
+2018-06-22_13:25:11.28893 2018-06-22T13:25:11.288Z 585 TID-ouc3wmodk INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-585", :url=>nil}
+2018-06-22_13:25:11.44544 2018-06-22T13:25:11.445Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-06-22_13:25:11.44774 2018-06-22T13:25:11.447Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-06-22_13:25:11.45102 2018-06-22T13:25:11.450Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-06-22_13:25:11.45423 2018-06-22T13:25:11.454Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: repository_check_worker
+2018-06-22_13:25:11.45522 2018-06-22T13:25:11.455Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: admin_email_worker
+2018-06-22_13:25:11.45754 2018-06-22T13:25:11.457Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-06-22_13:25:11.45856 2018-06-22T13:25:11.458Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-06-22_13:25:11.46096 2018-06-22T13:25:11.460Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-06-22_13:25:11.46217 2018-06-22T13:25:11.462Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-06-22_13:25:11.46380 2018-06-22T13:25:11.463Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-06-22_13:25:11.46544 2018-06-22T13:25:11.465Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-06-22_13:25:11.46642 2018-06-22T13:25:11.466Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-06-22_13:25:11.46771 2018-06-22T13:25:11.467Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-06-22_13:25:11.46975 2018-06-22T13:25:11.469Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-06-22_13:25:11.47276 2018-06-22T13:25:11.472Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-06-22_13:25:11.47424 2018-06-22T13:25:11.474Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-06-22_13:25:11.47682 2018-06-22T13:25:11.476Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-06-22_13:25:11.47982 2018-06-22T13:25:11.479Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-06-22_13:25:11.48078 2018-06-22T13:25:11.480Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-06-22_13:25:11.48412 2018-06-22T13:25:11.483Z 585 TID-ouc3wmodk INFO: Cron Jobs - add job with name: issue_due_scheduler_worker

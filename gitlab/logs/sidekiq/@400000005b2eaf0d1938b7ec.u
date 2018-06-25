@@ -1,0 +1,21 @@
+2018-06-23_20:35:12.35102 2018-06-23T20:35:12.350Z 608 TID-ox4i5pnnk INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-608", :url=>nil}
+2018-06-23_20:35:12.58669 2018-06-23T20:35:12.586Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-06-23_20:35:12.58818 2018-06-23T20:35:12.588Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-06-23_20:35:12.59093 2018-06-23T20:35:12.590Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-06-23_20:35:12.59372 2018-06-23T20:35:12.593Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: repository_check_worker
+2018-06-23_20:35:12.59479 2018-06-23T20:35:12.594Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: admin_email_worker
+2018-06-23_20:35:12.59664 2018-06-23T20:35:12.596Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-06-23_20:35:12.59790 2018-06-23T20:35:12.597Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-06-23_20:35:12.59969 2018-06-23T20:35:12.599Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-06-23_20:35:12.60058 2018-06-23T20:35:12.600Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-06-23_20:35:12.60192 2018-06-23T20:35:12.601Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-06-23_20:35:12.60311 2018-06-23T20:35:12.603Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-06-23_20:35:12.60403 2018-06-23T20:35:12.603Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-06-23_20:35:12.60494 2018-06-23T20:35:12.604Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-06-23_20:35:12.60713 2018-06-23T20:35:12.607Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-06-23_20:35:12.60975 2018-06-23T20:35:12.609Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-06-23_20:35:12.61088 2018-06-23T20:35:12.610Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-06-23_20:35:12.61315 2018-06-23T20:35:12.613Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-06-23_20:35:12.61589 2018-06-23T20:35:12.615Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-06-23_20:35:12.61819 2018-06-23T20:35:12.618Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-06-23_20:35:12.62108 2018-06-23T20:35:12.621Z 608 TID-ox4i5pnnk INFO: Cron Jobs - add job with name: issue_due_scheduler_worker

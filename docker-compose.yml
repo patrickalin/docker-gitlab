@@ -1,0 +1,60 @@
+version: '3.6'
+
+services:
+  gitlab:
+    image: registry.services.alin.be/gitlab-alin:v1
+    hostname: gitlab.services.alin.be
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "2"
+          memory: 1300M
+      restart_policy:
+        condition: on-failure
+      labels:
+        - traefik.port=80
+        - traefik.frontend.rule=Host:gitlab.services.alin.be
+        - traefik.frontend.entryPoints=http,https
+        - traefik.backend.loadbalancer.method=wrr
+        - traefik.docker.network=traefik-net
+    environment:
+      - GITLAB_OMNIBUS_CONFIG="external_url https://gitlab.services.alin.be; gitlab_rails[‘time_zone’]=‘Europe/Brussels’;"
+    ports:
+      - 2122:22
+    volumes:
+      - ./gitlab/config:/etc/gitlab
+      - ./gitlab/logs:/var/log/gitlab
+      - ./gitlab/data:/var/opt/gitlab
+
+  runner1:
+    image: registry.services.alin.be/gitlab-runner-alin:v1
+    environment:
+      - CI_SERVER_URL=http://gitlab.services.alin.be/
+    privileged: true
+    volumes:
+      - ./runner1:/etc/gitlab-runner
+      - /var/run/docker.sock:/var/run/docker.sock:rw
+
+  runner2:
+    image: registry.services.alin.be/gitlab-runner-alin:v1
+    environment:
+      - CI_SERVER_URL=http://gitlab.services.alin.be/
+      - RUNNER_NAME=runner2
+      - REGISTRATION_TOKEN=gAhcpT1K6b4i55TjhwiC
+      - REGISTER_NON_INTERACTIVE=true
+      - RUNNER_EXECUTOR="docker"
+      - DOCKER_IMAGE="alpine:3.7"
+      - DOCKER_PRIVILEGED=true
+      - RUNNER_CACHE_DIR="cache"
+      - REGISTER_NON_INTERACTIVE=true
+    privileged: true
+    volumes:
+      - ./runner2:/etc/gitlab-runner
+      - /var/run/docker.sock:/var/run/docker.sock:rw
+     command: gitlab-runner register --non-interactive --executor "docker" --docker-image alpine:3.7 --url "http://gitlab.services.alin.be" --registration-token "gAhcpT1K6b4i55TjhwiC" --description "runner2" --tag-list "" --run-untagged --locked="false"
+
+networks:
+  default:
+    external:
+      name: traefik-net

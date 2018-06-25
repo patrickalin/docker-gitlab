@@ -1,0 +1,230 @@
+2018-03-31_20:22:05.23762 LOG:  database system was interrupted; last known up at 2018-03-31 20:20:40 GMT
+2018-03-31_20:22:05.95877 FATAL:  the database system is starting up
+2018-03-31_20:22:06.00389 FATAL:  the database system is starting up
+2018-03-31_20:22:06.02707 FATAL:  the database system is starting up
+2018-03-31_20:22:07.94702 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-03-31_20:22:07.99166 LOG:  invalid record length at 0/1A09DF0: wanted 24, got 0
+2018-03-31_20:22:07.99168 LOG:  redo is not required
+2018-03-31_20:22:08.00590 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:22:08.00794 LOG:  database system is ready to accept connections
+2018-03-31_20:22:08.00860 LOG:  autovacuum launcher started
+2018-03-31_20:35:31.64723 ERROR:  canceling statement due to statement timeout
+2018-03-31_20:35:31.74726 STATEMENT:  SELECT name, setting, COALESCE(unit, ''), short_desc, vartype FROM pg_settings WHERE vartype IN ('bool', 'integer', 'real');
+2018-03-31_20:35:31.74726 ERROR:  canceling statement due to statement timeout
+2018-03-31_20:35:31.74727 STATEMENT:  SELECT
+2018-03-31_20:35:31.74727 	  projects.namespace_id,
+2018-03-31_20:35:31.74727 	  ci_builds.status,
+2018-03-31_20:35:31.74727 	  projects.shared_runners_enabled,
+2018-03-31_20:35:31.74727 	  COUNT(*) AS count
+2018-03-31_20:35:31.74727 	FROM ci_builds
+2018-03-31_20:35:31.74728 	JOIN projects
+2018-03-31_20:35:31.74728 	  ON projects.id = ci_builds.project_id
+2018-03-31_20:35:31.74728 	WHERE ci_builds.type = 'Ci::Build'
+2018-03-31_20:35:31.74728 	  AND ci_builds.status IN ('created', 'pending')
+2018-03-31_20:35:31.74728 	  AND projects.pending_delete = 'f'
+2018-03-31_20:35:31.74728 	GROUP BY
+2018-03-31_20:35:31.74729 	  projects.namespace_id,
+2018-03-31_20:35:31.74729 	  ci_builds.status,
+2018-03-31_20:35:31.74729 	  projects.shared_runners_enabled
+2018-03-31_20:35:31.74729 	
+2018-03-31_20:38:30.02931 LOG:  lock file "postmaster.pid" contains wrong PID: 415 instead of 366
+2018-03-31_20:38:30.02933 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-03-31_20:38:30.02933 LOG:  received immediate shutdown request
+2018-03-31_20:38:30.02933 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.02934 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.02934 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.02934 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.02934 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.02934 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.02934 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.02935 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.02936 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03116 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03117 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03117 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03117 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03117 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03118 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03118 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03118 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03119 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03120 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03120 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03120 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03120 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03121 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03121 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03207 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03208 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03208 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03238 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03238 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03239 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03239 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03239 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03239 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.03313 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:38:30.03314 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:38:30.03314 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:38:30.05769 LOG:  database system is shut down
+2018-03-31_20:38:30.18845 LOG:  database system was interrupted; last known up at 2018-03-31 20:38:11 GMT
+2018-03-31_20:38:33.63351 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-03-31_20:38:33.70888 LOG:  invalid record length at 0/1A09ED0: wanted 24, got 0
+2018-03-31_20:38:33.70889 LOG:  redo is not required
+2018-03-31_20:38:33.73523 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:38:33.73791 LOG:  database system is ready to accept connections
+2018-03-31_20:38:33.73873 LOG:  autovacuum launcher started
+2018-03-31_20:39:33.83583 LOG:  lock file "postmaster.pid" contains wrong PID: 2048 instead of 1363
+2018-03-31_20:39:33.83585 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-03-31_20:39:33.83587 LOG:  received immediate shutdown request
+2018-03-31_20:39:33.83589 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83590 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83590 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83711 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83712 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83713 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83713 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83713 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83714 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83714 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83714 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83715 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83716 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83716 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83717 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83717 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83717 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83718 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83718 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83718 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83720 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83761 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83762 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83762 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.83776 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:39:33.83777 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:39:33.83778 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:39:33.85715 LOG:  database system is shut down
+2018-03-31_20:39:33.97776 LOG:  database system was interrupted; last known up at 2018-03-31 20:39:14 GMT
+2018-03-31_20:39:36.55371 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-03-31_20:39:36.58904 LOG:  invalid record length at 0/1A09FB0: wanted 24, got 0
+2018-03-31_20:39:36.58905 LOG:  redo is not required
+2018-03-31_20:39:36.60113 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:39:36.60271 LOG:  database system is ready to accept connections
+2018-03-31_20:39:36.60281 LOG:  autovacuum launcher started
+2018-03-31_20:40:36.69033 LOG:  lock file "postmaster.pid" contains wrong PID: 3401 instead of 1558
+2018-03-31_20:40:36.69034 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-03-31_20:40:36.69035 LOG:  received immediate shutdown request
+2018-03-31_20:40:36.69068 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69069 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69069 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.69069 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69069 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69070 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.69070 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69070 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69070 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.69071 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69071 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69071 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.69116 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69116 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69117 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.69122 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69122 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69122 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.69212 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:40:36.69212 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:40:36.69213 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:40:36.70831 LOG:  database system is shut down
+2018-03-31_20:40:36.79216 LOG:  database system was interrupted; last known up at 2018-03-31 20:40:18 GMT
+2018-03-31_20:40:38.12393 FATAL:  the database system is starting up
+2018-03-31_20:40:38.13370 FATAL:  the database system is starting up
+2018-03-31_20:40:38.95720 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-03-31_20:40:38.99222 LOG:  invalid record length at 0/1A0A0A8: wanted 24, got 0
+2018-03-31_20:40:38.99223 LOG:  redo is not required
+2018-03-31_20:40:39.00483 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:40:39.00637 LOG:  database system is ready to accept connections
+2018-03-31_20:40:39.00666 LOG:  autovacuum launcher started
+2018-03-31_20:41:39.09100 LOG:  lock file "postmaster.pid" contains wrong PID: 4453 instead of 1746
+2018-03-31_20:41:39.09102 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-03-31_20:41:39.09103 LOG:  received immediate shutdown request
+2018-03-31_20:41:39.09118 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09118 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09118 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.09118 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09119 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09119 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.09150 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09151 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09151 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.09172 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09172 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09172 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.09196 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09197 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09197 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.09226 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09226 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09227 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.09316 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:41:39.09316 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:41:39.09316 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:41:39.10903 LOG:  database system is shut down
+2018-03-31_20:41:39.18457 LOG:  database system was interrupted; last known up at 2018-03-31 20:41:21 GMT
+2018-03-31_20:41:42.23276 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23375 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23410 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23461 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23511 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23554 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23594 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23632 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23669 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23707 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23744 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23782 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23822 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23861 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23899 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23938 FATAL:  the database system is starting up
+2018-03-31_20:41:42.23975 FATAL:  the database system is starting up
+2018-03-31_20:41:42.50423 FATAL:  the database system is starting up
+2018-03-31_20:41:42.70338 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-03-31_20:41:42.74496 LOG:  invalid record length at 0/1A0A188: wanted 24, got 0
+2018-03-31_20:41:42.74497 LOG:  redo is not required
+2018-03-31_20:41:42.75972 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:41:42.76155 LOG:  database system is ready to accept connections
+2018-03-31_20:41:42.76181 LOG:  autovacuum launcher started
+2018-03-31_20:42:42.83833 LOG:  could not open file "postmaster.pid": No such file or directory
+2018-03-31_20:42:42.83834 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-03-31_20:42:42.83834 LOG:  received immediate shutdown request
+2018-03-31_20:42:42.83835 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.83835 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.83835 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.83835 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.83835 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.83836 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.84035 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.84036 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.84036 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.84036 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.84037 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.84037 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.84037 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.84037 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.84038 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.84039 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.84039 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.84039 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.84040 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.84040 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.84040 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.84057 WARNING:  terminating connection because of crash of another server process
+2018-03-31_20:42:42.84057 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-03-31_20:42:42.84057 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-03-31_20:42:42.85586 LOG:  database system is shut down
+2018-03-31_20:42:43.00267 LOG:  database system was shut down at 2018-03-31 20:42:25 GMT
+2018-03-31_20:42:43.02519 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:42:43.02711 LOG:  database system is ready to accept connections
+2018-03-31_20:42:43.02729 LOG:  autovacuum launcher started

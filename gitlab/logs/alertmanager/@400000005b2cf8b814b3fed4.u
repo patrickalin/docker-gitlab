@@ -1,0 +1,5 @@
+2018-06-22_13:22:42.94260 level=info ts=2018-06-22T13:22:42.939024244Z caller=main.go:378 msg="Received SIGTERM, exiting gracefully..."
+2018-06-22_13:22:42.94449 level=info ts=2018-06-22T13:22:42.942331325Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_13:22:42.94509 level=info ts=2018-06-22T13:22:42.943871683Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_13:22:42.95042 level=info ts=2018-06-22T13:22:42.950227531Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=8.394349ms size=0
+2018-06-22_13:22:42.95077 level=info ts=2018-06-22T13:22:42.95074763Z caller=silence.go:271 component=silences msg="Maintenance done" duration=8.897529ms size=0

@@ -1,0 +1,160 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KStarting service docker:dind ...
+[0;m[0KPulling docker image docker:dind ...
+[0;m[0KUsing docker image sha256:1f44348b3ad523d5dc4ae7d53bd873879e06e0df2d686e9029a666945443ef42 for docker:dind ...
+[0;m[0KWaiting for services to be up and running...
+[0;m[0KPulling docker image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KUsing docker image sha256:83ccfaae424dffa470653d8ecc72d20852f51360117b2e7cd984ce4710461953 for registry.gitlab.com/build-images/docker:latest ...
+[0;msection_start:1529614913:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via c6655eff57e6...
+section_end:1529614915:prepare_script[0Ksection_start:1529614915:get_sources[0K[32;1mFetching changes...[0;m
+Removing public/
+HEAD is now at c956e4f essai
+[32;1mChecking out c956e4f5 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529614917:get_sources[0Ksection_start:1529614917:restore_cache[0Ksection_end:1529614918:restore_cache[0Ksection_start:1529614918:download_artifacts[0K[32;1mDownloading artifacts for hugo-build (12)...[0;m
+Downloading artifacts from coordinator... ok      [0;m  id[0;m=12 responseStatus[0;m=200 OK token[0;m=Vdx7a8f1
+section_end:1529614920:download_artifacts[0Ksection_start:1529614920:build_script[0K[32;1m$ docker info[0;m
+Containers: 0
+ Running: 0
+ Paused: 0
+ Stopped: 0
+Images: 0
+Server Version: 18.05.0-ce
+Storage Driver: overlay
+ Backing Filesystem: extfs
+ Supports d_type: true
+Logging Driver: json-file
+Cgroup Driver: cgroupfs
+Plugins: 
+ Volume: local
+ Network: bridge host macvlan null overlay
+Swarm: inactive
+Runtimes: runc
+Default Runtime: runc
+Init Binary: docker-init
+containerd version: 773c489c9c1b21a6d78b5c538cd395416ec50f88
+runc version: 4fc53a81fb7c994640722ac585fa9ca548971871
+init version: 949e6fa
+Security Options:
+ apparmor
+ seccomp
+  Profile: default
+Kernel Version: 4.15.0-23-generic
+Operating System: Alpine Linux v3.7 (containerized)
+OSType: linux
+Architecture: x86_64
+CPUs: 4
+Total Memory: 7.69GiB
+Name: a76de2cc166e
+ID: AMRC:DMM7:SBF2:E4ME:EYBT:NCIK:6M5R:ROOT:ANQU:GGSI:FGND:YMY5
+Docker Root Dir: /var/lib/docker
+Debug Mode (client): false
+Debug Mode (server): false
+Registry: https://index.docker.io/v1/
+Labels:
+Experimental: false
+Insecure Registries:
+ 127.0.0.0/8
+Live Restore Enabled: false
+
+WARNING: No swap limit support
+WARNING: bridge-nf-call-iptables is disabled
+WARNING: bridge-nf-call-ip6tables is disabled
+[32;1m$ echo $version[0;m
+
+[32;1m$ ls -la[0;m
+total 36376
+drwxrwxrwx 10 root root     4096 juin  21 21:01 .
+drwxr-xr-x  4 root root     4096 juin  21 20:49 ..
+drwxrwxrwx  2 root root     4096 juin  21 20:49 archetypes
+-rwxrwxrwx  1 root root       82 juin  21 20:49 build.sh
+-rw-rw-rw-  1 root root     1843 juin  21 20:49 config.toml
+drwxrwxrwx 15 root root     4096 juin  21 20:49 content
+-rwxrwxrwx  1 root root      533 juin  21 20:49 createFolder.sh
+drwxrwxrwx  5 root root     4096 juin  21 21:01 .git
+-rw-rw-rw-  1 root root      615 juin  21 21:01 .gitlab-ci.yml
+-rw-rw-rw-  1 root root      178 juin  21 20:49 .gitlab-ci.yml.bck
+-rwxrwxrwx  1 root root 17377312 juin  21 20:49 hugo
+drwxrwxrwx  3 root root     4096 juin  21 20:49 hugo-image
+-rwxrwxrwx  1 root root 19798000 juin  21 20:49 hugoMac
+drwxrwxrwx  5 root root     4096 juin  21 20:49 layouts
+drwxrwxrwx 30 root root     4096 juin  21 21:01 public
+-rwxrwxrwx  1 root root       32 juin  21 20:49 runLinux.sh
+-rwxrwxrwx  1 root root       35 juin  21 20:49 runMac.sh
+drwxrwxrwx  4 root root     4096 juin  21 20:49 static
+drwxrwxrwx  3 root root     4096 juin  21 20:49 themes
+[32;1m$ cd hugo-image[0;m
+[32;1m$ ls -la[0;m
+total 40
+drwxrwxrwx  3 root root 4096 juin  21 20:49 .
+drwxrwxrwx 10 root root 4096 juin  21 21:01 ..
+-rwxrwxrwx  1 root root 2025 juin  21 20:49 buildImage.sh
+drwxrwxrwx  2 root root 4096 juin  21 20:49 conf.d
+-rw-rw-rw-  1 root root  473 juin  21 20:49 Dockerfile
+-rw-rw-rw-  1 root root  343 juin  21 20:49 DockerfileTemplate
+-rw-rw-rw-  1 root root    5 juin  21 20:49 .dockerignore
+-rwxrwxrwx  1 root root  292 juin  21 20:49 env
+-rwxrwxrwx  1 root root   44 juin  21 20:49 .htpasswd
+-rw-rw-rw-  1 root root 2970 juin  21 20:49 localtime
+[32;1m$ docker build -t registry.services.alin.be/ssb-alin:v1 .[0;m
+Sending build context to Docker daemon  14.85kB
+Step 1/9 : FROM registry.services.alin.be/nginx:1.13.9-alpine
+1.13.9-alpine: Pulling from nginx
+ff3a5c916c92: Pulling fs layer
+b4f3ef22ce5b: Pulling fs layer
+8a6541d11dc3: Pulling fs layer
+7e869e2dcf68: Pulling fs layer
+7e869e2dcf68: Waiting
+8a6541d11dc3: Verifying Checksum
+8a6541d11dc3: Download complete
+ff3a5c916c92: Verifying Checksum
+ff3a5c916c92: Download complete
+b4f3ef22ce5b: Verifying Checksum
+b4f3ef22ce5b: Download complete
+ff3a5c916c92: Pull complete
+b4f3ef22ce5b: Pull complete
+8a6541d11dc3: Pull complete
+7e869e2dcf68: Pull complete
+Digest: sha256:7129a88c455160dc25ce8499e1a4bfc4cb09ca5a67402ec974b9ae96bf2d94d0
+Status: Downloaded newer image for registry.services.alin.be/nginx:1.13.9-alpine
+ ---> 537527661905
+Step 2/9 : COPY .htpasswd /etc/nginx/.htpasswd
+ ---> f6c0b7caccf4
+Step 3/9 : COPY conf.d /etc/nginx/conf.d/
+ ---> e76e080be0b6
+Step 4/9 : COPY localtime /etc/localtime
+ ---> 1a9adae5f3dc
+Step 5/9 : RUN apk add --update bash curl
+ ---> Running in 5ceb55177b5d
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.7/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.7/community/x86_64/APKINDEX.tar.gz
+(1/10) Installing pkgconf (1.3.10-r0)
+(2/10) Installing ncurses-terminfo-base (6.0_p20171125-r0)
+(3/10) Installing ncurses-terminfo (6.0_p20171125-r0)
+(4/10) Installing ncurses-libs (6.0_p20171125-r0)
+(5/10) Installing readline (7.0.003-r0)
+(6/10) Installing bash (4.4.19-r1)
+Executing bash-4.4.19-r1.post-install
+(7/10) Installing ca-certificates (20171114-r0)
+(8/10) Installing libssh2 (1.8.0-r2)
+(9/10) Installing libcurl (7.60.0-r1)
+(10/10) Installing curl (7.60.0-r1)
+Executing busybox-1.27.2-r7.trigger
+Executing ca-certificates-20171114-r0.trigger
+OK: 27 MiB in 38 packages
+Removing intermediate container 5ceb55177b5d
+ ---> 3567ac976863
+Step 6/9 : ENV NGINX_HOST pa.servicess.alin.be
+ ---> Running in a436db0f3d92
+Removing intermediate container a436db0f3d92
+ ---> 2511a05ef03c
+Step 7/9 : ENV NGINX_PORT 80
+ ---> Running in 598b9ab4c562
+Removing intermediate container 598b9ab4c562
+ ---> 14cac5208f43
+Step 8/9 : COPY html/ /usr/share/nginx/html
+COPY failed: stat /var/lib/docker/tmp/docker-builder766014488/html: no such file or directory
+section_end:1529614934:build_script[0Ksection_start:1529614934:after_script[0Ksection_end:1529614936:after_script[0K[31;1mERROR: Job failed: exit code 1
+[0;m

@@ -1,0 +1,62 @@
+2018-06-21_16:16:52.85570 time="2018-06-21T16:16:52Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.100.1, built 20180606.211738"
+2018-06-21_16:16:52.85577 time="2018-06-21T16:16:52Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-06-21_16:16:53.13570 time="2018-06-21T16:16:53Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-06-21_16:16:54.35437 time="2018-06-21T16:16:54Z" level=info msg="listening on unix socket" address=/var/opt/gitlab/gitaly/gitaly.socket
+2018-06-21_16:16:54.35439 time="2018-06-21T16:16:54Z" level=info msg="Starting prometheus listener" address="localhost:9236"
+2018-06-21_16:16:54.35727 time="2018-06-21T16:16:54Z" level=info msg="finished tempdir cleaner walk" storage=default time_ms=1
+2018-06-21_16:16:54.36021 time="2018-06-21T16:16:54Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 630 /tmp/gitaly-ruby623769008/socket.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=643
+2018-06-21_16:16:54.36066 time="2018-06-21T16:16:54Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=314572800
+2018-06-21_16:16:54.36271 time="2018-06-21T16:16:54Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=314572800
+2018-06-21_16:16:54.36278 time="2018-06-21T16:16:54Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:16:54.36289 time="2018-06-21T16:16:54Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.1 0  <nil>}]" system=system
+2018-06-21_16:16:54.36291 time="2018-06-21T16:16:54Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:16:54.36296 time="2018-06-21T16:16:54Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420588340, CONNECTING" system=system
+2018-06-21_16:16:54.36311 time="2018-06-21T16:16:54Z" level=info msg="grpc: addrConn.createTransport failed to connect to {/tmp/gitaly-ruby623769008/socket.1 0  <nil>}. Err :connection error: desc = \"transport: Error while dialing dial unix /tmp/gitaly-ruby623769008/socket.1: connect: no such file or directory\". Reconnecting..." system=system
+2018-06-21_16:16:54.36315 time="2018-06-21T16:16:54Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420588340, TRANSIENT_FAILURE" system=system
+2018-06-21_16:16:54.36321 time="2018-06-21T16:16:54Z" level=info msg="Failed to dial /tmp/gitaly-ruby623769008/socket.1: context canceled; please retry." system=system
+2018-06-21_16:16:54.36327 time="2018-06-21T16:16:54Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:16:54.36333 time="2018-06-21T16:16:54Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.0 0  <nil>}]" system=system
+2018-06-21_16:16:54.36335 time="2018-06-21T16:16:54Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:16:54.36339 time="2018-06-21T16:16:54Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420588820, CONNECTING" system=system
+2018-06-21_16:16:54.36349 time="2018-06-21T16:16:54Z" level=info msg="grpc: addrConn.createTransport failed to connect to {/tmp/gitaly-ruby623769008/socket.0 0  <nil>}. Err :connection error: desc = \"transport: Error while dialing dial unix /tmp/gitaly-ruby623769008/socket.0: connect: no such file or directory\". Reconnecting..." system=system
+2018-06-21_16:16:54.36351 time="2018-06-21T16:16:54Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420588820, TRANSIENT_FAILURE" system=system
+2018-06-21_16:16:54.36356 time="2018-06-21T16:16:54Z" level=info msg="Failed to dial /tmp/gitaly-ruby623769008/socket.0: context canceled; please retry." system=system
+2018-06-21_16:16:54.37655 time="2018-06-21T16:16:54Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 630 /tmp/gitaly-ruby623769008/socket.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=646
+2018-06-21_16:17:09.36823 time="2018-06-21T16:17:09Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:17:09.36887 time="2018-06-21T16:17:09Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.1 0  <nil>}]" system=system
+2018-06-21_16:17:09.36887 time="2018-06-21T16:17:09Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:17:09.36888 time="2018-06-21T16:17:09Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:17:09.36889 time="2018-06-21T16:17:09Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420158230, CONNECTING" system=system
+2018-06-21_16:17:09.36889 time="2018-06-21T16:17:09Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.0 0  <nil>}]" system=system
+2018-06-21_16:17:09.36889 time="2018-06-21T16:17:09Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:17:09.36915 time="2018-06-21T16:17:09Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201e4230, CONNECTING" system=system
+2018-06-21_16:17:09.37016 time="2018-06-21T16:17:09Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201e4230, READY" system=system
+2018-06-21_16:17:09.37017 time="2018-06-21T16:17:09Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420158230, READY" system=system
+2018-06-21_16:17:24.37628 time="2018-06-21T16:17:24Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:17:24.37927 time="2018-06-21T16:17:24Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.1 0  <nil>}]" system=system
+2018-06-21_16:17:24.37928 time="2018-06-21T16:17:24Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:17:24.37928 time="2018-06-21T16:17:24Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420588310, CONNECTING" system=system
+2018-06-21_16:17:24.37968 time="2018-06-21T16:17:24Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:17:24.38016 time="2018-06-21T16:17:24Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.0 0  <nil>}]" system=system
+2018-06-21_16:17:24.38017 time="2018-06-21T16:17:24Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:17:24.38017 time="2018-06-21T16:17:24Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201e4130, CONNECTING" system=system
+2018-06-21_16:17:24.38071 time="2018-06-21T16:17:24Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201e4130, READY" system=system
+2018-06-21_16:17:24.38115 time="2018-06-21T16:17:24Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420588310, READY" system=system
+2018-06-21_16:17:39.57984 time="2018-06-21T16:17:39Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:17:39.58033 time="2018-06-21T16:17:39Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-21_16:17:39.58159 time="2018-06-21T16:17:39Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.1 0  <nil>}]" system=system
+2018-06-21_16:17:39.58159 time="2018-06-21T16:17:39Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby623769008/socket.0 0  <nil>}]" system=system
+2018-06-21_16:17:39.58159 time="2018-06-21T16:17:39Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:17:39.58160 time="2018-06-21T16:17:39Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-21_16:17:39.58747 time="2018-06-21T16:17:39Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-21_16:17:39.58748 time="2018-06-21T16:17:39Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42021fd40, CONNECTING" system=system
+2018-06-21_16:17:39.58761 time="2018-06-21T16:17:39Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-21_16:17:39.58802 time="2018-06-21T16:17:39Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420202430, CONNECTING" system=system
+2018-06-21_16:17:39.59473 time="2018-06-21T16:17:39Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420202430, READY" system=system
+2018-06-21_16:17:39.59632 time="2018-06-21T16:17:39Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42021fd40, READY" system=system
+2018-06-21_16:17:53.80067 time="2018-06-21T16:17:53Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 630 /tmp/gitaly-ruby623769008/socket.0]" supervisor.name=gitaly-ruby.0
+2018-06-21_16:17:53.80269 time="2018-06-21T16:17:53Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 630 /tmp/gitaly-ruby623769008/socket.1]" supervisor.name=gitaly-ruby.1
+2018-06-21_16:17:53.80394 time="2018-06-21T16:17:53Z" level=fatal msg="shutting down" error="received signal \"terminated\""
+2018-06-21_16:17:53.82942 time="2018-06-21T16:17:53Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.100.1, built 20180606.211738"
+2018-06-21_16:17:53.82945 time="2018-06-21T16:17:53Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-06-21_16:17:53.85711 time="2018-06-21T16:17:53Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git

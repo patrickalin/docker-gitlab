@@ -1,0 +1,24 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on runner-1 44e8701a
+[0;m[0KUsing Docker executor with image docker:latest ...
+[0;m[0KPulling docker image docker:latest ...
+[0;m[0KUsing docker image sha256:2232c0bbbb8cc9238eefc10721db5662156a2624bc7405dc1cade624dde9aaec for docker:latest ...
+[0;msection_start:1529775279:prepare_script[0KRunning on runner-44e8701a-project-3-concurrent-0 via 4323ee3dc225...
+section_end:1529775280:prepare_script[0Ksection_start:1529775280:get_sources[0K[32;1mFetching changes...[0;m
+HEAD is now at 7d29bc4 essai
+From http://gitlab.services.alin.be/pa/docker-ssb
+   7d29bc4..e77326f  master     -> origin/master
+[32;1mChecking out e77326f0 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529775287:get_sources[0Ksection_start:1529775287:restore_cache[0Ksection_end:1529775289:restore_cache[0Ksection_start:1529775289:download_artifacts[0Ksection_end:1529775290:download_artifacts[0Ksection_start:1529775290:build_script[0K[32;1m$ echo $TAG_DOCKER[0;m
+76950933
+[32;1m$ docker stack deploy --compose-file docker-compose.yml ${SERVICE_NAME}[0;m
+time="2018-06-23T17:34:52Z" level=warning msg="network default: network.external.name is deprecated in favor of network.name"
+Updating service ssb_documentation (id: 9ei9jybv8asmmuonfjzysuh6g)
+image registry.services.alin.be/ssb-alin:76950933 could not be accessed on a registry to record
+its digest. Each node will access registry.services.alin.be/ssb-alin:76950933 independently,
+possibly leading to different nodes running different
+versions of the image.
+
+section_end:1529775294:build_script[0Ksection_start:1529775294:after_script[0Ksection_end:1529775295:after_script[0Ksection_start:1529775295:archive_cache[0Ksection_end:1529775297:archive_cache[0Ksection_start:1529775297:upload_artifacts[0Ksection_end:1529775299:upload_artifacts[0K[32;1mJob succeeded
+[0;m

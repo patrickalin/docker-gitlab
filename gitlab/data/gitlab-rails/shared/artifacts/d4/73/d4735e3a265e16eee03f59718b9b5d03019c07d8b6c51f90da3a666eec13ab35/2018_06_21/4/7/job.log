@@ -1,0 +1,32 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.services.alin.be/monachus/hugo ...
+[0;m[0KPulling docker image registry.services.alin.be/monachus/hugo ...
+[0;m[0KUsing docker image sha256:67d43c1a2a13202086c90260fa72754f443cb19065cb0939b9d1dd91bd6c96db for registry.services.alin.be/monachus/hugo ...
+[0;msection_start:1529606803:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via b735c4435862...
+section_end:1529606805:prepare_script[0Ksection_start:1529606805:get_sources[0K[32;1mFetching changes...[0;m
+Removing public/
+HEAD is now at 594894e essai
+From http://gitlab.services.alin.be/pa/ssb
+   594894e..95e3355  master     -> origin/master
+[32;1mChecking out 95e33550 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529606818:get_sources[0Ksection_start:1529606818:restore_cache[0Ksection_end:1529606820:restore_cache[0Ksection_start:1529606820:download_artifacts[0Ksection_end:1529606821:download_artifacts[0Ksection_start:1529606821:build_script[0K[32;1m$ hugo[0;m
+[?25lBuilding sites … [?25h[K
+                   | EN   
++------------------+-----+
+  Pages            | 407  
+  Paginator pages  |  23  
+  Non-page files   |   0  
+  Static files     | 245  
+  Processed images |   0  
+  Aliases          |  98  
+  Sitemaps         |   1  
+  Cleaned          |   0  
+
+Total in 2848 ms
+section_end:1529606827:build_script[0Ksection_start:1529606827:after_script[0Ksection_end:1529606828:after_script[0Ksection_start:1529606828:archive_cache[0Ksection_end:1529606830:archive_cache[0Ksection_start:1529606830:upload_artifacts[0K[32;1mUploading artifacts...[0;m
+public: found 1285 matching files                 [0;m 
+Uploading artifacts to coordinator... ok          [0;m  id[0;m=4 responseStatus[0;m=201 Created token[0;m=CfJLyeCn
+section_end:1529606837:upload_artifacts[0K[32;1mJob succeeded
+[0;m

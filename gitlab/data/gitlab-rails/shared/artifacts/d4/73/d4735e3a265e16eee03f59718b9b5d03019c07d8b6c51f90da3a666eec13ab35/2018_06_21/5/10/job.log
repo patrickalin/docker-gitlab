@@ -1,0 +1,47 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.services.alin.be/monachus/hugo ...
+[0;m[0KStarting service docker:dind ...
+[0;m[0KPulling docker image docker:dind ...
+[0;m[0KUsing docker image sha256:1f44348b3ad523d5dc4ae7d53bd873879e06e0df2d686e9029a666945443ef42 for docker:dind ...
+[0;m[0KWaiting for services to be up and running...
+[0;m
+[0;33m*** WARNING:[0;m Service runner-79062fad-project-2-concurrent-0-docker-0 probably didn't start properly.
+
+Health check error:
+ContainerStart: Error response from daemon: Cannot link to a non running container: /runner-79062fad-project-2-concurrent-0-docker-0 AS /runner-79062fad-project-2-concurrent-0-docker-0-wait-for-service/service
+
+Service container logs:
+2018-06-21T19:20:30.246790534Z mount: permission denied (are you root?)
+2018-06-21T19:20:30.248318439Z Could not mount /sys/kernel/security.
+2018-06-21T19:20:30.248331896Z AppArmor detection and --privileged mode might break.
+2018-06-21T19:20:30.248341736Z mount: permission denied (are you root?)
+
+[0;33m*********[0;m
+
+[0KPulling docker image registry.services.alin.be/monachus/hugo ...
+[0;m[0KUsing docker image sha256:67d43c1a2a13202086c90260fa72754f443cb19065cb0939b9d1dd91bd6c96db for registry.services.alin.be/monachus/hugo ...
+[0;msection_start:1529608832:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via 1e6bce57a431...
+section_end:1529608834:prepare_script[0Ksection_start:1529608834:get_sources[0K[32;1mCloning repository...[0;m
+Cloning into '/builds/pa/ssb'...
+[32;1mChecking out 74cb9ba0 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529608838:get_sources[0Ksection_start:1529608838:restore_cache[0Ksection_end:1529608840:restore_cache[0Ksection_start:1529608840:download_artifacts[0Ksection_end:1529608842:download_artifacts[0Ksection_start:1529608842:build_script[0K[32;1m$ hugo[0;m
+[?25lBuilding sites … [?25h[K
+                   | EN   
++------------------+-----+
+  Pages            | 407  
+  Paginator pages  |  23  
+  Non-page files   |   0  
+  Static files     | 245  
+  Processed images |   0  
+  Aliases          |  98  
+  Sitemaps         |   1  
+  Cleaned          |   0  
+
+Total in 2442 ms
+section_end:1529608847:build_script[0Ksection_start:1529608847:after_script[0Ksection_end:1529608849:after_script[0Ksection_start:1529608849:archive_cache[0Ksection_end:1529608850:archive_cache[0Ksection_start:1529608850:upload_artifacts[0K[32;1mUploading artifacts...[0;m
+public: found 1285 matching files                 [0;m 
+Uploading artifacts to coordinator... ok          [0;m  id[0;m=5 responseStatus[0;m=201 Created token[0;m=HB2pb5A7
+section_end:1529608857:upload_artifacts[0K[32;1mJob succeeded
+[0;m

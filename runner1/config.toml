@@ -1,0 +1,17 @@
+concurrent = 1
+check_interval = 0
+
+[[runners]]
+  name = "runner-1"
+  url = "http://gitlab.services.alin.be/"
+  token = "44e8701abb2825b316530e7a19fc24"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "alpine:3.7"
+    privileged = true
+    disable_cache = false
+    volumes = ["/cache"]
+    cache_dir = "cache"
+    shm_size = 0
+  [runners.cache]

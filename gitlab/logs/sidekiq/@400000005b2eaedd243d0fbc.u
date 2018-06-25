@@ -1,0 +1,76 @@
+2018-06-23_18:00:16.53193 2018-06-23T18:00:16.529Z 583 TID-oriciia44 PagesDomainVerificationCronWorker JID-2cc29a37447c8652c9aaf61c INFO: start
+2018-06-23_18:00:16.69797 2018-06-23T18:00:16.697Z 583 TID-oriibcrrg RepositoryArchiveCacheWorker JID-56c32280aa1c8b8bdda774db INFO: start
+2018-06-23_18:00:16.76986 2018-06-23T18:00:16.769Z 583 TID-oriibcrrg RepositoryArchiveCacheWorker JID-56c32280aa1c8b8bdda774db INFO: done: 0.071 sec
+2018-06-23_18:00:16.77206 2018-06-23T18:00:16.771Z 583 TID-oriciiey0 StuckCiJobsWorker JID-448a2fe59611186a3fa590a4 INFO: start
+2018-06-23_18:00:16.88229 2018-06-23T18:00:16.881Z 583 TID-oriibdjg4 ImportExportProjectCleanupWorker JID-763b88f419ec92deb3eb3f6b INFO: start
+2018-06-23_18:00:16.89765 2018-06-23T18:00:16.897Z 583 TID-oriciia44 PagesDomainVerificationCronWorker JID-2cc29a37447c8652c9aaf61c INFO: done: 0.37 sec
+2018-06-23_18:00:16.91797 2018-06-23T18:00:16.917Z 583 TID-oriciiagc StuckMergeJobsWorker JID-eaac5aef9a10d698ab989ff1 INFO: start
+2018-06-23_18:00:16.93167 2018-06-23T18:00:16.931Z 583 TID-oriibdjg4 ImportExportProjectCleanupWorker JID-763b88f419ec92deb3eb3f6b INFO: done: 0.05 sec
+2018-06-23_18:00:16.98442 2018-06-23T18:00:16.984Z 583 TID-oriciiey0 StuckCiJobsWorker JID-448a2fe59611186a3fa590a4 INFO: done: 0.212 sec
+2018-06-23_18:00:17.10268 2018-06-23T18:00:17.102Z 583 TID-oriciiagc StuckMergeJobsWorker JID-eaac5aef9a10d698ab989ff1 INFO: done: 0.185 sec
+2018-06-23_18:15:25.13717 2018-06-23T18:15:25.133Z 583 TID-oriibcer4 PagesDomainVerificationCronWorker JID-683fd762930d3fe77fa2dc1d INFO: start
+2018-06-23_18:15:25.27433 2018-06-23T18:15:25.274Z 583 TID-oricii93g StuckImportJobsWorker JID-b7c372620b1a5ff063c80b49 INFO: start
+2018-06-23_18:15:25.30015 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:15:25.30015 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:15:25.30016 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:15:25.40188 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:15:25.40190 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:15:25.40190 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:15:25.67168 2018-06-23T18:15:25.669Z 583 TID-oricii93g StuckImportJobsWorker JID-b7c372620b1a5ff063c80b49 INFO: done: 0.395 sec
+2018-06-23_18:15:25.67455 2018-06-23T18:15:25.674Z 583 TID-oriibcer4 PagesDomainVerificationCronWorker JID-683fd762930d3fe77fa2dc1d INFO: done: 0.544 sec
+2018-06-23_18:19:26.48461 2018-06-23T18:19:26.484Z 583 TID-oriibcij8 PipelineScheduleWorker JID-faa88d49d1864bdfcbc0d83e INFO: start
+2018-06-23_18:19:26.49212 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:19:26.49213 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:19:26.49213 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:19:28.23827 2018-06-23T18:19:28.238Z 583 TID-oriibcij8 PipelineScheduleWorker JID-faa88d49d1864bdfcbc0d83e INFO: done: 1.754 sec
+2018-06-23_18:20:35.04164 2018-06-23T18:20:35.041Z 583 TID-oriibc5bo RepositoryCheck::BatchWorker JID-935acbd06f13531d6606fc67 INFO: start
+2018-06-23_18:20:35.10303 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:20:35.10304 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:20:35.10304 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:20:35.68964 2018-06-23T18:20:35.689Z 583 TID-oriibc5bo RepositoryCheck::BatchWorker JID-935acbd06f13531d6606fc67 INFO: done: 0.648 sec
+2018-06-23_18:30:14.35648 2018-06-23T18:30:14.351Z 583 TID-oriibdgyo PagesDomainVerificationCronWorker JID-f48d9375513c52a78e3eb4b9 INFO: start
+2018-06-23_18:30:14.64152 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:30:14.64153 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:30:14.64154 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:30:14.98542 2018-06-23T18:30:14.984Z 583 TID-oriibdgyo PagesDomainVerificationCronWorker JID-f48d9375513c52a78e3eb4b9 INFO: done: 0.637 sec
+2018-06-23_18:45:39.19008 2018-06-23T18:45:39.186Z 583 TID-oriibdjg4 PagesDomainVerificationCronWorker JID-356ca8bcc183dbe63658db63 INFO: start
+2018-06-23_18:45:39.26534 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:45:39.26535 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:45:39.26536 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:45:39.48233 2018-06-23T18:45:39.482Z 583 TID-oriibdjg4 PagesDomainVerificationCronWorker JID-356ca8bcc183dbe63658db63 INFO: done: 0.298 sec
+2018-06-23_18:50:34.48498 2018-06-23T18:50:34.484Z 583 TID-oriciiagc ExpireBuildArtifactsWorker JID-d90152ba7abec61183044754 INFO: start
+2018-06-23_18:50:34.51378 WARNING:  terminating connection because of crash of another server process
+2018-06-23_18:50:34.51378 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_18:50:34.51379 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_18:50:34.73088 2018-06-23T18:50:34.730Z 583 TID-oriciiagc ExpireBuildArtifactsWorker JID-d90152ba7abec61183044754 INFO: done: 0.246 sec
+2018-06-23_19:00:30.68957 2018-06-23T19:00:30.686Z 583 TID-oriibdgyo PagesDomainVerificationCronWorker JID-43f359d2f8c65ff3f31807e6 INFO: start
+2018-06-23_19:00:30.77262 WARNING:  terminating connection because of crash of another server process
+2018-06-23_19:00:30.77263 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_19:00:30.77263 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_19:00:30.79051 2018-06-23T19:00:30.790Z 583 TID-oricii9fo RepositoryArchiveCacheWorker JID-8fbe1b3f3a82d5e2875723c9 INFO: start
+2018-06-23_19:00:30.92283 2018-06-23T19:00:30.922Z 583 TID-oricii9fo RepositoryArchiveCacheWorker JID-8fbe1b3f3a82d5e2875723c9 INFO: done: 0.132 sec
+2018-06-23_19:00:30.92489 2018-06-23T19:00:30.924Z 583 TID-oriibcrrg StuckCiJobsWorker JID-68c2a70139ce63769e0a1e0e INFO: start
+2018-06-23_19:00:30.96991 WARNING:  terminating connection because of crash of another server process
+2018-06-23_19:00:30.96992 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_19:00:30.96992 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_19:00:30.98062 2018-06-23T19:00:30.980Z 583 TID-oricii9ls ImportExportProjectCleanupWorker JID-c1171fa8d48c6ca86ec97405 INFO: start
+2018-06-23_19:00:31.03429 2018-06-23T19:00:31.034Z 583 TID-oriibdgyo PagesDomainVerificationCronWorker JID-43f359d2f8c65ff3f31807e6 INFO: done: 0.35 sec
+2018-06-23_19:00:31.03547 2018-06-23T19:00:31.035Z 583 TID-oricii9ls ImportExportProjectCleanupWorker JID-c1171fa8d48c6ca86ec97405 INFO: done: 0.055 sec
+2018-06-23_19:00:31.09727 2018-06-23T19:00:31.097Z 583 TID-oriibcrrg StuckCiJobsWorker JID-68c2a70139ce63769e0a1e0e INFO: done: 0.173 sec
+2018-06-23_19:15:35.58611 2018-06-23T19:15:35.583Z 583 TID-oriibdjg4 PagesDomainVerificationCronWorker JID-70dcd52b90e50c2bc79e4953 INFO: start
+2018-06-23_19:15:35.66464 WARNING:  terminating connection because of crash of another server process
+2018-06-23_19:15:35.66465 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-06-23_19:15:35.66465 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-06-23_19:15:35.72772 2018-06-23T19:15:35.727Z 583 TID-oriciiagc StuckImportJobsWorker JID-bdf8dd7b954893c5acfe21c7 INFO: start
+2018-06-23_19:15:35.90953 2018-06-23T19:15:35.908Z 583 TID-oriibdjg4 PagesDomainVerificationCronWorker JID-70dcd52b90e50c2bc79e4953 INFO: done: 0.328 sec
+2018-06-23_19:15:35.91064 2018-06-23T19:15:35.910Z 583 TID-oriciiagc StuckImportJobsWorker JID-bdf8dd7b954893c5acfe21c7 INFO: done: 0.183 sec
+2018-06-23_19:19:18.08492 2018-06-23T19:19:18.084Z 583 TID-oriibd3wo PipelineScheduleWorker JID-5ee0ae45dfdf298fb9c2cb66 INFO: start
+2018-06-23_19:19:18.32246 2018-06-23T19:19:18.320Z 583 TID-oriibd3wo PipelineScheduleWorker JID-5ee0ae45dfdf298fb9c2cb66 INFO: done: 0.236 sec
+2018-06-23_19:20:19.78718 2018-06-23T19:20:19.787Z 583 TID-oricii9rw RepositoryCheck::BatchWorker JID-a05b546dc2ba105f33d085e9 INFO: start
+2018-06-23_19:20:19.98737 2018-06-23T19:20:19.986Z 583 TID-oricii9rw RepositoryCheck::BatchWorker JID-a05b546dc2ba105f33d085e9 INFO: done: 0.2 sec
+2018-06-23_19:30:24.98768 2018-06-23T19:30:24.984Z 583 TID-oricmgz8s PagesDomainVerificationCronWorker JID-7a58606d12bd7f4af32f24b2 INFO: start
+2018-06-23_19:30:25.43997 2018-06-23T19:30:25.439Z 583 TID-oricmgz8s PagesDomainVerificationCronWorker JID-7a58606d12bd7f4af32f24b2 INFO: done: 0.458 sec
+2018-06-23_19:45:24.80899 2018-06-23T19:45:24.806Z 583 TID-oriibdgyo PagesDomainVerificationCronWorker JID-9ec71b782ee279d09786efad INFO: start
+2018-06-23_19:45:25.08389 2018-06-23T19:45:25.083Z 583 TID-oriibdgyo PagesDomainVerificationCronWorker JID-9ec71b782ee279d09786efad INFO: done: 0.279 sec
+2018-06-23_19:50:09.90043 2018-06-23T19:50:09.900Z 583 TID-oriciiask ExpireBuildArtifactsWorker JID-8b2d46303259081e3869f9c9 INFO: start
+2018-06-23_19:50:10.13228 2018-06-23T19:50:10.131Z 583 TID-oriciiask ExpireBuildArtifactsWorker JID-8b2d46303259081e3869f9c9 INFO: done: 0.231 sec

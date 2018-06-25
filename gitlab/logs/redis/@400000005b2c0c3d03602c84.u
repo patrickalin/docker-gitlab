@@ -1,0 +1,92 @@
+2018-06-21_19:13:49.05274 423:M 21 Jun 21:13:49.051 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:13:49.05351 423:M 21 Jun 21:13:49.053 * Background saving started by pid 1599
+2018-06-21_19:13:49.17098 1599:C 21 Jun 21:13:49.170 * DB saved on disk
+2018-06-21_19:13:49.17163 1599:C 21 Jun 21:13:49.171 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:13:49.25464 423:M 21 Jun 21:13:49.254 * Background saving terminated with success
+2018-06-21_19:18:50.05610 423:M 21 Jun 21:18:50.055 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:18:50.05613 423:M 21 Jun 21:18:50.056 * Background saving started by pid 2271
+2018-06-21_19:18:50.08249 2271:C 21 Jun 21:18:50.082 * DB saved on disk
+2018-06-21_19:18:50.08315 2271:C 21 Jun 21:18:50.083 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:18:50.15645 423:M 21 Jun 21:18:50.156 * Background saving terminated with success
+2018-06-21_19:23:51.04495 423:M 21 Jun 21:23:51.044 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:23:51.04526 423:M 21 Jun 21:23:51.045 * Background saving started by pid 3053
+2018-06-21_19:23:51.05626 3053:C 21 Jun 21:23:51.056 * DB saved on disk
+2018-06-21_19:23:51.05696 3053:C 21 Jun 21:23:51.056 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:23:51.14588 423:M 21 Jun 21:23:51.145 * Background saving terminated with success
+2018-06-21_19:28:52.03984 423:M 21 Jun 21:28:52.039 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:28:52.04016 423:M 21 Jun 21:28:52.040 * Background saving started by pid 3708
+2018-06-21_19:28:52.07254 3708:C 21 Jun 21:28:52.072 * DB saved on disk
+2018-06-21_19:28:52.07324 3708:C 21 Jun 21:28:52.073 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:28:52.14070 423:M 21 Jun 21:28:52.140 * Background saving terminated with success
+2018-06-21_19:33:53.04380 423:M 21 Jun 21:33:53.043 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:33:53.04410 423:M 21 Jun 21:33:53.044 * Background saving started by pid 4354
+2018-06-21_19:33:53.08173 4354:C 21 Jun 21:33:53.081 * DB saved on disk
+2018-06-21_19:33:53.08230 4354:C 21 Jun 21:33:53.082 * RDB: 1 MB of memory used by copy-on-write
+2018-06-21_19:33:53.14518 423:M 21 Jun 21:33:53.145 * Background saving terminated with success
+2018-06-21_19:38:54.06665 423:M 21 Jun 21:38:54.064 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:38:54.06667 423:M 21 Jun 21:38:54.066 * Background saving started by pid 4985
+2018-06-21_19:38:54.10736 4985:C 21 Jun 21:38:54.107 * DB saved on disk
+2018-06-21_19:38:54.10802 4985:C 21 Jun 21:38:54.107 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:38:54.16639 423:M 21 Jun 21:38:54.166 * Background saving terminated with success
+2018-06-21_19:43:55.06933 423:M 21 Jun 21:43:55.066 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:43:55.06935 423:M 21 Jun 21:43:55.067 * Background saving started by pid 5668
+2018-06-21_19:43:55.09771 5668:C 21 Jun 21:43:55.097 * DB saved on disk
+2018-06-21_19:43:55.09840 5668:C 21 Jun 21:43:55.098 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:43:55.16843 423:M 21 Jun 21:43:55.168 * Background saving terminated with success
+2018-06-21_19:48:56.04526 423:M 21 Jun 21:48:56.044 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:48:56.04553 423:M 21 Jun 21:48:56.045 * Background saving started by pid 6309
+2018-06-21_19:48:56.05670 6309:C 21 Jun 21:48:56.056 * DB saved on disk
+2018-06-21_19:48:56.05705 6309:C 21 Jun 21:48:56.057 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:48:56.14585 423:M 21 Jun 21:48:56.145 * Background saving terminated with success
+2018-06-21_19:53:57.07060 423:M 21 Jun 21:53:57.070 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:53:57.07092 423:M 21 Jun 21:53:57.070 * Background saving started by pid 6957
+2018-06-21_19:53:57.11348 6957:C 21 Jun 21:53:57.113 * DB saved on disk
+2018-06-21_19:53:57.11420 6957:C 21 Jun 21:53:57.114 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:53:57.17057 423:M 21 Jun 21:53:57.170 * Background saving terminated with success
+2018-06-21_19:58:58.05787 423:M 21 Jun 21:58:58.056 * 10 changes in 300 seconds. Saving...
+2018-06-21_19:58:58.05812 423:M 21 Jun 21:58:58.057 * Background saving started by pid 7603
+2018-06-21_19:58:58.09133 7603:C 21 Jun 21:58:58.091 * DB saved on disk
+2018-06-21_19:58:58.09202 7603:C 21 Jun 21:58:58.091 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_19:58:58.15779 423:M 21 Jun 21:58:58.157 * Background saving terminated with success
+2018-06-21_20:03:59.04343 423:M 21 Jun 22:03:59.043 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:03:59.04374 423:M 21 Jun 22:03:59.043 * Background saving started by pid 8255
+2018-06-21_20:03:59.07752 8255:C 21 Jun 22:03:59.077 * DB saved on disk
+2018-06-21_20:03:59.07824 8255:C 21 Jun 22:03:59.078 * RDB: 1 MB of memory used by copy-on-write
+2018-06-21_20:03:59.14431 423:M 21 Jun 22:03:59.144 * Background saving terminated with success
+2018-06-21_20:09:00.07479 423:M 21 Jun 22:09:00.073 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:09:00.07505 423:M 21 Jun 22:09:00.074 * Background saving started by pid 8901
+2018-06-21_20:09:00.11738 8901:C 21 Jun 22:09:00.117 * DB saved on disk
+2018-06-21_20:09:00.11810 8901:C 21 Jun 22:09:00.118 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_20:09:00.17536 423:M 21 Jun 22:09:00.175 * Background saving terminated with success
+2018-06-21_20:14:01.04323 423:M 21 Jun 22:14:01.043 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:14:01.04358 423:M 21 Jun 22:14:01.043 * Background saving started by pid 9546
+2018-06-21_20:14:01.09520 9546:C 21 Jun 22:14:01.095 * DB saved on disk
+2018-06-21_20:14:01.09590 9546:C 21 Jun 22:14:01.095 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_20:14:01.14345 423:M 21 Jun 22:14:01.143 * Background saving terminated with success
+2018-06-21_20:19:02.06691 423:M 21 Jun 22:19:02.065 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:19:02.06716 423:M 21 Jun 22:19:02.066 * Background saving started by pid 10277
+2018-06-21_20:19:02.11312 10277:C 21 Jun 22:19:02.113 * DB saved on disk
+2018-06-21_20:19:02.11383 10277:C 21 Jun 22:19:02.113 * RDB: 1 MB of memory used by copy-on-write
+2018-06-21_20:19:02.16672 423:M 21 Jun 22:19:02.166 * Background saving terminated with success
+2018-06-21_20:24:03.04816 423:M 21 Jun 22:24:03.045 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:24:03.04846 423:M 21 Jun 22:24:03.046 * Background saving started by pid 10994
+2018-06-21_20:24:03.09995 10994:C 21 Jun 22:24:03.099 * DB saved on disk
+2018-06-21_20:24:03.10064 10994:C 21 Jun 22:24:03.100 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_20:24:03.14746 423:M 21 Jun 22:24:03.147 * Background saving terminated with success
+2018-06-21_20:29:04.05142 423:M 21 Jun 22:29:04.050 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:29:04.05216 423:M 21 Jun 22:29:04.051 * Background saving started by pid 11784
+2018-06-21_20:29:04.10644 11784:C 21 Jun 22:29:04.106 * DB saved on disk
+2018-06-21_20:29:04.10713 11784:C 21 Jun 22:29:04.107 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_20:29:04.15243 423:M 21 Jun 22:29:04.152 * Background saving terminated with success
+2018-06-21_20:34:05.07305 423:M 21 Jun 22:34:05.071 * 10 changes in 300 seconds. Saving...
+2018-06-21_20:34:05.07318 423:M 21 Jun 22:34:05.071 * Background saving started by pid 12438
+2018-06-21_20:34:05.18962 12438:C 21 Jun 22:34:05.189 * DB saved on disk
+2018-06-21_20:34:05.19026 12438:C 21 Jun 22:34:05.190 * RDB: 1 MB of memory used by copy-on-write
+2018-06-21_20:34:05.27317 423:M 21 Jun 22:34:05.273 * Background saving terminated with success
+2018-06-21_20:35:08.30856 423:signal-handler (1529613308) Received SIGTERM scheduling shutdown...
+2018-06-21_20:35:08.36071 423:M 21 Jun 22:35:08.360 # User requested shutdown...
+2018-06-21_20:35:08.36073 423:M 21 Jun 22:35:08.360 * Saving the final RDB snapshot before exiting.
+2018-06-21_20:35:08.36951 423:M 21 Jun 22:35:08.369 * DB saved on disk
+2018-06-21_20:35:08.36952 423:M 21 Jun 22:35:08.369 * Removing the pid file.
+2018-06-21_20:35:08.36964 423:M 21 Jun 22:35:08.369 * Removing the unix socket file.
+2018-06-21_20:35:08.37100 423:M 21 Jun 22:35:08.370 # Redis is now ready to exit, bye bye...

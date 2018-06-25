@@ -1,0 +1,32 @@
+2018-06-21_15:55:20.04249 427:M 21 Jun 17:55:20.041 * 10 changes in 300 seconds. Saving...
+2018-06-21_15:55:20.04373 427:M 21 Jun 17:55:20.043 * Background saving started by pid 1584
+2018-06-21_15:55:20.07249 1584:C 21 Jun 17:55:20.072 * DB saved on disk
+2018-06-21_15:55:20.07314 1584:C 21 Jun 17:55:20.073 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_15:55:20.14405 427:M 21 Jun 17:55:20.143 * Background saving terminated with success
+2018-06-21_16:00:21.04952 427:M 21 Jun 18:00:21.048 * 10 changes in 300 seconds. Saving...
+2018-06-21_16:00:21.05071 427:M 21 Jun 18:00:21.050 * Background saving started by pid 2239
+2018-06-21_16:00:21.07742 2239:C 21 Jun 18:00:21.077 * DB saved on disk
+2018-06-21_16:00:21.07809 2239:C 21 Jun 18:00:21.078 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_16:00:21.15101 427:M 21 Jun 18:00:21.150 * Background saving terminated with success
+2018-06-21_16:05:22.04723 427:M 21 Jun 18:05:22.046 * 10 changes in 300 seconds. Saving...
+2018-06-21_16:05:22.04755 427:M 21 Jun 18:05:22.047 * Background saving started by pid 2920
+2018-06-21_16:05:22.09673 2920:C 21 Jun 18:05:22.096 * DB saved on disk
+2018-06-21_16:05:22.09738 2920:C 21 Jun 18:05:22.097 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_16:05:22.14790 427:M 21 Jun 18:05:22.147 * Background saving terminated with success
+2018-06-21_16:10:23.03995 427:M 21 Jun 18:10:23.039 * 10 changes in 300 seconds. Saving...
+2018-06-21_16:10:23.04006 427:M 21 Jun 18:10:23.040 * Background saving started by pid 3562
+2018-06-21_16:10:23.06736 3562:C 21 Jun 18:10:23.067 * DB saved on disk
+2018-06-21_16:10:23.06802 3562:C 21 Jun 18:10:23.067 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_16:10:23.14043 427:M 21 Jun 18:10:23.140 * Background saving terminated with success
+2018-06-21_16:15:24.05899 427:M 21 Jun 18:15:24.057 * 10 changes in 300 seconds. Saving...
+2018-06-21_16:15:24.05901 427:M 21 Jun 18:15:24.058 * Background saving started by pid 4200
+2018-06-21_16:15:24.06675 4200:C 21 Jun 18:15:24.066 * DB saved on disk
+2018-06-21_16:15:24.06709 4200:C 21 Jun 18:15:24.067 * RDB: 0 MB of memory used by copy-on-write
+2018-06-21_16:15:24.15852 427:M 21 Jun 18:15:24.158 * Background saving terminated with success
+2018-06-21_16:15:43.47994 427:signal-handler (1529597743) Received SIGTERM scheduling shutdown...
+2018-06-21_16:15:43.54214 427:M 21 Jun 18:15:43.542 # User requested shutdown...
+2018-06-21_16:15:43.54215 427:M 21 Jun 18:15:43.542 * Saving the final RDB snapshot before exiting.
+2018-06-21_16:15:43.54746 427:M 21 Jun 18:15:43.547 * DB saved on disk
+2018-06-21_16:15:43.54748 427:M 21 Jun 18:15:43.547 * Removing the pid file.
+2018-06-21_16:15:43.54759 427:M 21 Jun 18:15:43.547 * Removing the unix socket file.
+2018-06-21_16:15:43.54873 427:M 21 Jun 18:15:43.548 # Redis is now ready to exit, bye bye...

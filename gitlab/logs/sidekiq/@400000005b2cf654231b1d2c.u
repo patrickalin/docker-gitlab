@@ -1,0 +1,21 @@
+2018-06-22_13:14:39.55505 2018-06-22T13:14:39.554Z 612 TID-otal0o1ds INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-612", :url=>nil}
+2018-06-22_13:14:39.76164 2018-06-22T13:14:39.761Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-06-22_13:14:39.76405 2018-06-22T13:14:39.764Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-06-22_13:14:39.76519 2018-06-22T13:14:39.765Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-06-22_13:14:39.76627 2018-06-22T13:14:39.766Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: repository_check_worker
+2018-06-22_13:14:39.76741 2018-06-22T13:14:39.767Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: admin_email_worker
+2018-06-22_13:14:39.77026 2018-06-22T13:14:39.770Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-06-22_13:14:39.77133 2018-06-22T13:14:39.771Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-06-22_13:14:39.77437 2018-06-22T13:14:39.774Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-06-22_13:14:39.77625 2018-06-22T13:14:39.776Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-06-22_13:14:39.77887 2018-06-22T13:14:39.778Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-06-22_13:14:39.78089 2018-06-22T13:14:39.780Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-06-22_13:14:39.78182 2018-06-22T13:14:39.781Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-06-22_13:14:39.78314 2018-06-22T13:14:39.783Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-06-22_13:14:39.78531 2018-06-22T13:14:39.785Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-06-22_13:14:39.78624 2018-06-22T13:14:39.786Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-06-22_13:14:39.78768 2018-06-22T13:14:39.787Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-06-22_13:14:39.79023 2018-06-22T13:14:39.790Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-06-22_13:14:39.79303 2018-06-22T13:14:39.792Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-06-22_13:14:39.79400 2018-06-22T13:14:39.793Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-06-22_13:14:39.79729 2018-06-22T13:14:39.797Z 612 TID-otal0o1ds INFO: Cron Jobs - add job with name: issue_due_scheduler_worker

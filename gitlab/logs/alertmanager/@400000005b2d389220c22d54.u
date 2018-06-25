@@ -1,0 +1,73 @@
+2018-06-22_13:40:02.45023 level=info ts=2018-06-22T13:40:02.449099637Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_13:40:02.45082 level=info ts=2018-06-22T13:40:02.449970505Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_13:40:02.45433 level=info ts=2018-06-22T13:40:02.454073979Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=5.283314ms size=0
+2018-06-22_13:40:02.45471 level=info ts=2018-06-22T13:40:02.454647253Z caller=silence.go:271 component=silences msg="Maintenance done" duration=4.934824ms size=0
+2018-06-22_13:55:02.45129 level=info ts=2018-06-22T13:55:02.448836823Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_13:55:02.45132 level=info ts=2018-06-22T13:55:02.449696181Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_13:55:02.45483 level=info ts=2018-06-22T13:55:02.454760505Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=5.951208ms size=0
+2018-06-22_13:55:02.45554 level=info ts=2018-06-22T13:55:02.455474229Z caller=silence.go:271 component=silences msg="Maintenance done" duration=5.782597ms size=0
+2018-06-22_14:10:02.53608 level=info ts=2018-06-22T14:10:02.450116369Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_14:10:02.54842 level=info ts=2018-06-22T14:10:02.451047174Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_14:10:02.55174 level=info ts=2018-06-22T14:10:02.551227958Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=102.088102ms size=0
+2018-06-22_14:10:02.55290 level=info ts=2018-06-22T14:10:02.55285018Z caller=silence.go:271 component=silences msg="Maintenance done" duration=102.841561ms size=0
+2018-06-22_14:25:02.45130 level=info ts=2018-06-22T14:25:02.449680692Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_14:25:02.45233 level=info ts=2018-06-22T14:25:02.449190628Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_14:25:02.45609 level=info ts=2018-06-22T14:25:02.456008605Z caller=silence.go:271 component=silences msg="Maintenance done" duration=6.327423ms size=0
+2018-06-22_14:25:02.45672 level=info ts=2018-06-22T14:25:02.456656172Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=7.860316ms size=0
+2018-06-22_14:40:02.45254 level=info ts=2018-06-22T14:40:02.449742348Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_14:40:02.45282 level=info ts=2018-06-22T14:40:02.449281081Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_14:40:02.45900 level=info ts=2018-06-22T14:40:02.458515192Z caller=silence.go:271 component=silences msg="Maintenance done" duration=8.777604ms size=0
+2018-06-22_14:40:02.45932 level=info ts=2018-06-22T14:40:02.459239964Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=10.472958ms size=0
+2018-06-22_14:55:02.45136 level=info ts=2018-06-22T14:55:02.44925016Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_14:55:02.45161 level=info ts=2018-06-22T14:55:02.449726014Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_14:55:02.45675 level=info ts=2018-06-22T14:55:02.456281Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=7.470979ms size=0
+2018-06-22_14:55:02.45711 level=info ts=2018-06-22T14:55:02.45701741Z caller=silence.go:271 component=silences msg="Maintenance done" duration=7.31771ms size=0
+2018-06-22_15:10:02.45141 level=info ts=2018-06-22T15:10:02.449690675Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_15:10:02.45168 level=info ts=2018-06-22T15:10:02.449229387Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_15:10:02.45685 level=info ts=2018-06-22T15:10:02.45620821Z caller=silence.go:271 component=silences msg="Maintenance done" duration=6.51413ms size=0
+2018-06-22_15:10:02.45694 level=info ts=2018-06-22T15:10:02.456869062Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=8.065987ms size=0
+2018-06-22_15:25:02.45115 level=info ts=2018-06-22T15:25:02.449225566Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_15:25:02.45141 level=info ts=2018-06-22T15:25:02.449661007Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_15:25:02.47796 level=info ts=2018-06-22T15:25:02.47754655Z caller=silence.go:271 component=silences msg="Maintenance done" duration=27.882962ms size=0
+2018-06-22_15:25:02.47828 level=info ts=2018-06-22T15:25:02.4782334Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=29.480282ms size=0
+2018-06-22_15:40:02.45103 level=info ts=2018-06-22T15:40:02.449706539Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_15:40:02.45117 level=info ts=2018-06-22T15:40:02.449379323Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_15:40:02.45666 level=info ts=2018-06-22T15:40:02.456356238Z caller=silence.go:271 component=silences msg="Maintenance done" duration=6.661536ms size=0
+2018-06-22_15:40:02.45715 level=info ts=2018-06-22T15:40:02.457004225Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=8.155554ms size=0
+2018-06-22_15:55:02.45106 level=info ts=2018-06-22T15:55:02.449370071Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_15:55:02.45170 level=info ts=2018-06-22T15:55:02.449688843Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_15:55:02.45713 level=info ts=2018-06-22T15:55:02.457075631Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=8.292069ms size=0
+2018-06-22_15:55:02.45793 level=info ts=2018-06-22T15:55:02.457706089Z caller=silence.go:271 component=silences msg="Maintenance done" duration=8.016116ms size=0
+2018-06-22_16:10:02.45101 level=info ts=2018-06-22T16:10:02.449724245Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_16:10:02.45126 level=info ts=2018-06-22T16:10:02.449305127Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_16:10:02.45652 level=info ts=2018-06-22T16:10:02.456461386Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=7.671934ms size=0
+2018-06-22_16:10:02.45717 level=info ts=2018-06-22T16:10:02.457089096Z caller=silence.go:271 component=silences msg="Maintenance done" duration=7.380009ms size=0
+2018-06-22_16:25:02.45799 level=info ts=2018-06-22T16:25:02.451668062Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_16:25:02.45822 level=info ts=2018-06-22T16:25:02.45018277Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_16:25:02.48076 level=info ts=2018-06-22T16:25:02.4798198Z caller=silence.go:271 component=silences msg="Maintenance done" duration=28.975189ms size=0
+2018-06-22_16:25:02.48126 level=info ts=2018-06-22T16:25:02.480497659Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=30.966028ms size=0
+2018-06-22_16:40:02.45121 level=info ts=2018-06-22T16:40:02.449274907Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_16:40:02.45144 level=info ts=2018-06-22T16:40:02.449721957Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_16:40:02.45659 level=info ts=2018-06-22T16:40:02.4564828Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=7.721495ms size=0
+2018-06-22_16:40:02.45722 level=info ts=2018-06-22T16:40:02.457151086Z caller=silence.go:271 component=silences msg="Maintenance done" duration=7.42701ms size=0
+2018-06-22_16:55:02.45320 level=info ts=2018-06-22T16:55:02.44944784Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_16:55:02.45343 level=info ts=2018-06-22T16:55:02.449660089Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_16:55:02.45811 level=info ts=2018-06-22T16:55:02.458087204Z caller=silence.go:271 component=silences msg="Maintenance done" duration=8.433532ms size=0
+2018-06-22_16:55:02.46248 level=info ts=2018-06-22T16:55:02.46242814Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=13.686046ms size=0
+2018-06-22_17:10:02.45253 level=info ts=2018-06-22T17:10:02.449718574Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_17:10:02.45284 level=info ts=2018-06-22T17:10:02.449223177Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_17:10:02.53765 level=info ts=2018-06-22T17:10:02.537573973Z caller=silence.go:271 component=silences msg="Maintenance done" duration=87.857332ms size=0
+2018-06-22_17:10:02.53918 level=info ts=2018-06-22T17:10:02.53912244Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=90.071219ms size=0
+2018-06-22_17:25:02.45113 level=info ts=2018-06-22T17:25:02.449380379Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_17:25:02.45137 level=info ts=2018-06-22T17:25:02.449727345Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_17:25:02.45737 level=info ts=2018-06-22T17:25:02.457311894Z caller=silence.go:271 component=silences msg="Maintenance done" duration=7.601691ms size=0
+2018-06-22_17:25:02.45815 level=info ts=2018-06-22T17:25:02.458079541Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=9.204729ms size=0
+2018-06-22_17:40:02.53763 level=info ts=2018-06-22T17:40:02.450317715Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_17:40:02.53800 level=info ts=2018-06-22T17:40:02.451207226Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_17:40:02.54326 level=info ts=2018-06-22T17:40:02.543180042Z caller=silence.go:271 component=silences msg="Maintenance done" duration=92.876862ms size=0
+2018-06-22_17:40:02.54416 level=info ts=2018-06-22T17:40:02.54408973Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=95.165513ms size=0
+2018-06-22_17:43:08.05428 level=info ts=2018-06-22T17:43:08.053691833Z caller=main.go:378 msg="Received SIGTERM, exiting gracefully..."
+2018-06-22_17:43:08.05431 level=info ts=2018-06-22T17:43:08.05427449Z caller=silence.go:269 component=silences msg="Running maintenance"
+2018-06-22_17:43:08.05441 level=info ts=2018-06-22T17:43:08.054335527Z caller=nflog.go:293 component=nflog msg="Running maintenance"
+2018-06-22_17:43:08.05838 level=info ts=2018-06-22T17:43:08.058316433Z caller=nflog.go:295 component=nflog msg="Maintenance done" duration=3.979542ms size=0
+2018-06-22_17:43:08.05905 level=info ts=2018-06-22T17:43:08.058967332Z caller=silence.go:271 component=silences msg="Maintenance done" duration=4.692498ms size=0

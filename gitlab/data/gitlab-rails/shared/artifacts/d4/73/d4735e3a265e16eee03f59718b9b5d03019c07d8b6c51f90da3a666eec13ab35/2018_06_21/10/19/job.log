@@ -1,0 +1,35 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.services.alin.be/monachus/hugo ...
+[0;m[0KStarting service docker:dind ...
+[0;m[0KPulling docker image docker:dind ...
+[0;m[0KUsing docker image sha256:1f44348b3ad523d5dc4ae7d53bd873879e06e0df2d686e9029a666945443ef42 for docker:dind ...
+[0;m[0KWaiting for services to be up and running...
+[0;m[0KPulling docker image registry.services.alin.be/monachus/hugo ...
+[0;m[0KUsing docker image sha256:67d43c1a2a13202086c90260fa72754f443cb19065cb0939b9d1dd91bd6c96db for registry.services.alin.be/monachus/hugo ...
+[0;msection_start:1529614372:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via c6655eff57e6...
+section_end:1529614373:prepare_script[0Ksection_start:1529614373:get_sources[0K[32;1mFetching changes...[0;m
+HEAD is now at 1172bed essai
+From http://gitlab.services.alin.be/pa/ssb
+   1172bed..900a722  master     -> origin/master
+[32;1mChecking out 900a7226 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529614381:get_sources[0Ksection_start:1529614381:restore_cache[0Ksection_end:1529614383:restore_cache[0Ksection_start:1529614383:download_artifacts[0Ksection_end:1529614384:download_artifacts[0Ksection_start:1529614384:build_script[0K[32;1m$ hugo[0;m
+[?25lBuilding sites … [?25h[K
+                   | EN   
++------------------+-----+
+  Pages            | 407  
+  Paginator pages  |  23  
+  Non-page files   |   0  
+  Static files     | 245  
+  Processed images |   0  
+  Aliases          |  98  
+  Sitemaps         |   1  
+  Cleaned          |   0  
+
+Total in 2389 ms
+section_end:1529614388:build_script[0Ksection_start:1529614388:after_script[0Ksection_end:1529614390:after_script[0Ksection_start:1529614390:archive_cache[0Ksection_end:1529614391:archive_cache[0Ksection_start:1529614391:upload_artifacts[0K[32;1mUploading artifacts...[0;m
+[0;33mWARNING: html: no matching files                  [0;m 
+Uploading artifacts to coordinator... ok          [0;m  id[0;m=10 responseStatus[0;m=201 Created token[0;m=L8HbXQVy
+section_end:1529614394:upload_artifacts[0K[32;1mJob succeeded
+[0;m

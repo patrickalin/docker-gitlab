@@ -1,0 +1,469 @@
+2018-06-23_20:35:31.20151 2018-06-23T20:35:31.201Z 608 TID-ox4i5pnnk INFO: Running in ruby 2.3.7p456 (2018-03-28 revision 63024) [x86_64-linux]
+2018-06-23_20:35:31.20159 2018-06-23T20:35:31.201Z 608 TID-ox4i5pnnk INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2018-06-23_20:35:31.20160 2018-06-23T20:35:31.201Z 608 TID-ox4i5pnnk INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org
+2018-06-23_20:35:31.20227 2018-06-23T20:35:31.202Z 608 TID-ox4i5pnnk INFO: Starting processing, hit Ctrl-C to stop
+2018-06-23_20:35:31.20603 2018-06-23T20:35:31.205Z 608 TID-ox4i5pnnk INFO: Listening on queues ["authorized_projects", "background_migration", "create_gpg_signature", "cronjob", "cronjob:admin_email", "cronjob:expire_build_artifacts", "cronjob:gitlab_usage_ping", "cronjob:import_export_project_cleanup", "cronjob:issue_due_scheduler", "cronjob:pages_domain_verification_cron", "cronjob:pipeline_schedule", "cronjob:prune_old_events", "cronjob:remove_expired_group_links", "cronjob:remove_expired_members", "cronjob:remove_old_web_hook_logs", "cronjob:remove_unreferenced_lfs_objects", "cronjob:repository_archive_cache", "cronjob:repository_check_batch", "cronjob:requests_profiles", "cronjob:schedule_update_user_activity", "cronjob:stuck_ci_jobs", "cronjob:stuck_import_jobs", "cronjob:stuck_merge_jobs", "cronjob:trending_projects", "default", "delete_merged_branches", "delete_user", "email_receiver", "emails_on_push", "expire_build_instance_artifacts", "gcp_cluster", "gcp_cluster:check_gcp_project_billing", "gcp_cluster:cluster_install_app", "gcp_cluster:cluster_provision", "gcp_cluster:cluster_wait_for_app_installation", "gcp_cluster:cluster_wait_for_ingress_ip_address", "gcp_cluster:wait_for_cluster_creation", "git_garbage_collect", "github_import_advance_stage", "github_importer", "github_importer:github_import_import_diff_note", "github_importer:github_import_import_issue", "github_importer:github_import_import_note", "github_importer:github_import_import_pull_request", "github_importer:github_import_refresh_import_jid", "github_importer:github_import_stage_finish_import", "github_importer:github_import_stage_import_base_data", "github_importer:github_import_stage_import_issues_and_diff_notes", "github_importer:github_import_stage_import_notes", "github_importer:github_import_stage_import_pull_requests", "github_importer:github_import_stage_import_repository", "gitlab_shell", "group_destroy", "invalid_gpg_signature_update", "irker", "mail_scheduler", "mail_scheduler:mail_scheduler_issue_due", "mail_scheduler:mail_scheduler_notification_service", "mailers", "merge", "namespaceless_project_destroy", "new_issue", "new_merge_request", "new_note", "object_storage", "object_storage:object_storage_background_move", "object_storage:object_storage_migrate_uploads", "object_storage_upload", "pages", "pages_domain_verification", "pipeline_background", "pipeline_background:archive_trace", "pipeline_background:ci_build_trace_chunk_flush", "pipeline_cache", "pipeline_cache:expire_job_cache", "pipeline_cache:expire_pipeline_cache", "pipeline_creation", "pipeline_creation:create_pipeline", "pipeline_creation:run_pipeline_schedule", "pipeline_default", "pipeline_default:build_coverage", "pipeline_default:build_trace_sections", "pipeline_default:pipeline_metrics", "pipeline_default:pipeline_notification", "pipeline_hooks", "pipeline_hooks:build_hooks", "pipeline_hooks:pipeline_hooks", "pipeline_processing", "pipeline_processing:build_finished", "pipeline_processing:build_queue", "pipeline_processing:build_success", "pipeline_processing:pipeline_process", "pipeline_processing:pipeline_success", "pipeline_processing:pipeline_update", "pipeline_processing:stage_update", "pipeline_processing:update_head_pipeline_for_merge_request", "plugin", "post_receive", "process_commit", "project_cache", "project_destroy", "project_export", "project_migrate_hashed_storage", "project_service", "propagate_service_template", "reactive_caching", "rebase", "repository_check", "repository_check:repository_check_clear", "repository_check:repository_check_single_repository", "repository_fork", "repository_import", "repository_remove_remote", "repository_update_remote_mirror", "storage_migrator", "system_hook_push", "update_merge_requests", "update_user_activity", "upload_checksum", "web_hook"]
+2018-06-23_20:45:08.78764 2018-06-23T20:45:08.786Z 608 TID-ox4cf9n0k PagesDomainVerificationCronWorker JID-eb78c0414fa6abb196255f63 INFO: start
+2018-06-23_20:45:09.72623 2018-06-23T20:45:09.726Z 608 TID-ox4cf9n0k PagesDomainVerificationCronWorker JID-eb78c0414fa6abb196255f63 INFO: done: 0.94 sec
+2018-06-23_20:50:07.98443 2018-06-23T20:50:07.982Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-1a5bcc4a690c9c2cfe48f3f7 INFO: start
+2018-06-23_20:50:08.52064 2018-06-23T20:50:08.520Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-1a5bcc4a690c9c2cfe48f3f7 INFO: done: 0.538 sec
+2018-06-23_21:00:28.68502 2018-06-23T21:00:28.683Z 608 TID-ox4cf9ncs ImportExportProjectCleanupWorker JID-9acc03043cb7f390a8bf0d0a INFO: start
+2018-06-23_21:00:28.78131 2018-06-23T21:00:28.781Z 608 TID-ox4cf9ncs ImportExportProjectCleanupWorker JID-9acc03043cb7f390a8bf0d0a INFO: done: 0.098 sec
+2018-06-23_21:00:28.78296 2018-06-23T21:00:28.782Z 608 TID-ox4cf9k1w RepositoryArchiveCacheWorker JID-48a91a1c1a92c7d43cb2cbf4 INFO: start
+2018-06-23_21:00:28.79459 2018-06-23T21:00:28.794Z 608 TID-ox4cf9k1w RepositoryArchiveCacheWorker JID-48a91a1c1a92c7d43cb2cbf4 INFO: done: 0.012 sec
+2018-06-23_21:00:28.79566 2018-06-23T21:00:28.795Z 608 TID-ox4cf9mug PagesDomainVerificationCronWorker JID-56026db769c417088bca81f6 INFO: start
+2018-06-23_21:00:28.86623 2018-06-23T21:00:28.866Z 608 TID-ox4cf9m60 StuckCiJobsWorker JID-b6b3d143819b949a8102f8e7 INFO: start
+2018-06-23_21:00:29.08705 2018-06-23T21:00:29.086Z 608 TID-ox4cf9mug PagesDomainVerificationCronWorker JID-56026db769c417088bca81f6 INFO: done: 0.29 sec
+2018-06-23_21:00:29.21813 2018-06-23T21:00:29.217Z 608 TID-ox4cf9m60 StuckCiJobsWorker JID-b6b3d143819b949a8102f8e7 INFO: done: 0.352 sec
+2018-06-23_21:15:13.50030 2018-06-23T21:15:13.498Z 608 TID-ox4cf9kz8 StuckImportJobsWorker JID-b4a91c24d69472170f3e313a INFO: start
+2018-06-23_21:15:14.22971 2018-06-23T21:15:14.229Z 608 TID-ox4cf9moc PagesDomainVerificationCronWorker JID-31996d79101b8c1f7a775c85 INFO: start
+2018-06-23_21:15:14.41413 2018-06-23T21:15:14.414Z 608 TID-ox4cf9moc PagesDomainVerificationCronWorker JID-31996d79101b8c1f7a775c85 INFO: done: 0.184 sec
+2018-06-23_21:15:14.53271 2018-06-23T21:15:14.532Z 608 TID-ox4cf9kz8 StuckImportJobsWorker JID-b4a91c24d69472170f3e313a INFO: done: 1.035 sec
+2018-06-23_21:19:11.91499 2018-06-23T21:19:11.912Z 608 TID-ox4cf9niw PipelineScheduleWorker JID-a3b98eb9e0f9d53b19a3532c INFO: start
+2018-06-23_21:19:12.49234 2018-06-23T21:19:12.492Z 608 TID-ox4cf9niw PipelineScheduleWorker JID-a3b98eb9e0f9d53b19a3532c INFO: done: 0.58 sec
+2018-06-23_21:20:17.04740 2018-06-23T21:20:17.047Z 608 TID-ox4cf9mug RepositoryCheck::BatchWorker JID-62c0d190fbc99d4da00d4e29 INFO: start
+2018-06-23_21:20:17.38710 2018-06-23T21:20:17.386Z 608 TID-ox4cf9mug RepositoryCheck::BatchWorker JID-62c0d190fbc99d4da00d4e29 INFO: done: 0.34 sec
+2018-06-23_21:30:11.52968 2018-06-23T21:30:11.526Z 608 TID-ox4cf9lhk PagesDomainVerificationCronWorker JID-768db795451932c4fc4edeba INFO: start
+2018-06-23_21:30:11.84147 2018-06-23T21:30:11.841Z 608 TID-ox4cf9lhk PagesDomainVerificationCronWorker JID-768db795451932c4fc4edeba INFO: done: 0.316 sec
+2018-06-23_21:45:37.23797 2018-06-23T21:45:37.234Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-d6530264abfe1da5804e78d5 INFO: start
+2018-06-23_21:45:37.85816 2018-06-23T21:45:37.858Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-d6530264abfe1da5804e78d5 INFO: done: 0.624 sec
+2018-06-23_21:50:15.87196 2018-06-23T21:50:15.871Z 608 TID-ox4cf9kn0 ExpireBuildArtifactsWorker JID-314a7fa1435e77f48657d847 INFO: start
+2018-06-23_21:50:16.52501 2018-06-23T21:50:16.524Z 608 TID-ox4cf9kn0 ExpireBuildArtifactsWorker JID-314a7fa1435e77f48657d847 INFO: done: 0.653 sec
+2018-06-23_22:00:38.81049 2018-06-23T22:00:38.807Z 608 TID-ox4cf9k4o PruneOldEventsWorker JID-5c9af1a151d94ed61c10d0a8 INFO: start
+2018-06-23_22:00:38.89815 2018-06-23T22:00:38.898Z 608 TID-ox4cf9ncs ImportExportProjectCleanupWorker JID-91f2a4122a083ec8b753b48a INFO: start
+2018-06-23_22:00:38.96632 2018-06-23T22:00:38.966Z 608 TID-ox4cf9kas StuckMergeJobsWorker JID-e22a3251c748bf80625bdc51 INFO: start
+2018-06-23_22:00:39.42877 2018-06-23T22:00:39.428Z 608 TID-ox4cf9ncs ImportExportProjectCleanupWorker JID-91f2a4122a083ec8b753b48a INFO: done: 0.53 sec
+2018-06-23_22:00:39.44218 2018-06-23T22:00:39.442Z 608 TID-ox4cf9kt4 RequestsProfilesWorker JID-0ab31ca8d0779c3cb9a35a5e INFO: start
+2018-06-23_22:00:39.55896 2018-06-23T22:00:39.558Z 608 TID-ox4cf9mug AdminEmailWorker JID-6866d7c09c398dddefdca7c9 INFO: start
+2018-06-23_22:00:39.57771 2018-06-23T22:00:39.577Z 608 TID-ox4cf9kt4 RequestsProfilesWorker JID-0ab31ca8d0779c3cb9a35a5e INFO: done: 0.136 sec
+2018-06-23_22:00:41.33832 2018-06-23T22:00:41.338Z 608 TID-ox4cf9ncs RepositoryArchiveCacheWorker JID-0cb1c987aa2439938402a9b4 INFO: start
+2018-06-23_22:00:41.34846 2018-06-23T22:00:41.348Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-b4a65c5f2b5c339bb89ab96c INFO: start
+2018-06-23_22:00:41.36133 2018-06-23T22:00:41.361Z 608 TID-ox4cf9kn0 StuckCiJobsWorker JID-089bba6d6dae820f5a4529a8 INFO: start
+2018-06-23_22:00:42.38100 2018-06-23T22:00:42.380Z 608 TID-ox4cf9k4o PruneOldEventsWorker JID-5c9af1a151d94ed61c10d0a8 INFO: done: 3.574 sec
+2018-06-23_22:00:42.39109 2018-06-23T22:00:42.390Z 608 TID-ox4cf9kas StuckMergeJobsWorker JID-e22a3251c748bf80625bdc51 INFO: done: 3.424 sec
+2018-06-23_22:00:42.39714 2018-06-23T22:00:42.396Z 608 TID-ox4cf9ncs RepositoryArchiveCacheWorker JID-0cb1c987aa2439938402a9b4 INFO: done: 1.059 sec
+2018-06-23_22:00:42.42048 2018-06-23T22:00:42.420Z 608 TID-ox4cf9kn0 StuckCiJobsWorker JID-089bba6d6dae820f5a4529a8 INFO: done: 1.059 sec
+2018-06-23_22:00:42.51695 2018-06-23T22:00:42.516Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-b4a65c5f2b5c339bb89ab96c INFO: done: 1.168 sec
+2018-06-23_22:00:42.63711 2018-06-23T22:00:42.636Z 608 TID-ox4cf9mug AdminEmailWorker JID-6866d7c09c398dddefdca7c9 INFO: done: 3.078 sec
+2018-06-23_22:10:38.26130 2018-06-23T22:10:38.258Z 608 TID-ox4cf9k4o RemoveExpiredMembersWorker JID-bc54cb564a757946745925bd INFO: start
+2018-06-23_22:10:38.74053 2018-06-23T22:10:38.740Z 608 TID-ox4cf9lzw RemoveExpiredGroupLinksWorker JID-8cced6501a060aa1413a261e INFO: start
+2018-06-23_22:10:39.85104 2018-06-23T22:10:39.850Z 608 TID-ox4cf9k4o RemoveExpiredMembersWorker JID-bc54cb564a757946745925bd INFO: done: 1.593 sec
+2018-06-23_22:10:39.85256 2018-06-23T22:10:39.852Z 608 TID-ox4cf9lzw RemoveExpiredGroupLinksWorker JID-8cced6501a060aa1413a261e INFO: done: 1.112 sec
+2018-06-23_22:15:18.27918 2018-06-23T22:15:18.279Z 608 TID-ox4cf9n0k StuckImportJobsWorker JID-3ee77deb6b463b66309707e7 INFO: start
+2018-06-23_22:15:18.33551 2018-06-23T22:15:18.335Z 608 TID-ox4cf9nnw PagesDomainVerificationCronWorker JID-a1c787a8ff88ecfb984a9e14 INFO: start
+2018-06-23_22:15:18.51407 2018-06-23T22:15:18.513Z 608 TID-ox4cf9nnw PagesDomainVerificationCronWorker JID-a1c787a8ff88ecfb984a9e14 INFO: done: 0.178 sec
+2018-06-23_22:15:18.70375 2018-06-23T22:15:18.703Z 608 TID-ox4cf9n0k StuckImportJobsWorker JID-3ee77deb6b463b66309707e7 INFO: done: 0.425 sec
+2018-06-23_22:19:03.40017 2018-06-23T22:19:03.400Z 608 TID-ox4cf9n0k PipelineScheduleWorker JID-6d9162910d45b7a934dd7eae INFO: start
+2018-06-23_22:19:03.60396 2018-06-23T22:19:03.603Z 608 TID-ox4cf9n0k PipelineScheduleWorker JID-6d9162910d45b7a934dd7eae INFO: done: 0.204 sec
+2018-06-23_22:20:17.34896 2018-06-23T22:20:17.348Z 608 TID-ox4cf9mi8 RepositoryCheck::BatchWorker JID-23a3a3d43e966617bb0bcde1 INFO: start
+2018-06-23_22:20:17.44047 2018-06-23T22:20:17.440Z 608 TID-ox4cf9mc4 RemoveUnreferencedLfsObjectsWorker JID-6af468b4930a770f041cd5c0 INFO: start
+2018-06-23_22:20:17.80807 2018-06-23T22:20:17.807Z 608 TID-ox4cf9mi8 RepositoryCheck::BatchWorker JID-23a3a3d43e966617bb0bcde1 INFO: done: 0.459 sec
+2018-06-23_22:20:17.92568 2018-06-23T22:20:17.925Z 608 TID-ox4cf9mc4 RemoveUnreferencedLfsObjectsWorker JID-6af468b4930a770f041cd5c0 INFO: done: 0.485 sec
+2018-06-23_22:30:20.75715 2018-06-23T22:30:20.752Z 608 TID-ox4cf9mi8 ScheduleUpdateUserActivityWorker JID-e668838dcd9a6aebc9c99f5e INFO: start
+2018-06-23_22:30:20.82146 2018-06-23T22:30:20.821Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-9c94a581124a4ec38632ef96 INFO: start
+2018-06-23_22:30:20.88038 2018-06-23T22:30:20.880Z 608 TID-ox4cf9lzw UpdateUserActivityWorker JID-8e925bbbbd764d1b3e034785 INFO: start
+2018-06-23_22:30:20.95611 2018-06-23T22:30:20.956Z 608 TID-ox4cf9mi8 ScheduleUpdateUserActivityWorker JID-e668838dcd9a6aebc9c99f5e INFO: done: 0.204 sec
+2018-06-23_22:30:20.99688 2018-06-23T22:30:20.996Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-9c94a581124a4ec38632ef96 INFO: done: 0.175 sec
+2018-06-23_22:30:21.33609 2018-06-23T22:30:21.335Z 608 TID-ox4cf9lzw UpdateUserActivityWorker JID-8e925bbbbd764d1b3e034785 INFO: done: 0.456 sec
+2018-06-23_22:40:02.85070 2018-06-23T22:40:02.849Z 608 TID-ox4cf9k4o RemoveOldWebHookLogsWorker JID-ddbe4ba7408a090013d7c00c INFO: start
+2018-06-23_22:40:03.07095 2018-06-23T22:40:03.070Z 608 TID-ox4cf9k4o RemoveOldWebHookLogsWorker JID-ddbe4ba7408a090013d7c00c INFO: done: 0.221 sec
+2018-06-23_22:45:15.75478 2018-06-23T22:45:15.754Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-2d3825f636c599ab3b34d2be INFO: start
+2018-06-23_22:45:15.86926 2018-06-23T22:45:15.869Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-2d3825f636c599ab3b34d2be INFO: done: 0.115 sec
+2018-06-23_22:50:17.80081 2018-06-23T22:50:17.797Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-8fc82eff23e82e3afb4e7c1a INFO: start
+2018-06-23_22:50:17.92015 2018-06-23T22:50:17.919Z 608 TID-ox4cf9m60 IssueDueSchedulerWorker JID-baa135b791955ba1b730e841 INFO: start
+2018-06-23_22:50:18.42452 2018-06-23T22:50:18.424Z 608 TID-ox4cf9m60 IssueDueSchedulerWorker JID-baa135b791955ba1b730e841 INFO: done: 0.505 sec
+2018-06-23_22:50:18.52172 2018-06-23T22:50:18.521Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-8fc82eff23e82e3afb4e7c1a INFO: done: 0.724 sec
+2018-06-23_23:00:01.16399 2018-06-23T23:00:01.159Z 608 TID-ox4cf9mc4 ImportExportProjectCleanupWorker JID-6721da8304ee9d001e0c4c46 INFO: start
+2018-06-23_23:00:01.24451 2018-06-23T23:00:01.244Z 608 TID-ox4cf9mc4 ImportExportProjectCleanupWorker JID-6721da8304ee9d001e0c4c46 INFO: done: 0.086 sec
+2018-06-23_23:00:01.24589 2018-06-23T23:00:01.245Z 608 TID-ox4cf9l5c GitlabUsagePingWorker JID-e61438e3ab53307cbf2507eb INFO: start
+2018-06-23_23:00:01.46524 2018-06-23T23:00:01.465Z 608 TID-ox4cgio5o TrendingProjectsWorker JID-247d2f4ee09e66f930fe86d2 INFO: start
+2018-06-23_23:00:01.53069 2018-06-23T23:00:01.530Z 608 TID-ox4cf9jvs RepositoryArchiveCacheWorker JID-4b61c71aec6e444ccad5b813 INFO: start
+2018-06-23_23:00:01.54355 2018-06-23T23:00:01.543Z 608 TID-ox4cf9jvs RepositoryArchiveCacheWorker JID-4b61c71aec6e444ccad5b813 INFO: done: 0.013 sec
+2018-06-23_23:00:01.54501 2018-06-23T23:00:01.544Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-46702ca14df540c4152279f0 INFO: start
+2018-06-23_23:00:01.56613 2018-06-23T23:00:01.566Z 608 TID-ox4cf9lts StuckCiJobsWorker JID-934fb4c4f51ab87358f46347 INFO: start
+2018-06-23_23:00:02.34023 2018-06-23T23:00:02.339Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-46702ca14df540c4152279f0 INFO: done: 0.795 sec
+2018-06-23_23:00:02.34118 2018-06-23T23:00:02.341Z 608 TID-ox4cgio5o TrendingProjectsWorker JID-247d2f4ee09e66f930fe86d2 INFO: done: 0.876 sec
+2018-06-23_23:00:02.60439 2018-06-23T23:00:02.604Z 608 TID-ox4cf9lts StuckCiJobsWorker JID-934fb4c4f51ab87358f46347 INFO: done: 1.038 sec
+2018-06-23_23:00:07.52554 2018-06-23T23:00:07.524Z 608 TID-ox4cf9l5c GitlabUsagePingWorker JID-e61438e3ab53307cbf2507eb INFO: done: 6.278 sec
+2018-06-23_23:01:05.31728 2018-06-23T23:01:05.317Z 608 TID-ox4cf9mc4 GitlabUsagePingWorker JID-71b39bb9978b9d712f3df519 INFO: start
+2018-06-23_23:01:05.36727 2018-06-23T23:01:05.367Z 608 TID-ox4cf9mc4 GitlabUsagePingWorker JID-71b39bb9978b9d712f3df519 INFO: done: 0.05 sec
+2018-06-23_23:02:10.65811 2018-06-23T23:02:10.658Z 608 TID-ox4cf9niw GitlabUsagePingWorker JID-4ca7289f949b1ebbe367616b INFO: start
+2018-06-23_23:02:10.73231 2018-06-23T23:02:10.732Z 608 TID-ox4cf9niw GitlabUsagePingWorker JID-4ca7289f949b1ebbe367616b INFO: done: 0.074 sec
+2018-06-23_23:03:27.30795 2018-06-23T23:03:27.307Z 608 TID-ox4cf9mi8 GitlabUsagePingWorker JID-1f41bc1a33e97217640df9fd INFO: start
+2018-06-23_23:03:27.37797 2018-06-23T23:03:27.377Z 608 TID-ox4cf9mi8 GitlabUsagePingWorker JID-1f41bc1a33e97217640df9fd INFO: done: 0.07 sec
+2018-06-23_23:04:22.39524 2018-06-23T23:04:22.395Z 608 TID-ox4cf9n0k GitlabUsagePingWorker JID-e5109d0afb56434b4037251d INFO: start
+2018-06-23_23:04:22.45773 2018-06-23T23:04:22.457Z 608 TID-ox4cf9n0k GitlabUsagePingWorker JID-e5109d0afb56434b4037251d INFO: done: 0.063 sec
+2018-06-23_23:05:04.15070 2018-06-23T23:05:04.150Z 608 TID-ox4cf9mi8 GitlabUsagePingWorker JID-0f04387f38da148fd561a180 INFO: start
+2018-06-23_23:05:04.25887 2018-06-23T23:05:04.258Z 608 TID-ox4cf9mi8 GitlabUsagePingWorker JID-0f04387f38da148fd561a180 INFO: done: 0.108 sec
+2018-06-23_23:06:05.51023 2018-06-23T23:06:05.510Z 608 TID-ox4cf9n6o GitlabUsagePingWorker JID-66542582efd85d02d1654e33 INFO: start
+2018-06-23_23:06:05.55928 2018-06-23T23:06:05.558Z 608 TID-ox4cf9n6o GitlabUsagePingWorker JID-66542582efd85d02d1654e33 INFO: done: 0.049 sec
+2018-06-23_23:07:28.79585 2018-06-23T23:07:28.795Z 608 TID-ox4cf9lts GitlabUsagePingWorker JID-1f8cfcc2cd59e1e1aa37c1c1 INFO: start
+2018-06-23_23:07:28.85786 2018-06-23T23:07:28.857Z 608 TID-ox4cf9lts GitlabUsagePingWorker JID-1f8cfcc2cd59e1e1aa37c1c1 INFO: done: 0.062 sec
+2018-06-23_23:08:07.87641 2018-06-23T23:08:07.876Z 608 TID-ox4cf9lzw GitlabUsagePingWorker JID-538d5a3a1f548181565e7341 INFO: start
+2018-06-23_23:08:07.96506 2018-06-23T23:08:07.964Z 608 TID-ox4cf9lzw GitlabUsagePingWorker JID-538d5a3a1f548181565e7341 INFO: done: 0.089 sec
+2018-06-23_23:09:05.10159 2018-06-23T23:09:05.101Z 608 TID-ox4cf9jvs GitlabUsagePingWorker JID-83c0a36cb7f1fabf8f3ad94a INFO: start
+2018-06-23_23:09:05.13479 2018-06-23T23:09:05.134Z 608 TID-ox4cf9jvs GitlabUsagePingWorker JID-83c0a36cb7f1fabf8f3ad94a INFO: done: 0.033 sec
+2018-06-23_23:15:32.35981 2018-06-23T23:15:32.356Z 608 TID-ox4cf9lzw StuckImportJobsWorker JID-0ac660cdc2d03f66aa852347 INFO: start
+2018-06-23_23:15:32.54448 2018-06-23T23:15:32.544Z 608 TID-ox4cf9mi8 PagesDomainVerificationCronWorker JID-0f7616c64fa088f6723462aa INFO: start
+2018-06-23_23:15:32.70326 2018-06-23T23:15:32.703Z 608 TID-ox4cf9lzw StuckImportJobsWorker JID-0ac660cdc2d03f66aa852347 INFO: done: 0.347 sec
+2018-06-23_23:15:32.71789 2018-06-23T23:15:32.717Z 608 TID-ox4cf9mi8 PagesDomainVerificationCronWorker JID-0f7616c64fa088f6723462aa INFO: done: 0.173 sec
+2018-06-23_23:19:34.93104 2018-06-23T23:19:34.930Z 608 TID-ox4cf9k4o PipelineScheduleWorker JID-d5c9479c4dfb522b787723f9 INFO: start
+2018-06-23_23:19:35.57645 2018-06-23T23:19:35.576Z 608 TID-ox4cf9k4o PipelineScheduleWorker JID-d5c9479c4dfb522b787723f9 INFO: done: 0.645 sec
+2018-06-23_23:20:36.16671 2018-06-23T23:20:36.166Z 608 TID-ox4cf9mi8 RepositoryCheck::BatchWorker JID-ad33a1d6a3172604bcb92931 INFO: start
+2018-06-23_23:20:36.32773 2018-06-23T23:20:36.327Z 608 TID-ox4cf9mi8 RepositoryCheck::BatchWorker JID-ad33a1d6a3172604bcb92931 INFO: done: 0.161 sec
+2018-06-23_23:30:38.21328 2018-06-23T23:30:38.209Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-702a2c943ead7998c33a7633 INFO: start
+2018-06-23_23:30:38.46160 2018-06-23T23:30:38.461Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-702a2c943ead7998c33a7633 INFO: done: 0.253 sec
+2018-06-23_23:45:18.40958 2018-06-23T23:45:18.406Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-64fb6f8e05cabfbf6c10e394 INFO: start
+2018-06-23_23:45:18.73323 2018-06-23T23:45:18.733Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-64fb6f8e05cabfbf6c10e394 INFO: done: 0.327 sec
+2018-06-23_23:50:14.70796 2018-06-23T23:50:14.707Z 608 TID-ox4cf9kn0 ExpireBuildArtifactsWorker JID-3a46d859fbc98c13715f07e4 INFO: start
+2018-06-23_23:50:15.16020 2018-06-23T23:50:15.160Z 608 TID-ox4cf9kn0 ExpireBuildArtifactsWorker JID-3a46d859fbc98c13715f07e4 INFO: done: 0.452 sec
+2018-06-24_00:00:08.75689 2018-06-24T00:00:08.753Z 608 TID-ox4cf9lts ImportExportProjectCleanupWorker JID-f66faef7219b1f9b86d0b89e INFO: start
+2018-06-24_00:00:08.81522 2018-06-24T00:00:08.811Z 608 TID-ox4cf9jvs StuckMergeJobsWorker JID-68755306204846e1bc440bc5 INFO: start
+2018-06-24_00:00:08.95052 2018-06-24T00:00:08.950Z 608 TID-ox4cf9lts ImportExportProjectCleanupWorker JID-f66faef7219b1f9b86d0b89e INFO: done: 0.198 sec
+2018-06-24_00:00:09.00744 2018-06-24T00:00:09.007Z 608 TID-ox4cf9l5c RepositoryArchiveCacheWorker JID-8c1ccd68ce2d5b56bdff9f9c INFO: start
+2018-06-24_00:00:09.02051 2018-06-24T00:00:09.020Z 608 TID-ox4cgio5o PagesDomainVerificationCronWorker JID-39de184d08bf5bb5308d5552 INFO: start
+2018-06-24_00:00:09.04164 2018-06-24T00:00:09.041Z 608 TID-ox4cf9kgw StuckCiJobsWorker JID-755760224aca930d2daf4d71 INFO: start
+2018-06-24_00:00:09.07792 2018-06-24T00:00:09.077Z 608 TID-ox4cf9l5c RepositoryArchiveCacheWorker JID-8c1ccd68ce2d5b56bdff9f9c INFO: done: 0.071 sec
+2018-06-24_00:00:09.18601 2018-06-24T00:00:09.185Z 608 TID-ox4cf9jvs StuckMergeJobsWorker JID-68755306204846e1bc440bc5 INFO: done: 0.375 sec
+2018-06-24_00:00:09.18696 2018-06-24T00:00:09.186Z 608 TID-ox4cgio5o PagesDomainVerificationCronWorker JID-39de184d08bf5bb5308d5552 INFO: done: 0.166 sec
+2018-06-24_00:00:09.19116 2018-06-24T00:00:09.191Z 608 TID-ox4cf9kgw StuckCiJobsWorker JID-755760224aca930d2daf4d71 INFO: done: 0.149 sec
+2018-06-24_00:15:12.70210 2018-06-24T00:15:12.698Z 608 TID-ox4cf9moc StuckImportJobsWorker JID-7ca9e47645291bca03fa7326 INFO: start
+2018-06-24_00:15:12.83596 2018-06-24T00:15:12.835Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-090aed431f218b060682f0a6 INFO: start
+2018-06-24_00:15:13.10966 2018-06-24T00:15:13.109Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-090aed431f218b060682f0a6 INFO: done: 0.273 sec
+2018-06-24_00:15:13.32220 2018-06-24T00:15:13.322Z 608 TID-ox4cf9moc StuckImportJobsWorker JID-7ca9e47645291bca03fa7326 INFO: done: 0.624 sec
+2018-06-24_00:19:12.04564 2018-06-24T00:19:12.045Z 608 TID-ox4cf9kas PipelineScheduleWorker JID-29b16b7c73669bf7de4421b4 INFO: start
+2018-06-24_00:19:12.31843 2018-06-24T00:19:12.316Z 608 TID-ox4cf9kas PipelineScheduleWorker JID-29b16b7c73669bf7de4421b4 INFO: done: 0.271 sec
+2018-06-24_00:20:24.35095 2018-06-24T00:20:24.350Z 608 TID-ox4cf9kas RepositoryCheck::BatchWorker JID-111423edf0875c23df25992d INFO: start
+2018-06-24_00:20:24.57814 2018-06-24T00:20:24.577Z 608 TID-ox4cf9kas RepositoryCheck::BatchWorker JID-111423edf0875c23df25992d INFO: done: 0.227 sec
+2018-06-24_00:30:36.06960 2018-06-24T00:30:36.065Z 608 TID-ox4cf9mi8 PagesDomainVerificationCronWorker JID-c05d778a5adc6d6added7895 INFO: start
+2018-06-24_00:30:36.50997 2018-06-24T00:30:36.509Z 608 TID-ox4cf9mi8 PagesDomainVerificationCronWorker JID-c05d778a5adc6d6added7895 INFO: done: 0.446 sec
+2018-06-24_00:45:13.96530 2018-06-24T00:45:13.961Z 608 TID-ox4cf9nnw PagesDomainVerificationCronWorker JID-b905fea7c8f8ed70a47c34fb INFO: start
+2018-06-24_00:45:14.48131 2018-06-24T00:45:14.481Z 608 TID-ox4cf9nnw PagesDomainVerificationCronWorker JID-b905fea7c8f8ed70a47c34fb INFO: done: 0.521 sec
+2018-06-24_00:50:05.78516 2018-06-24T00:50:05.784Z 608 TID-ox4cf9mug ExpireBuildArtifactsWorker JID-5a04afe0202f398e1d862234 INFO: start
+2018-06-24_00:50:05.91793 2018-06-24T00:50:05.917Z 608 TID-ox4cf9mug ExpireBuildArtifactsWorker JID-5a04afe0202f398e1d862234 INFO: done: 0.133 sec
+2018-06-24_01:00:05.07427 2018-06-24T01:00:05.070Z 608 TID-ox4cgio5o ImportExportProjectCleanupWorker JID-51a69836c4ad45b938a0c719 INFO: start
+2018-06-24_01:00:05.19161 2018-06-24T01:00:05.191Z 608 TID-ox4cf9k1w RepositoryArchiveCacheWorker JID-25644f60bbb58ffc00a2b230 INFO: start
+2018-06-24_01:00:05.20317 2018-06-24T01:00:05.203Z 608 TID-ox4cf9nnw PagesDomainVerificationCronWorker JID-20ab65f934ff0c4d94fdbcf0 INFO: start
+2018-06-24_01:00:05.33541 2018-06-24T01:00:05.335Z 608 TID-ox4cgio5o ImportExportProjectCleanupWorker JID-51a69836c4ad45b938a0c719 INFO: done: 0.265 sec
+2018-06-24_01:00:05.33907 2018-06-24T01:00:05.338Z 608 TID-ox4cf9k1w RepositoryArchiveCacheWorker JID-25644f60bbb58ffc00a2b230 INFO: done: 0.147 sec
+2018-06-24_01:00:05.34616 2018-06-24T01:00:05.345Z 608 TID-ox4cf9ncs StuckCiJobsWorker JID-2e7e68bc1886d45cb8f06cf8 INFO: start
+2018-06-24_01:00:05.45644 2018-06-24T01:00:05.456Z 608 TID-ox4cf9nnw PagesDomainVerificationCronWorker JID-20ab65f934ff0c4d94fdbcf0 INFO: done: 0.253 sec
+2018-06-24_01:00:05.46856 2018-06-24T01:00:05.468Z 608 TID-ox4cf9ncs StuckCiJobsWorker JID-2e7e68bc1886d45cb8f06cf8 INFO: done: 0.123 sec
+2018-06-24_01:15:08.27987 2018-06-24T01:15:08.276Z 608 TID-ox4cf9ncs StuckImportJobsWorker JID-9d87e28e0b6f2123cf995909 INFO: start
+2018-06-24_01:15:08.42133 2018-06-24T01:15:08.421Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-06fe2344ee5d2f83ef0b3911 INFO: start
+2018-06-24_01:15:08.59034 2018-06-24T01:15:08.590Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-06fe2344ee5d2f83ef0b3911 INFO: done: 0.169 sec
+2018-06-24_01:15:08.59214 2018-06-24T01:15:08.592Z 608 TID-ox4cf9ncs StuckImportJobsWorker JID-9d87e28e0b6f2123cf995909 INFO: done: 0.317 sec
+2018-06-24_01:19:11.15287 2018-06-24T01:19:11.152Z 608 TID-ox4cgio5o PipelineScheduleWorker JID-4c4a6345c4cc7958edd95b73 INFO: start
+2018-06-24_01:19:11.25619 2018-06-24T01:19:11.255Z 608 TID-ox4cgio5o PipelineScheduleWorker JID-4c4a6345c4cc7958edd95b73 INFO: done: 0.104 sec
+2018-06-24_01:20:09.77325 2018-06-24T01:20:09.773Z 608 TID-ox4cf9l5c RepositoryCheck::BatchWorker JID-25c87a9263758e7c6b20e395 INFO: start
+2018-06-24_01:20:10.09025 2018-06-24T01:20:10.090Z 608 TID-ox4cf9l5c RepositoryCheck::BatchWorker JID-25c87a9263758e7c6b20e395 INFO: done: 0.317 sec
+2018-06-24_01:30:03.02192 2018-06-24T01:30:03.018Z 608 TID-ox4cf9k4o PagesDomainVerificationCronWorker JID-e94c1c80e648ab0a0b8f4feb INFO: start
+2018-06-24_01:30:03.24483 2018-06-24T01:30:03.244Z 608 TID-ox4cf9k4o PagesDomainVerificationCronWorker JID-e94c1c80e648ab0a0b8f4feb INFO: done: 0.227 sec
+2018-06-24_01:45:07.12433 2018-06-24T01:45:07.119Z 608 TID-ox4cf9k4o PagesDomainVerificationCronWorker JID-fc945356f0934d96f559eaba INFO: start
+2018-06-24_01:45:07.96675 2018-06-24T01:45:07.966Z 608 TID-ox4cf9k4o PagesDomainVerificationCronWorker JID-fc945356f0934d96f559eaba INFO: done: 0.85 sec
+2018-06-24_01:50:09.67775 2018-06-24T01:50:09.677Z 608 TID-ox4cf9kas ExpireBuildArtifactsWorker JID-71d5b6944a98dbcd07bfcac6 INFO: start
+2018-06-24_01:50:10.24300 2018-06-24T01:50:10.242Z 608 TID-ox4cf9kas ExpireBuildArtifactsWorker JID-71d5b6944a98dbcd07bfcac6 INFO: done: 0.565 sec
+2018-06-24_02:00:24.98650 2018-06-24T02:00:24.980Z 608 TID-ox4cf9moc ImportExportProjectCleanupWorker JID-f6decbba2821ef9583ab6da4 INFO: start
+2018-06-24_02:00:25.07495 2018-06-24T02:00:25.074Z 608 TID-ox4cf9lts StuckMergeJobsWorker JID-f58f764e30168c44c7d23374 INFO: start
+2018-06-24_02:00:25.17700 2018-06-24T02:00:25.176Z 608 TID-ox4cf9moc ImportExportProjectCleanupWorker JID-f6decbba2821ef9583ab6da4 INFO: done: 0.197 sec
+2018-06-24_02:00:25.24661 2018-06-24T02:00:25.246Z 608 TID-ox4cf9kgw RepositoryArchiveCacheWorker JID-374bf1c446cc7cec775df991 INFO: start
+2018-06-24_02:00:25.25997 2018-06-24T02:00:25.259Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-b2adc42f79850f2bb25c036b INFO: start
+2018-06-24_02:00:25.27959 2018-06-24T02:00:25.279Z 608 TID-ox4cf9jvs StuckCiJobsWorker JID-ce45023dcba51274cc3484c7 INFO: start
+2018-06-24_02:00:25.32640 2018-06-24T02:00:25.325Z 608 TID-ox4cf9kgw RepositoryArchiveCacheWorker JID-374bf1c446cc7cec775df991 INFO: done: 0.079 sec
+2018-06-24_02:00:25.42468 2018-06-24T02:00:25.424Z 608 TID-ox4cf9lts StuckMergeJobsWorker JID-f58f764e30168c44c7d23374 INFO: done: 0.35 sec
+2018-06-24_02:00:25.43086 2018-06-24T02:00:25.430Z 608 TID-ox4cf9jvs StuckCiJobsWorker JID-ce45023dcba51274cc3484c7 INFO: done: 0.151 sec
+2018-06-24_02:00:25.43558 2018-06-24T02:00:25.435Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-b2adc42f79850f2bb25c036b INFO: done: 0.176 sec
+2018-06-24_02:15:14.58781 2018-06-24T02:15:14.583Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-94a86a61e909d3b0dbca0ff5 INFO: start
+2018-06-24_02:15:14.81745 2018-06-24T02:15:14.817Z 608 TID-ox4cf9jvs PagesDomainVerificationCronWorker JID-1f2e1f4629af411a83f7354d INFO: start
+2018-06-24_02:15:15.03317 2018-06-24T02:15:15.033Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-94a86a61e909d3b0dbca0ff5 INFO: done: 0.451 sec
+2018-06-24_02:15:15.03454 2018-06-24T02:15:15.034Z 608 TID-ox4cf9jvs PagesDomainVerificationCronWorker JID-1f2e1f4629af411a83f7354d INFO: done: 0.217 sec
+2018-06-24_02:19:27.20604 2018-06-24T02:19:27.205Z 608 TID-ox4cf9mi8 PipelineScheduleWorker JID-c3575566423c4e9cf85a4c62 INFO: start
+2018-06-24_02:19:27.32643 2018-06-24T02:19:27.326Z 608 TID-ox4cf9mi8 PipelineScheduleWorker JID-c3575566423c4e9cf85a4c62 INFO: done: 0.12 sec
+2018-06-24_02:20:38.94802 2018-06-24T02:20:38.947Z 608 TID-ox4cf9ncs RepositoryCheck::BatchWorker JID-cb785c51e9917cab8462b806 INFO: start
+2018-06-24_02:20:39.19974 2018-06-24T02:20:39.199Z 608 TID-ox4cf9ncs RepositoryCheck::BatchWorker JID-cb785c51e9917cab8462b806 INFO: done: 0.252 sec
+2018-06-24_02:30:23.61601 2018-06-24T02:30:23.612Z 608 TID-ox4cf9n6o PagesDomainVerificationCronWorker JID-be582fd421e98fa791e6a9a8 INFO: start
+2018-06-24_02:30:23.84002 2018-06-24T02:30:23.839Z 608 TID-ox4cf9n6o PagesDomainVerificationCronWorker JID-be582fd421e98fa791e6a9a8 INFO: done: 0.228 sec
+2018-06-24_02:45:18.76213 2018-06-24T02:45:18.757Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-bb5ad16a208f7823a308b2e7 INFO: start
+2018-06-24_02:45:19.04621 2018-06-24T02:45:19.046Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-bb5ad16a208f7823a308b2e7 INFO: done: 0.29 sec
+2018-06-24_02:50:05.38431 2018-06-24T02:50:05.384Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-7d2dff1c1fca02a509ef60ca INFO: start
+2018-06-24_02:50:05.53936 2018-06-24T02:50:05.538Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-7d2dff1c1fca02a509ef60ca INFO: done: 0.155 sec
+2018-06-24_03:00:22.76824 2018-06-24T03:00:22.764Z 608 TID-ox4cf9kt4 ImportExportProjectCleanupWorker JID-d847b996cbb6926d637454ad INFO: start
+2018-06-24_03:00:22.85987 2018-06-24T03:00:22.859Z 608 TID-ox4cf9n6o RepositoryArchiveCacheWorker JID-eea75283d748a90a53586a3d INFO: start
+2018-06-24_03:00:22.87704 2018-06-24T03:00:22.876Z 608 TID-ox4cf9kt4 ImportExportProjectCleanupWorker JID-d847b996cbb6926d637454ad INFO: done: 0.113 sec
+2018-06-24_03:00:22.88468 2018-06-24T03:00:22.884Z 608 TID-ox4cf9k1w PagesDomainVerificationCronWorker JID-89834e5d15d3c60a48dc3cf2 INFO: start
+2018-06-24_03:00:22.94994 2018-06-24T03:00:22.949Z 608 TID-ox4cf9lzw StuckCiJobsWorker JID-8c76e1e587f9c96c55dc0b99 INFO: start
+2018-06-24_03:00:23.01371 2018-06-24T03:00:23.013Z 608 TID-ox4cf9n6o RepositoryArchiveCacheWorker JID-eea75283d748a90a53586a3d INFO: done: 0.154 sec
+2018-06-24_03:00:23.09154 2018-06-24T03:00:23.091Z 608 TID-ox4cf9k1w PagesDomainVerificationCronWorker JID-89834e5d15d3c60a48dc3cf2 INFO: done: 0.206 sec
+2018-06-24_03:00:23.12544 2018-06-24T03:00:23.125Z 608 TID-ox4cf9lzw StuckCiJobsWorker JID-8c76e1e587f9c96c55dc0b99 INFO: done: 0.175 sec
+2018-06-24_03:15:08.55832 2018-06-24T03:15:08.554Z 608 TID-ox4cf9mc4 StuckImportJobsWorker JID-43544d3808bd1c364707b6c6 INFO: start
+2018-06-24_03:15:08.62457 2018-06-24T03:15:08.624Z 608 TID-ox4cf9jvs PagesDomainVerificationCronWorker JID-04ede15da602c94d88050310 INFO: start
+2018-06-24_03:15:08.82252 2018-06-24T03:15:08.822Z 608 TID-ox4cf9jvs PagesDomainVerificationCronWorker JID-04ede15da602c94d88050310 INFO: done: 0.198 sec
+2018-06-24_03:15:08.90771 2018-06-24T03:15:08.907Z 608 TID-ox4cf9mc4 StuckImportJobsWorker JID-43544d3808bd1c364707b6c6 INFO: done: 0.354 sec
+2018-06-24_03:19:16.29182 2018-06-24T03:19:16.290Z 608 TID-ox4cf9jvs PipelineScheduleWorker JID-542ee11ff3d06131bee14518 INFO: start
+2018-06-24_03:19:16.61209 2018-06-24T03:19:16.611Z 608 TID-ox4cf9jvs PipelineScheduleWorker JID-542ee11ff3d06131bee14518 INFO: done: 0.322 sec
+2018-06-24_03:20:36.47642 2018-06-24T03:20:36.476Z 608 TID-ox4cf9lhk RepositoryCheck::BatchWorker JID-5e0b390202a835694c587978 INFO: start
+2018-06-24_03:20:36.84543 2018-06-24T03:20:36.845Z 608 TID-ox4cf9lhk RepositoryCheck::BatchWorker JID-5e0b390202a835694c587978 INFO: done: 0.369 sec
+2018-06-24_03:30:10.99123 2018-06-24T03:30:10.987Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-7e14cc465f50228c66a01226 INFO: start
+2018-06-24_03:30:11.29094 2018-06-24T03:30:11.290Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-7e14cc465f50228c66a01226 INFO: done: 0.304 sec
+2018-06-24_03:45:16.17762 2018-06-24T03:45:16.174Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-dadfd3d6c614feee9a0e167e INFO: start
+2018-06-24_03:45:16.44022 2018-06-24T03:45:16.440Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-dadfd3d6c614feee9a0e167e INFO: done: 0.267 sec
+2018-06-24_03:50:21.11660 2018-06-24T03:50:21.116Z 608 TID-ox4cf9n0k ExpireBuildArtifactsWorker JID-f7fd0500bc25e8ddc6fd88b9 INFO: start
+2018-06-24_03:50:21.23516 2018-06-24T03:50:21.235Z 608 TID-ox4cf9n0k ExpireBuildArtifactsWorker JID-f7fd0500bc25e8ddc6fd88b9 INFO: done: 0.118 sec
+2018-06-24_04:00:22.60383 2018-06-24T04:00:22.600Z 608 TID-ox4cf9kgw PruneOldEventsWorker JID-b3646bb7321b96aa4d66c09f INFO: start
+2018-06-24_04:00:22.68484 2018-06-24T04:00:22.684Z 608 TID-ox4cf9mc4 ImportExportProjectCleanupWorker JID-f299a9da0a384dca265466f6 INFO: start
+2018-06-24_04:00:22.78624 2018-06-24T04:00:22.786Z 608 TID-ox4cf9lno StuckMergeJobsWorker JID-78bacf6febd36f07fee2cd00 INFO: start
+2018-06-24_04:00:22.81206 2018-06-24T04:00:22.790Z 608 TID-ox4cf9mc4 ImportExportProjectCleanupWorker JID-f299a9da0a384dca265466f6 INFO: done: 0.105 sec
+2018-06-24_04:00:22.90407 2018-06-24T04:00:22.904Z 608 TID-ox4cf9m60 RepositoryArchiveCacheWorker JID-2f855e62f09709323547c8c7 INFO: start
+2018-06-24_04:00:22.91290 2018-06-24T04:00:22.912Z 608 TID-ox4cf9kgw PruneOldEventsWorker JID-b3646bb7321b96aa4d66c09f INFO: done: 0.314 sec
+2018-06-24_04:00:22.91721 2018-06-24T04:00:22.917Z 608 TID-ox4cf9m60 RepositoryArchiveCacheWorker JID-2f855e62f09709323547c8c7 INFO: done: 0.013 sec
+2018-06-24_04:00:22.91989 2018-06-24T04:00:22.919Z 608 TID-ox4cf9n6o PagesDomainVerificationCronWorker JID-a47da1d0300c120dfc49f5e2 INFO: start
+2018-06-24_04:00:22.94184 2018-06-24T04:00:22.941Z 608 TID-ox4cf9l5c StuckCiJobsWorker JID-d7a5ad5a170921f453660153 INFO: start
+2018-06-24_04:00:23.00501 2018-06-24T04:00:23.004Z 608 TID-ox4cf9n6o PagesDomainVerificationCronWorker JID-a47da1d0300c120dfc49f5e2 INFO: done: 0.085 sec
+2018-06-24_04:00:23.12838 2018-06-24T04:00:23.128Z 608 TID-ox4cf9l5c StuckCiJobsWorker JID-d7a5ad5a170921f453660153 INFO: done: 0.187 sec
+2018-06-24_04:00:23.14157 2018-06-24T04:00:23.141Z 608 TID-ox4cf9lno StuckMergeJobsWorker JID-78bacf6febd36f07fee2cd00 INFO: done: 0.355 sec
+2018-06-24_04:15:04.69973 2018-06-24T04:15:04.696Z 608 TID-ox4cf9kgw StuckImportJobsWorker JID-88eced29523f9874eb23dfe0 INFO: start
+2018-06-24_04:15:04.88463 2018-06-24T04:15:04.884Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-fe5c0840cabc434bd971bde8 INFO: start
+2018-06-24_04:15:05.06195 2018-06-24T04:15:05.061Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-fe5c0840cabc434bd971bde8 INFO: done: 0.177 sec
+2018-06-24_04:15:05.06498 2018-06-24T04:15:05.064Z 608 TID-ox4cf9kgw StuckImportJobsWorker JID-88eced29523f9874eb23dfe0 INFO: done: 0.37 sec
+2018-06-24_04:19:04.08290 2018-06-24T04:19:04.082Z 608 TID-ox4cf9kz8 PipelineScheduleWorker JID-c4d606cb411bb887ec125dad INFO: start
+2018-06-24_04:19:04.22190 2018-06-24T04:19:04.221Z 608 TID-ox4cf9kz8 PipelineScheduleWorker JID-c4d606cb411bb887ec125dad INFO: done: 0.139 sec
+2018-06-24_04:20:09.46948 2018-06-24T04:20:09.469Z 608 TID-ox4cf9lbg RepositoryCheck::BatchWorker JID-9f512c913c9da99cc8afa71d INFO: start
+2018-06-24_04:20:09.72677 2018-06-24T04:20:09.726Z 608 TID-ox4cf9lbg RepositoryCheck::BatchWorker JID-9f512c913c9da99cc8afa71d INFO: done: 0.257 sec
+2018-06-24_04:30:10.16546 2018-06-24T04:30:10.161Z 608 TID-ox4cf9niw PagesDomainVerificationCronWorker JID-622c4f2b7830271ea6a181ae INFO: start
+2018-06-24_04:30:10.40157 2018-06-24T04:30:10.401Z 608 TID-ox4cf9niw PagesDomainVerificationCronWorker JID-622c4f2b7830271ea6a181ae INFO: done: 0.24 sec
+2018-06-24_04:45:23.31136 2018-06-24T04:45:23.307Z 608 TID-ox4cf9n0k PagesDomainVerificationCronWorker JID-2070e8c0f7941e7498face47 INFO: start
+2018-06-24_04:45:23.55290 2018-06-24T04:45:23.552Z 608 TID-ox4cf9n0k PagesDomainVerificationCronWorker JID-2070e8c0f7941e7498face47 INFO: done: 0.246 sec
+2018-06-24_04:50:11.06554 2018-06-24T04:50:11.065Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-36151421f6c0615253469b9c INFO: start
+2018-06-24_04:50:11.22676 2018-06-24T04:50:11.226Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-36151421f6c0615253469b9c INFO: done: 0.161 sec
+2018-06-24_05:00:29.34998 2018-06-24T05:00:29.346Z 608 TID-ox4cf9kgw ImportExportProjectCleanupWorker JID-5ddba5c6b0f4786496aedbab INFO: start
+2018-06-24_05:00:29.46225 2018-06-24T05:00:29.462Z 608 TID-ox4cf9kgw ImportExportProjectCleanupWorker JID-5ddba5c6b0f4786496aedbab INFO: done: 0.116 sec
+2018-06-24_05:00:29.46528 2018-06-24T05:00:29.465Z 608 TID-ox4cf9lzw RepositoryArchiveCacheWorker JID-19a0a866b05465c7eb6fb7ac INFO: start
+2018-06-24_05:00:29.47786 2018-06-24T05:00:29.477Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-3d9d601a183c6e83528b8221 INFO: start
+2018-06-24_05:00:29.60007 2018-06-24T05:00:29.599Z 608 TID-ox4cf9lzw RepositoryArchiveCacheWorker JID-19a0a866b05465c7eb6fb7ac INFO: done: 0.135 sec
+2018-06-24_05:00:29.60173 2018-06-24T05:00:29.601Z 608 TID-ox4cf9nnw StuckCiJobsWorker JID-a7d9b12371392cc4d1e97fe6 INFO: start
+2018-06-24_05:00:29.73354 2018-06-24T05:00:29.733Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-3d9d601a183c6e83528b8221 INFO: done: 0.255 sec
+2018-06-24_05:00:29.73714 2018-06-24T05:00:29.736Z 608 TID-ox4cf9nnw StuckCiJobsWorker JID-a7d9b12371392cc4d1e97fe6 INFO: done: 0.136 sec
+2018-06-24_05:15:03.26758 2018-06-24T05:15:03.262Z 608 TID-ox4cf9m60 StuckImportJobsWorker JID-965dbc645032c30482210cf4 INFO: start
+2018-06-24_05:15:03.45743 2018-06-24T05:15:03.457Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-0372a2ab3f573fd21ef7336b INFO: start
+2018-06-24_05:15:03.60432 2018-06-24T05:15:03.604Z 608 TID-ox4cf9m60 StuckImportJobsWorker JID-965dbc645032c30482210cf4 INFO: done: 0.343 sec
+2018-06-24_05:15:03.60702 2018-06-24T05:15:03.606Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-0372a2ab3f573fd21ef7336b INFO: done: 0.15 sec
+2018-06-24_05:19:33.42629 2018-06-24T05:19:33.426Z 608 TID-ox4cf9lbg PipelineScheduleWorker JID-d0d156cc40b4ea0ac1f6d94d INFO: start
+2018-06-24_05:19:33.52036 2018-06-24T05:19:33.520Z 608 TID-ox4cf9lbg PipelineScheduleWorker JID-d0d156cc40b4ea0ac1f6d94d INFO: done: 0.094 sec
+2018-06-24_05:20:23.35679 2018-06-24T05:20:23.356Z 608 TID-ox4cf9l5c RepositoryCheck::BatchWorker JID-1a569aca6a6789e620c8e88b INFO: start
+2018-06-24_05:20:23.52237 2018-06-24T05:20:23.522Z 608 TID-ox4cf9l5c RepositoryCheck::BatchWorker JID-1a569aca6a6789e620c8e88b INFO: done: 0.166 sec
+2018-06-24_05:30:05.71634 2018-06-24T05:30:05.710Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-ac9aa4c15d614fa08f5a0b32 INFO: start
+2018-06-24_05:30:06.10780 2018-06-24T05:30:06.107Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-ac9aa4c15d614fa08f5a0b32 INFO: done: 0.398 sec
+2018-06-24_05:45:05.10844 2018-06-24T05:45:05.104Z 608 TID-ox4cf9lno PagesDomainVerificationCronWorker JID-552ffca18a7c9ab721751546 INFO: start
+2018-06-24_05:45:05.42524 2018-06-24T05:45:05.425Z 608 TID-ox4cf9lno PagesDomainVerificationCronWorker JID-552ffca18a7c9ab721751546 INFO: done: 0.322 sec
+2018-06-24_05:50:08.22693 2018-06-24T05:50:08.226Z 608 TID-ox4cf9n0k ExpireBuildArtifactsWorker JID-070c28a66ebf047d8518bd89 INFO: start
+2018-06-24_05:50:08.36361 2018-06-24T05:50:08.363Z 608 TID-ox4cf9n0k ExpireBuildArtifactsWorker JID-070c28a66ebf047d8518bd89 INFO: done: 0.136 sec
+2018-06-24_06:00:38.66483 2018-06-24T06:00:38.661Z 608 TID-ox4cf9l5c ImportExportProjectCleanupWorker JID-ed142f8a580d442729f8e769 INFO: start
+2018-06-24_06:00:38.74776 2018-06-24T06:00:38.747Z 608 TID-ox4cf9lzw StuckMergeJobsWorker JID-7614cbdea22753227650a4a4 INFO: start
+2018-06-24_06:00:38.93433 2018-06-24T06:00:38.934Z 608 TID-ox4cf9l5c ImportExportProjectCleanupWorker JID-ed142f8a580d442729f8e769 INFO: done: 0.274 sec
+2018-06-24_06:00:38.93653 2018-06-24T06:00:38.936Z 608 TID-ox4cf9kas RepositoryArchiveCacheWorker JID-dad1fbd56f79f5e84917bf50 INFO: start
+2018-06-24_06:00:38.95176 2018-06-24T06:00:38.951Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-b7bbdb0522a3478990c3322f INFO: start
+2018-06-24_06:00:38.99733 2018-06-24T06:00:38.997Z 608 TID-ox4cf9kas RepositoryArchiveCacheWorker JID-dad1fbd56f79f5e84917bf50 INFO: done: 0.061 sec
+2018-06-24_06:00:39.01049 2018-06-24T06:00:38.999Z 608 TID-ox4cf9mc4 StuckCiJobsWorker JID-db47dd5478926f8a45f35b1c INFO: start
+2018-06-24_06:00:39.09282 2018-06-24T06:00:39.092Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-b7bbdb0522a3478990c3322f INFO: done: 0.14 sec
+2018-06-24_06:00:39.09496 2018-06-24T06:00:39.094Z 608 TID-ox4cf9lzw StuckMergeJobsWorker JID-7614cbdea22753227650a4a4 INFO: done: 0.347 sec
+2018-06-24_06:00:39.12921 2018-06-24T06:00:39.129Z 608 TID-ox4cf9mc4 StuckCiJobsWorker JID-db47dd5478926f8a45f35b1c INFO: done: 0.13 sec
+2018-06-24_06:15:24.20158 2018-06-24T06:15:24.198Z 608 TID-ox4cf9nnw StuckImportJobsWorker JID-ed7fe2b78789f3c91b14256c INFO: start
+2018-06-24_06:15:24.34292 2018-06-24T06:15:24.342Z 608 TID-ox4cf9kn0 PagesDomainVerificationCronWorker JID-aadf4da917dfa1d6e0be3c4c INFO: start
+2018-06-24_06:15:24.51215 2018-06-24T06:15:24.511Z 608 TID-ox4cf9kn0 PagesDomainVerificationCronWorker JID-aadf4da917dfa1d6e0be3c4c INFO: done: 0.169 sec
+2018-06-24_06:15:24.51337 2018-06-24T06:15:24.513Z 608 TID-ox4cf9nnw StuckImportJobsWorker JID-ed7fe2b78789f3c91b14256c INFO: done: 0.316 sec
+2018-06-24_06:19:31.56160 2018-06-24T06:19:31.561Z 608 TID-ox4cf9lno PipelineScheduleWorker JID-14537f2b8ab88c37ed2253ca INFO: start
+2018-06-24_06:19:31.68328 2018-06-24T06:19:31.683Z 608 TID-ox4cf9lno PipelineScheduleWorker JID-14537f2b8ab88c37ed2253ca INFO: done: 0.122 sec
+2018-06-24_06:20:18.69704 2018-06-24T06:20:18.696Z 608 TID-ox4cf9l5c RepositoryCheck::BatchWorker JID-de50db7003e1033e353563a1 INFO: start
+2018-06-24_06:20:18.85516 2018-06-24T06:20:18.854Z 608 TID-ox4cf9l5c RepositoryCheck::BatchWorker JID-de50db7003e1033e353563a1 INFO: done: 0.158 sec
+2018-06-24_06:30:08.35629 2018-06-24T06:30:08.352Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-0b4947d377212da68cba31a0 INFO: start
+2018-06-24_06:30:08.56736 2018-06-24T06:30:08.567Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-0b4947d377212da68cba31a0 INFO: done: 0.215 sec
+2018-06-24_06:45:34.96222 2018-06-24T06:45:34.957Z 608 TID-ox4cf9lzw PagesDomainVerificationCronWorker JID-7fff7578dad68bc3b8af9b63 INFO: start
+2018-06-24_06:45:35.18739 2018-06-24T06:45:35.187Z 608 TID-ox4cf9lzw PagesDomainVerificationCronWorker JID-7fff7578dad68bc3b8af9b63 INFO: done: 0.231 sec
+2018-06-24_06:50:28.10151 2018-06-24T06:50:28.101Z 608 TID-ox4cf9m60 ExpireBuildArtifactsWorker JID-f75ac1051696215c2e34d889 INFO: start
+2018-06-24_06:50:28.22445 2018-06-24T06:50:28.224Z 608 TID-ox4cf9m60 ExpireBuildArtifactsWorker JID-f75ac1051696215c2e34d889 INFO: done: 0.123 sec
+2018-06-24_07:00:28.89092 2018-06-24T07:00:28.887Z 608 TID-ox4cf9m60 ImportExportProjectCleanupWorker JID-e5517b5250690dd42b574540 INFO: start
+2018-06-24_07:00:29.01362 2018-06-24T07:00:29.013Z 608 TID-ox4cf9m60 ImportExportProjectCleanupWorker JID-e5517b5250690dd42b574540 INFO: done: 0.127 sec
+2018-06-24_07:00:29.01694 2018-06-24T07:00:29.016Z 608 TID-ox4cf9n6o RepositoryArchiveCacheWorker JID-cb7a074f0474106ba82b5007 INFO: start
+2018-06-24_07:00:29.04418 2018-06-24T07:00:29.044Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-77cccb89814b561fff7a4902 INFO: start
+2018-06-24_07:00:29.10539 2018-06-24T07:00:29.105Z 608 TID-ox4cf9niw StuckCiJobsWorker JID-93bb9d0833bbd2d0083f75f0 INFO: start
+2018-06-24_07:00:29.18122 2018-06-24T07:00:29.180Z 608 TID-ox4cf9n6o RepositoryArchiveCacheWorker JID-cb7a074f0474106ba82b5007 INFO: done: 0.164 sec
+2018-06-24_07:00:29.29706 2018-06-24T07:00:29.296Z 608 TID-ox4cf9niw StuckCiJobsWorker JID-93bb9d0833bbd2d0083f75f0 INFO: done: 0.192 sec
+2018-06-24_07:00:29.29889 2018-06-24T07:00:29.298Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-77cccb89814b561fff7a4902 INFO: done: 0.255 sec
+2018-06-24_07:15:08.92583 2018-06-24T07:15:08.921Z 608 TID-ox4cf9mug StuckImportJobsWorker JID-ad98810b8b3b1f4e73b8e4f5 INFO: start
+2018-06-24_07:15:09.13892 2018-06-24T07:15:09.138Z 608 TID-ox4cf9ncs PagesDomainVerificationCronWorker JID-09465f435ea1d1d47d33afe3 INFO: start
+2018-06-24_07:15:09.30419 2018-06-24T07:15:09.304Z 608 TID-ox4cf9ncs PagesDomainVerificationCronWorker JID-09465f435ea1d1d47d33afe3 INFO: done: 0.165 sec
+2018-06-24_07:15:09.30604 2018-06-24T07:15:09.305Z 608 TID-ox4cf9mug StuckImportJobsWorker JID-ad98810b8b3b1f4e73b8e4f5 INFO: done: 0.387 sec
+2018-06-24_07:19:13.91969 2018-06-24T07:19:13.919Z 608 TID-ox4cf9lbg PipelineScheduleWorker JID-4430e9b133a43143244e7269 INFO: start
+2018-06-24_07:19:14.01518 2018-06-24T07:19:14.015Z 608 TID-ox4cf9lbg PipelineScheduleWorker JID-4430e9b133a43143244e7269 INFO: done: 0.095 sec
+2018-06-24_07:20:34.81879 2018-06-24T07:20:34.818Z 608 TID-ox4cf9lhk RepositoryCheck::BatchWorker JID-0b59389a8ba55c19babb8e57 INFO: start
+2018-06-24_07:20:35.01181 2018-06-24T07:20:35.011Z 608 TID-ox4cf9lhk RepositoryCheck::BatchWorker JID-0b59389a8ba55c19babb8e57 INFO: done: 0.193 sec
+2018-06-24_07:30:27.36054 2018-06-24T07:30:27.357Z 608 TID-ox4cf9moc PagesDomainVerificationCronWorker JID-a99ee4dd4330249f984809cd INFO: start
+2018-06-24_07:30:27.60282 2018-06-24T07:30:27.602Z 608 TID-ox4cf9moc PagesDomainVerificationCronWorker JID-a99ee4dd4330249f984809cd INFO: done: 0.246 sec
+2018-06-24_07:45:07.64103 2018-06-24T07:45:07.637Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-38af4ca8d99c2af2f899fbd8 INFO: start
+2018-06-24_07:45:07.88100 2018-06-24T07:45:07.880Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-38af4ca8d99c2af2f899fbd8 INFO: done: 0.244 sec
+2018-06-24_07:50:09.74599 2018-06-24T07:50:09.745Z 608 TID-ox4cf9lhk ExpireBuildArtifactsWorker JID-8a5eff4685d131789c964d06 INFO: start
+2018-06-24_07:50:09.88804 2018-06-24T07:50:09.887Z 608 TID-ox4cf9lhk ExpireBuildArtifactsWorker JID-8a5eff4685d131789c964d06 INFO: done: 0.142 sec
+2018-06-24_08:00:41.58105 2018-06-24T08:00:41.576Z 608 TID-ox4cf9moc ImportExportProjectCleanupWorker JID-a45754b03fe1a514f82e8d5f INFO: start
+2018-06-24_08:00:41.62895 2018-06-24T08:00:41.628Z 608 TID-ox4cf9lzw StuckMergeJobsWorker JID-f4b4dc95865bf87b08bc2d69 INFO: start
+2018-06-24_08:00:41.82002 2018-06-24T08:00:41.819Z 608 TID-ox4cf9moc ImportExportProjectCleanupWorker JID-a45754b03fe1a514f82e8d5f INFO: done: 0.244 sec
+2018-06-24_08:00:41.82686 2018-06-24T08:00:41.826Z 608 TID-ox4cf9kas RepositoryArchiveCacheWorker JID-a5668c251f949eef0be23c20 INFO: start
+2018-06-24_08:00:41.83958 2018-06-24T08:00:41.839Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-cac11c53073745f1679632ff INFO: start
+2018-06-24_08:00:41.86605 2018-06-24T08:00:41.865Z 608 TID-ox4cf9lbg StuckCiJobsWorker JID-bdc18af9f779f4a207f49146 INFO: start
+2018-06-24_08:00:41.88995 2018-06-24T08:00:41.889Z 608 TID-ox4cf9kas RepositoryArchiveCacheWorker JID-a5668c251f949eef0be23c20 INFO: done: 0.063 sec
+2018-06-24_08:00:41.96509 2018-06-24T08:00:41.964Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-cac11c53073745f1679632ff INFO: done: 0.125 sec
+2018-06-24_08:00:42.01719 2018-06-24T08:00:42.017Z 608 TID-ox4cf9lbg StuckCiJobsWorker JID-bdc18af9f779f4a207f49146 INFO: done: 0.151 sec
+2018-06-24_08:00:42.11557 2018-06-24T08:00:42.115Z 608 TID-ox4cf9lzw StuckMergeJobsWorker JID-f4b4dc95865bf87b08bc2d69 INFO: done: 0.487 sec
+2018-06-24_08:15:06.77397 2018-06-24T08:15:06.770Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-768e4c0c687f7b285495e03e INFO: start
+2018-06-24_08:15:06.92769 2018-06-24T08:15:06.927Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-38cb57c525840506e33cf751 INFO: start
+2018-06-24_08:15:07.08791 2018-06-24T08:15:07.087Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-768e4c0c687f7b285495e03e INFO: done: 0.318 sec
+2018-06-24_08:15:07.09226 2018-06-24T08:15:07.092Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-38cb57c525840506e33cf751 INFO: done: 0.165 sec
+2018-06-24_08:19:16.87081 2018-06-24T08:19:16.870Z 608 TID-ox4cf9mc4 PipelineScheduleWorker JID-ba60348913fc5625a798ee38 INFO: start
+2018-06-24_08:19:16.97445 2018-06-24T08:19:16.974Z 608 TID-ox4cf9mc4 PipelineScheduleWorker JID-ba60348913fc5625a798ee38 INFO: done: 0.104 sec
+2018-06-24_08:20:06.64687 2018-06-24T08:20:06.644Z 608 TID-ox4cf9lhk RepositoryCheck::BatchWorker JID-49fabb6120889d5ba4bb64f0 INFO: start
+2018-06-24_08:20:07.05751 2018-06-24T08:20:07.057Z 608 TID-ox4cf9lhk RepositoryCheck::BatchWorker JID-49fabb6120889d5ba4bb64f0 INFO: done: 0.415 sec
+2018-06-24_08:30:05.66734 2018-06-24T08:30:05.667Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-cd20c7762ad488891c3c8818 INFO: start
+2018-06-24_08:30:05.74876 2018-06-24T08:30:05.748Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-cd20c7762ad488891c3c8818 INFO: done: 0.081 sec
+2018-06-24_08:45:28.12519 2018-06-24T08:45:28.121Z 608 TID-ox4cf9jvs PagesDomainVerificationCronWorker JID-5bf30a6750f918a290abcba5 INFO: start
+2018-06-24_08:45:28.34665 2018-06-24T08:45:28.346Z 608 TID-ox4cf9jvs PagesDomainVerificationCronWorker JID-5bf30a6750f918a290abcba5 INFO: done: 0.226 sec
+2018-06-24_08:50:09.62960 2018-06-24T08:50:09.628Z 608 TID-ox4cf9m60 ExpireBuildArtifactsWorker JID-4a655d6427ff0fdc4010341d INFO: start
+2018-06-24_08:50:09.82848 2018-06-24T08:50:09.828Z 608 TID-ox4cf9m60 ExpireBuildArtifactsWorker JID-4a655d6427ff0fdc4010341d INFO: done: 0.199 sec
+2018-06-24_09:00:21.31221 2018-06-24T09:00:21.308Z 608 TID-ox4cgio5o ImportExportProjectCleanupWorker JID-a2dbccadaf38856ec0e3dd84 INFO: start
+2018-06-24_09:00:21.42775 2018-06-24T09:00:21.427Z 608 TID-ox4cgio5o ImportExportProjectCleanupWorker JID-a2dbccadaf38856ec0e3dd84 INFO: done: 0.121 sec
+2018-06-24_09:00:21.43073 2018-06-24T09:00:21.430Z 608 TID-ox4cf9l5c RepositoryArchiveCacheWorker JID-975fd395a99386d8f50e6c58 INFO: start
+2018-06-24_09:00:21.44196 2018-06-24T09:00:21.441Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-e352e41a88a8a2911e2a229a INFO: start
+2018-06-24_09:00:21.50898 2018-06-24T09:00:21.508Z 608 TID-ox4cf9n0k StuckCiJobsWorker JID-f2c50774023284fd2597bbbb INFO: start
+2018-06-24_09:00:21.57722 2018-06-24T09:00:21.577Z 608 TID-ox4cf9l5c RepositoryArchiveCacheWorker JID-975fd395a99386d8f50e6c58 INFO: done: 0.146 sec
+2018-06-24_09:00:21.69552 2018-06-24T09:00:21.695Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-e352e41a88a8a2911e2a229a INFO: done: 0.254 sec
+2018-06-24_09:00:21.69856 2018-06-24T09:00:21.698Z 608 TID-ox4cf9n0k StuckCiJobsWorker JID-f2c50774023284fd2597bbbb INFO: done: 0.189 sec
+2018-06-24_09:15:10.38366 2018-06-24T09:15:10.378Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-6f911ca608814098e4f7c7d1 INFO: start
+2018-06-24_09:15:14.01006 2018-06-24T09:15:14.009Z 608 TID-ox4cf9lzw PagesDomainVerificationCronWorker JID-6a4dac7888bf94cffc0e57e7 INFO: start
+2018-06-24_09:15:14.07232 2018-06-24T09:15:14.072Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-6f911ca608814098e4f7c7d1 INFO: done: 3.697 sec
+2018-06-24_09:15:14.10956 2018-06-24T09:15:14.109Z 608 TID-ox4cf9lzw PagesDomainVerificationCronWorker JID-6a4dac7888bf94cffc0e57e7 INFO: done: 0.099 sec
+2018-06-24_09:19:23.50375 2018-06-24T09:19:23.503Z 608 TID-ox4cf9nnw PipelineScheduleWorker JID-dabe9e160d2fa9347abda5a6 INFO: start
+2018-06-24_09:19:23.59261 2018-06-24T09:19:23.592Z 608 TID-ox4cf9nnw PipelineScheduleWorker JID-dabe9e160d2fa9347abda5a6 INFO: done: 0.089 sec
+2018-06-24_09:20:24.27669 2018-06-24T09:20:24.276Z 608 TID-ox4cf9ncs RepositoryCheck::BatchWorker JID-8afb7cda6b0685b3362a7140 INFO: start
+2018-06-24_09:20:24.46610 2018-06-24T09:20:24.466Z 608 TID-ox4cf9ncs RepositoryCheck::BatchWorker JID-8afb7cda6b0685b3362a7140 INFO: done: 0.189 sec
+2018-06-24_09:30:25.77502 2018-06-24T09:30:25.770Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-20a1153e1239adb4c2a38d18 INFO: start
+2018-06-24_09:30:26.05163 2018-06-24T09:30:26.051Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-20a1153e1239adb4c2a38d18 INFO: done: 0.282 sec
+2018-06-24_09:45:04.45579 2018-06-24T09:45:04.451Z 608 TID-ox4cf9k1w PagesDomainVerificationCronWorker JID-92bb068cb030f86f75e37e7c INFO: start
+2018-06-24_09:45:05.05140 2018-06-24T09:45:05.051Z 608 TID-ox4cf9k1w PagesDomainVerificationCronWorker JID-92bb068cb030f86f75e37e7c INFO: done: 0.601 sec
+2018-06-24_09:50:22.25055 2018-06-24T09:50:22.250Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-74d540d9c997b3cd8f1da53a INFO: start
+2018-06-24_09:50:22.41830 2018-06-24T09:50:22.417Z 608 TID-ox4cf9l5c ExpireBuildArtifactsWorker JID-74d540d9c997b3cd8f1da53a INFO: done: 0.167 sec
+2018-06-24_10:00:22.48737 2018-06-24T10:00:22.484Z 608 TID-ox4cf9mc4 PruneOldEventsWorker JID-24fd774642021b5f4d80abb0 INFO: start
+2018-06-24_10:00:22.56524 2018-06-24T10:00:22.565Z 608 TID-ox4cf9niw ImportExportProjectCleanupWorker JID-03b20220124ce7df308e1b1e INFO: start
+2018-06-24_10:00:22.68178 2018-06-24T10:00:22.681Z 608 TID-ox4cf9niw ImportExportProjectCleanupWorker JID-03b20220124ce7df308e1b1e INFO: done: 0.116 sec
+2018-06-24_10:00:22.68420 2018-06-24T10:00:22.684Z 608 TID-ox4cf9l5c StuckMergeJobsWorker JID-da57cb6139ce1000b98ccee2 INFO: start
+2018-06-24_10:00:22.76930 2018-06-24T10:00:22.769Z 608 TID-ox4cf9mug RepositoryArchiveCacheWorker JID-fad781a5106212e8ec770728 INFO: start
+2018-06-24_10:00:22.79935 2018-06-24T10:00:22.799Z 608 TID-ox4cf9mc4 PruneOldEventsWorker JID-24fd774642021b5f4d80abb0 INFO: done: 0.316 sec
+2018-06-24_10:00:22.80285 2018-06-24T10:00:22.802Z 608 TID-ox4cf9ncs PagesDomainVerificationCronWorker JID-28bc689ab8f179a242e8acc7 INFO: start
+2018-06-24_10:00:22.82503 2018-06-24T10:00:22.824Z 608 TID-ox4cf9mug RepositoryArchiveCacheWorker JID-fad781a5106212e8ec770728 INFO: done: 0.056 sec
+2018-06-24_10:00:22.82717 2018-06-24T10:00:22.827Z 608 TID-ox4cf9kn0 StuckCiJobsWorker JID-aed539adf2fc7cce907156be INFO: start
+2018-06-24_10:00:22.87295 2018-06-24T10:00:22.872Z 608 TID-ox4cf9ncs PagesDomainVerificationCronWorker JID-28bc689ab8f179a242e8acc7 INFO: done: 0.069 sec
+2018-06-24_10:00:22.88480 2018-06-24T10:00:22.884Z 608 TID-ox4cf9kn0 StuckCiJobsWorker JID-aed539adf2fc7cce907156be INFO: done: 0.058 sec
+2018-06-24_10:00:22.92903 2018-06-24T10:00:22.928Z 608 TID-ox4cf9l5c StuckMergeJobsWorker JID-da57cb6139ce1000b98ccee2 INFO: done: 0.245 sec
+2018-06-24_10:15:32.54619 2018-06-24T10:15:32.543Z 608 TID-ox4cf9kn0 StuckImportJobsWorker JID-97eef2610ebd86eb1872870d INFO: start
+2018-06-24_10:15:32.75760 2018-06-24T10:15:32.757Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-4c08ff6c9d15aaab84b09f1e INFO: start
+2018-06-24_10:15:32.89681 2018-06-24T10:15:32.896Z 608 TID-ox4cf9kt4 PagesDomainVerificationCronWorker JID-4c08ff6c9d15aaab84b09f1e INFO: done: 0.139 sec
+2018-06-24_10:15:32.93126 2018-06-24T10:15:32.931Z 608 TID-ox4cf9kn0 StuckImportJobsWorker JID-97eef2610ebd86eb1872870d INFO: done: 0.389 sec
+2018-06-24_10:19:01.80125 2018-06-24T10:19:01.801Z 608 TID-ox4cf9n0k PipelineScheduleWorker JID-19bd831a29afae3a4725324b INFO: start
+2018-06-24_10:19:01.98715 2018-06-24T10:19:01.987Z 608 TID-ox4cf9n0k PipelineScheduleWorker JID-19bd831a29afae3a4725324b INFO: done: 0.186 sec
+2018-06-24_10:20:03.00094 2018-06-24T10:20:03.000Z 608 TID-ox4cf9moc RepositoryCheck::BatchWorker JID-f0ca392459fd57698a3b2b6e INFO: start
+2018-06-24_10:20:03.20153 2018-06-24T10:20:03.201Z 608 TID-ox4cf9moc RepositoryCheck::BatchWorker JID-f0ca392459fd57698a3b2b6e INFO: done: 0.201 sec
+2018-06-24_10:30:39.14667 2018-06-24T10:30:39.143Z 608 TID-ox4cf9moc PagesDomainVerificationCronWorker JID-2ec476a4e9a1cd3c8bc70918 INFO: start
+2018-06-24_10:30:39.48127 2018-06-24T10:30:39.481Z 608 TID-ox4cf9moc PagesDomainVerificationCronWorker JID-2ec476a4e9a1cd3c8bc70918 INFO: done: 0.339 sec
+2018-06-24_10:45:27.53304 2018-06-24T10:45:27.527Z 608 TID-ox4cf9lhk PagesDomainVerificationCronWorker JID-c4871e3f4d763576500121f3 INFO: start
+2018-06-24_10:45:27.77568 2018-06-24T10:45:27.775Z 608 TID-ox4cf9lhk PagesDomainVerificationCronWorker JID-c4871e3f4d763576500121f3 INFO: done: 0.249 sec
+2018-06-24_10:50:34.57918 2018-06-24T10:50:34.579Z 608 TID-ox4cf9niw ExpireBuildArtifactsWorker JID-72b396d90505bd303f693a9b INFO: start
+2018-06-24_10:50:34.72647 2018-06-24T10:50:34.726Z 608 TID-ox4cf9niw ExpireBuildArtifactsWorker JID-72b396d90505bd303f693a9b INFO: done: 0.147 sec
+2018-06-24_11:00:17.23511 2018-06-24T11:00:17.231Z 608 TID-ox4cf9mc4 ImportExportProjectCleanupWorker JID-1dde4aee97a2604dbeb3bcc1 INFO: start
+2018-06-24_11:00:17.35145 2018-06-24T11:00:17.351Z 608 TID-ox4cf9mc4 ImportExportProjectCleanupWorker JID-1dde4aee97a2604dbeb3bcc1 INFO: done: 0.12 sec
+2018-06-24_11:00:17.35371 2018-06-24T11:00:17.353Z 608 TID-ox4cf9k1w RepositoryArchiveCacheWorker JID-14ecd4ab2e259efc5f07a623 INFO: start
+2018-06-24_11:00:17.36539 2018-06-24T11:00:17.365Z 608 TID-ox4cf9lzw PagesDomainVerificationCronWorker JID-c6f08d73f1598da73661bb3b INFO: start
+2018-06-24_11:00:17.48232 2018-06-24T11:00:17.482Z 608 TID-ox4cf9k1w RepositoryArchiveCacheWorker JID-14ecd4ab2e259efc5f07a623 INFO: done: 0.129 sec
+2018-06-24_11:00:17.48444 2018-06-24T11:00:17.484Z 608 TID-ox4cf9ncs StuckCiJobsWorker JID-e1f6819695b907d47852b9df INFO: start
+2018-06-24_11:00:17.62018 2018-06-24T11:00:17.618Z 608 TID-ox4cf9lzw PagesDomainVerificationCronWorker JID-c6f08d73f1598da73661bb3b INFO: done: 0.253 sec
+2018-06-24_11:00:17.62341 2018-06-24T11:00:17.623Z 608 TID-ox4cf9ncs StuckCiJobsWorker JID-e1f6819695b907d47852b9df INFO: done: 0.139 sec
+2018-06-24_11:15:09.98713 2018-06-24T11:15:09.983Z 608 TID-ox4cgio5o StuckImportJobsWorker JID-bedecb8b1af5ca6dd0831fbf INFO: start
+2018-06-24_11:15:10.12634 2018-06-24T11:15:10.126Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-b8fe23fb3b5e392b4490fb4b INFO: start
+2018-06-24_11:15:10.28634 2018-06-24T11:15:10.286Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-b8fe23fb3b5e392b4490fb4b INFO: done: 0.16 sec
+2018-06-24_11:15:10.28741 2018-06-24T11:15:10.287Z 608 TID-ox4cgio5o StuckImportJobsWorker JID-bedecb8b1af5ca6dd0831fbf INFO: done: 0.305 sec
+2018-06-24_11:19:35.02858 2018-06-24T11:19:35.028Z 608 TID-ox4cf9ncs PipelineScheduleWorker JID-9d2a25df1b30622ff56d60b2 INFO: start
+2018-06-24_11:19:35.13054 2018-06-24T11:19:35.130Z 608 TID-ox4cf9ncs PipelineScheduleWorker JID-9d2a25df1b30622ff56d60b2 INFO: done: 0.102 sec
+2018-06-24_11:20:16.91579 2018-06-24T11:20:16.909Z 608 TID-ox4cf9niw RepositoryCheck::BatchWorker JID-1fdf8a7d483632549004312d INFO: start
+2018-06-24_11:20:17.49949 2018-06-24T11:20:17.499Z 608 TID-ox4cf9niw RepositoryCheck::BatchWorker JID-1fdf8a7d483632549004312d INFO: done: 0.596 sec
+2018-06-24_11:30:11.51496 2018-06-24T11:30:11.511Z 608 TID-ox4cf9niw PagesDomainVerificationCronWorker JID-af99b6d60e2d6418d2722ce6 INFO: start
+2018-06-24_11:30:11.77150 2018-06-24T11:30:11.771Z 608 TID-ox4cf9niw PagesDomainVerificationCronWorker JID-af99b6d60e2d6418d2722ce6 INFO: done: 0.261 sec
+2018-06-24_11:45:06.57564 2018-06-24T11:45:06.570Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-0785ac84bbd10d8e7a56d301 INFO: start
+2018-06-24_11:45:06.90193 2018-06-24T11:45:06.901Z 608 TID-ox4cf9l5c PagesDomainVerificationCronWorker JID-0785ac84bbd10d8e7a56d301 INFO: done: 0.332 sec
+2018-06-24_11:50:10.01739 2018-06-24T11:50:10.017Z 608 TID-ox4cf9moc ExpireBuildArtifactsWorker JID-74d74373227a0c09340735e0 INFO: start
+2018-06-24_11:50:10.16085 2018-06-24T11:50:10.160Z 608 TID-ox4cf9moc ExpireBuildArtifactsWorker JID-74d74373227a0c09340735e0 INFO: done: 0.143 sec
+2018-06-24_12:00:27.47699 2018-06-24T12:00:27.472Z 608 TID-ox4cf9lts ImportExportProjectCleanupWorker JID-16112c2b938dcb21e4332f83 INFO: start
+2018-06-24_12:00:27.56802 2018-06-24T12:00:27.567Z 608 TID-ox4cf9lts ImportExportProjectCleanupWorker JID-16112c2b938dcb21e4332f83 INFO: done: 0.096 sec
+2018-06-24_12:00:27.56974 2018-06-24T12:00:27.569Z 608 TID-ox4cf9m60 StuckMergeJobsWorker JID-1203a2fda3e9990c639202e5 INFO: start
+2018-06-24_12:00:27.78437 2018-06-24T12:00:27.784Z 608 TID-ox4cf9moc RepositoryArchiveCacheWorker JID-20bab207810d29e13979f46c INFO: start
+2018-06-24_12:00:27.79995 2018-06-24T12:00:27.799Z 608 TID-ox4cf9lno PagesDomainVerificationCronWorker JID-4a7b58d987fb09a043e48dd3 INFO: start
+2018-06-24_12:00:27.83765 2018-06-24T12:00:27.837Z 608 TID-ox4cf9moc RepositoryArchiveCacheWorker JID-20bab207810d29e13979f46c INFO: done: 0.053 sec
+2018-06-24_12:00:27.84088 2018-06-24T12:00:27.838Z 608 TID-ox4cf9mc4 StuckCiJobsWorker JID-0bf6fb9bcb60fa9b2828ec98 INFO: start
+2018-06-24_12:00:27.94451 2018-06-24T12:00:27.944Z 608 TID-ox4cf9m60 StuckMergeJobsWorker JID-1203a2fda3e9990c639202e5 INFO: done: 0.374 sec
+2018-06-24_12:00:27.94547 2018-06-24T12:00:27.945Z 608 TID-ox4cf9lno PagesDomainVerificationCronWorker JID-4a7b58d987fb09a043e48dd3 INFO: done: 0.146 sec
+2018-06-24_12:00:27.99814 2018-06-24T12:00:27.997Z 608 TID-ox4cf9mc4 StuckCiJobsWorker JID-0bf6fb9bcb60fa9b2828ec98 INFO: done: 0.159 sec
+2018-06-24_12:15:31.86264 2018-06-24T12:15:31.858Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-4abac349b6deb518b9a9ac56 INFO: start
+2018-06-24_12:15:32.03422 2018-06-24T12:15:32.034Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-c3369067b69c869c13eec217 INFO: start
+2018-06-24_12:15:32.15813 2018-06-24T12:15:32.157Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-c3369067b69c869c13eec217 INFO: done: 0.124 sec
+2018-06-24_12:15:32.15988 2018-06-24T12:15:32.159Z 608 TID-ox4cf9lbg StuckImportJobsWorker JID-4abac349b6deb518b9a9ac56 INFO: done: 0.302 sec
+2018-06-24_12:19:16.61676 2018-06-24T12:19:16.616Z 608 TID-ox4cf9lzw PipelineScheduleWorker JID-824e505f4a1c5b90e4300c73 INFO: start
+2018-06-24_12:19:16.72506 2018-06-24T12:19:16.724Z 608 TID-ox4cf9lzw PipelineScheduleWorker JID-824e505f4a1c5b90e4300c73 INFO: done: 0.108 sec
+2018-06-24_12:20:17.11931 2018-06-24T12:20:17.119Z 608 TID-ox4cf9niw RepositoryCheck::BatchWorker JID-44360311fb6932891a4b193b INFO: start
+2018-06-24_12:20:17.32466 2018-06-24T12:20:17.324Z 608 TID-ox4cf9niw RepositoryCheck::BatchWorker JID-44360311fb6932891a4b193b INFO: done: 0.205 sec
+2018-06-24_12:30:26.10280 2018-06-24T12:30:26.098Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-9475581986d13f38be089287 INFO: start
+2018-06-24_12:30:26.41598 2018-06-24T12:30:26.415Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-9475581986d13f38be089287 INFO: done: 0.318 sec
+2018-06-24_12:45:26.29425 2018-06-24T12:45:26.290Z 608 TID-ox4cf9lts PagesDomainVerificationCronWorker JID-281106b5802768e56ea260a5 INFO: start
+2018-06-24_12:45:26.51654 2018-06-24T12:45:26.516Z 608 TID-ox4cf9lts PagesDomainVerificationCronWorker JID-281106b5802768e56ea260a5 INFO: done: 0.226 sec
+2018-06-24_12:50:18.16879 2018-06-24T12:50:18.168Z 608 TID-ox4cf9kgw ExpireBuildArtifactsWorker JID-1e7634755ad5f09088d6743d INFO: start
+2018-06-24_12:50:18.29204 2018-06-24T12:50:18.291Z 608 TID-ox4cf9kgw ExpireBuildArtifactsWorker JID-1e7634755ad5f09088d6743d INFO: done: 0.123 sec
+2018-06-24_13:00:16.84640 2018-06-24T13:00:16.843Z 608 TID-ox4cf9kas ImportExportProjectCleanupWorker JID-ec990ac1711c296131a8587d INFO: start
+2018-06-24_13:00:16.94961 2018-06-24T13:00:16.949Z 608 TID-ox4cf9kas ImportExportProjectCleanupWorker JID-ec990ac1711c296131a8587d INFO: done: 0.107 sec
+2018-06-24_13:00:16.95118 2018-06-24T13:00:16.951Z 608 TID-ox4cf9lno RepositoryArchiveCacheWorker JID-421202583c2e7fd796356f53 INFO: start
+2018-06-24_13:00:16.96292 2018-06-24T13:00:16.962Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-26e60c6989eeb198910e9f61 INFO: start
+2018-06-24_13:00:17.02433 2018-06-24T13:00:17.024Z 608 TID-ox4cf9k1w StuckCiJobsWorker JID-8dc094cb3d2cfded5e7f1f8a INFO: start
+2018-06-24_13:00:17.08422 2018-06-24T13:00:17.084Z 608 TID-ox4cf9lno RepositoryArchiveCacheWorker JID-421202583c2e7fd796356f53 INFO: done: 0.133 sec
+2018-06-24_13:00:17.17864 2018-06-24T13:00:17.178Z 608 TID-ox4cf9mc4 PagesDomainVerificationCronWorker JID-26e60c6989eeb198910e9f61 INFO: done: 0.216 sec
+2018-06-24_13:00:17.18164 2018-06-24T13:00:17.181Z 608 TID-ox4cf9k1w StuckCiJobsWorker JID-8dc094cb3d2cfded5e7f1f8a INFO: done: 0.157 sec
+2018-06-24_13:15:05.04174 2018-06-24T13:15:05.037Z 608 TID-ox4cf9l5c StuckImportJobsWorker JID-c4105f1a53da04a6ab1713f9 INFO: start
+2018-06-24_13:15:05.19864 2018-06-24T13:15:05.198Z 608 TID-ox4cf9k1w PagesDomainVerificationCronWorker JID-df15b1eeb75eeafbf46b89ae INFO: start
+2018-06-24_13:15:05.34717 2018-06-24T13:15:05.347Z 608 TID-ox4cf9k1w PagesDomainVerificationCronWorker JID-df15b1eeb75eeafbf46b89ae INFO: done: 0.148 sec
+2018-06-24_13:15:05.34895 2018-06-24T13:15:05.348Z 608 TID-ox4cf9l5c StuckImportJobsWorker JID-c4105f1a53da04a6ab1713f9 INFO: done: 0.315 sec
+2018-06-24_13:19:25.35165 2018-06-24T13:19:25.351Z 608 TID-ox4cf9lzw PipelineScheduleWorker JID-594a3e994f32b75dd2d51480 INFO: start
+2018-06-24_13:19:25.44604 2018-06-24T13:19:25.445Z 608 TID-ox4cf9lzw PipelineScheduleWorker JID-594a3e994f32b75dd2d51480 INFO: done: 0.094 sec
+2018-06-24_13:20:42.30633 2018-06-24T13:20:42.306Z 608 TID-ox4cf9kgw RepositoryCheck::BatchWorker JID-b9f25c36402dd6f48258986a INFO: start
+2018-06-24_13:20:42.48560 2018-06-24T13:20:42.485Z 608 TID-ox4cf9kgw RepositoryCheck::BatchWorker JID-b9f25c36402dd6f48258986a INFO: done: 0.179 sec
+2018-06-24_13:30:15.99329 2018-06-24T13:30:15.989Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-2b4f748c45ad44f03f0d272d INFO: start
+2018-06-24_13:30:16.29310 2018-06-24T13:30:16.292Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-2b4f748c45ad44f03f0d272d INFO: done: 0.304 sec
+2018-06-24_13:45:14.32488 2018-06-24T13:45:14.319Z 608 TID-ox4cf9lno PagesDomainVerificationCronWorker JID-12a30378d0843f590660ab94 INFO: start
+2018-06-24_13:45:14.61991 2018-06-24T13:45:14.619Z 608 TID-ox4cf9lno PagesDomainVerificationCronWorker JID-12a30378d0843f590660ab94 INFO: done: 0.3 sec
+2018-06-24_13:50:26.88903 2018-06-24T13:50:26.888Z 608 TID-ox4cf9n0k ExpireBuildArtifactsWorker JID-ca84570426526b766226c365 INFO: start
+2018-06-24_13:50:27.04922 2018-06-24T13:50:27.048Z 608 TID-ox4cf9n0k ExpireBuildArtifactsWorker JID-ca84570426526b766226c365 INFO: done: 0.16 sec
+2018-06-24_14:00:04.82721 2018-06-24T14:00:04.821Z 608 TID-ox4cf9kgw ImportExportProjectCleanupWorker JID-54e2efe0e3fece5222450c43 INFO: start
+2018-06-24_14:00:04.88962 2018-06-24T14:00:04.889Z 608 TID-ox4cf9kt4 StuckMergeJobsWorker JID-6790b1d20daa7e339f02e816 INFO: start
+2018-06-24_14:00:05.05877 2018-06-24T14:00:05.058Z 608 TID-ox4cf9lts RepositoryArchiveCacheWorker JID-8d6e7afb57777d41f5f00855 INFO: start
+2018-06-24_14:00:05.24403 2018-06-24T14:00:05.243Z 608 TID-ox4cf9lts RepositoryArchiveCacheWorker JID-8d6e7afb57777d41f5f00855 INFO: done: 0.185 sec
+2018-06-24_14:00:05.25333 2018-06-24T14:00:05.244Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-7a5e934356838fb790e17514 INFO: start
+2018-06-24_14:00:05.29249 2018-06-24T14:00:05.292Z 608 TID-ox4cf9n0k StuckCiJobsWorker JID-53b333251198cad7cf50e5dc INFO: start
+2018-06-24_14:00:05.34571 2018-06-24T14:00:05.345Z 608 TID-ox4cf9kgw ImportExportProjectCleanupWorker JID-54e2efe0e3fece5222450c43 INFO: done: 0.526 sec
+2018-06-24_14:00:05.46345 2018-06-24T14:00:05.462Z 608 TID-ox4cf9kt4 StuckMergeJobsWorker JID-6790b1d20daa7e339f02e816 INFO: done: 0.573 sec
+2018-06-24_14:00:05.46519 2018-06-24T14:00:05.465Z 608 TID-ox4cf9lbg PagesDomainVerificationCronWorker JID-7a5e934356838fb790e17514 INFO: done: 0.22 sec
+2018-06-24_14:00:05.49630 2018-06-24T14:00:05.496Z 608 TID-ox4cf9n0k StuckCiJobsWorker JID-53b333251198cad7cf50e5dc INFO: done: 0.204 sec
+2018-06-24_14:15:20.81698 2018-06-24T14:15:20.813Z 608 TID-ox4cf9mc4 StuckImportJobsWorker JID-3336fa4bd1e473d2d264390d INFO: start
+2018-06-24_14:15:20.88076 2018-06-24T14:15:20.880Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-e4a86ffa39c3c1c2f40ae253 INFO: start
+2018-06-24_14:15:21.17714 2018-06-24T14:15:21.177Z 608 TID-ox4cf9mc4 StuckImportJobsWorker JID-3336fa4bd1e473d2d264390d INFO: done: 0.364 sec
+2018-06-24_14:15:21.17800 2018-06-24T14:15:21.177Z 608 TID-ox4cf9kas PagesDomainVerificationCronWorker JID-e4a86ffa39c3c1c2f40ae253 INFO: done: 0.297 sec
+2018-06-24_14:19:13.50542 2018-06-24T14:19:13.505Z 608 TID-ox4cf9ncs PipelineScheduleWorker JID-119a1b1fc94f639c0bf38d5b INFO: start
+2018-06-24_14:19:13.60180 2018-06-24T14:19:13.601Z 608 TID-ox4cf9ncs PipelineScheduleWorker JID-119a1b1fc94f639c0bf38d5b INFO: done: 0.096 sec
+2018-06-24_14:20:23.03605 2018-06-24T14:20:23.035Z 608 TID-ox4cf9n0k RepositoryCheck::BatchWorker JID-ccb31de20ce4d1b73cfe58db INFO: start
+2018-06-24_14:20:23.25155 2018-06-24T14:20:23.251Z 608 TID-ox4cf9n0k RepositoryCheck::BatchWorker JID-ccb31de20ce4d1b73cfe58db INFO: done: 0.215 sec
+2018-06-24_14:30:05.76784 2018-06-24T14:30:05.762Z 608 TID-ox4cf9niw PagesDomainVerificationCronWorker JID-76067e141d4e9ba81d105b1e INFO: start
+2018-06-24_14:30:06.09229 2018-06-24T14:30:06.092Z 608 TID-ox4cf9niw PagesDomainVerificationCronWorker JID-76067e141d4e9ba81d105b1e INFO: done: 0.331 sec
+2018-06-24_14:45:30.63808 2018-06-24T14:45:30.625Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-0508f97ce85e9874f8a8004c INFO: start
+2018-06-24_14:45:30.97569 2018-06-24T14:45:30.975Z 608 TID-ox4cf9kgw PagesDomainVerificationCronWorker JID-0508f97ce85e9874f8a8004c INFO: done: 0.35 sec
+2018-06-24_14:50:32.84002 2018-06-24T14:50:32.839Z 608 TID-ox4cf9mc4 ExpireBuildArtifactsWorker JID-c311732d6feefb7ebd45e603 INFO: start
+2018-06-24_14:50:33.02853 2018-06-24T14:50:33.028Z 608 TID-ox4cf9mc4 ExpireBuildArtifactsWorker JID-c311732d6feefb7ebd45e603 INFO: done: 0.19 sec

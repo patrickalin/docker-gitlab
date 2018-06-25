@@ -1,0 +1,8 @@
+2018-03-31_20:22:23.36979 time="2018-03-31T20:22:23Z" level=info msg="Redis Metrics Exporter <<< filled in by build >>>    build date: <<< filled in by build >>>    sha1: <<< filled in by build >>>    Go: go1.9.2" 
+2018-03-31_20:22:23.37000 time="2018-03-31T20:22:23Z" level=info msg="Providing metrics at localhost:9121/metrics" 
+2018-03-31_20:22:23.37002 time="2018-03-31T20:22:23Z" level=info msg="Connecting to redis hosts: []string{\"unix:///var/opt/gitlab/redis/redis.socket\"}" 
+2018-03-31_20:22:23.37002 time="2018-03-31T20:22:23Z" level=info msg="Using alias: []string{\"\"}" 
+2018-03-31_20:42:28.49870 time="2018-03-31T20:42:28Z" level=info msg="redis err: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused" 
+2018-03-31_20:42:43.49682 time="2018-03-31T20:42:43Z" level=info msg="redis err: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused" 
+2018-03-31_20:43:13.49758 time="2018-03-31T20:43:13Z" level=info msg="redis err: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused" 
+2018-03-31_20:43:28.49754 time="2018-03-31T20:43:28Z" level=info msg="redis err: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused" 

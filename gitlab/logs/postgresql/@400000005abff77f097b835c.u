@@ -1,0 +1,17 @@
+2018-03-31_20:57:34.31353 LOG:  database system was shut down at 2018-03-31 20:56:59 GMT
+2018-03-31_20:57:34.32390 LOG:  MultiXact member wraparound protections are now enabled
+2018-03-31_20:57:34.32609 LOG:  database system is ready to accept connections
+2018-03-31_20:57:34.32620 LOG:  autovacuum launcher started
+2018-03-31_21:02:14.71611 received TERM from runit, sending INT instead to force quit connections
+2018-03-31_21:02:14.71726 LOG:  received fast shutdown request
+2018-03-31_21:02:14.71728 LOG:  aborting any active transactions
+2018-03-31_21:02:14.71778 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.71779 LOG:  autovacuum launcher shutting down
+2018-03-31_21:02:14.71779 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.71809 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.71873 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.71874 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.71899 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.71911 FATAL:  terminating connection due to administrator command
+2018-03-31_21:02:14.73338 LOG:  shutting down
+2018-03-31_21:02:14.77877 LOG:  database system is shut down

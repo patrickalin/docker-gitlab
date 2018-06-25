@@ -1,0 +1,214 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KStarting service docker:dind ...
+[0;m[0KPulling docker image docker:dind ...
+[0;m[0KUsing docker image sha256:1f44348b3ad523d5dc4ae7d53bd873879e06e0df2d686e9029a666945443ef42 for docker:dind ...
+[0;m[0KWaiting for services to be up and running...
+[0;m[0KPulling docker image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KUsing docker image sha256:83ccfaae424dffa470653d8ecc72d20852f51360117b2e7cd984ce4710461953 for registry.gitlab.com/build-images/docker:latest ...
+[0;msection_start:1529615859:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via c6655eff57e6...
+section_end:1529615860:prepare_script[0Ksection_start:1529615860:get_sources[0K[32;1mFetching changes...[0;m
+Removing public/
+HEAD is now at cdf82f4 essai
+[32;1mChecking out cdf82f4e as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529615862:get_sources[0Ksection_start:1529615862:restore_cache[0Ksection_end:1529615864:restore_cache[0Ksection_start:1529615864:download_artifacts[0K[32;1mDownloading artifacts for hugo-build (18)...[0;m
+Downloading artifacts from coordinator... ok      [0;m  id[0;m=18 responseStatus[0;m=200 OK token[0;m=dbHRyZdn
+section_end:1529615865:download_artifacts[0Ksection_start:1529615865:build_script[0K[32;1m$ docker info[0;m
+Containers: 0
+ Running: 0
+ Paused: 0
+ Stopped: 0
+Images: 0
+Server Version: 18.05.0-ce
+Storage Driver: overlay
+ Backing Filesystem: extfs
+ Supports d_type: true
+Logging Driver: json-file
+Cgroup Driver: cgroupfs
+Plugins: 
+ Volume: local
+ Network: bridge host macvlan null overlay
+Swarm: inactive
+Runtimes: runc
+Default Runtime: runc
+Init Binary: docker-init
+containerd version: 773c489c9c1b21a6d78b5c538cd395416ec50f88
+runc version: 4fc53a81fb7c994640722ac585fa9ca548971871
+init version: 949e6fa
+Security Options:
+ apparmor
+ seccomp
+  Profile: default
+Kernel Version: 4.15.0-23-generic
+Operating System: Alpine Linux v3.7 (containerized)
+OSType: linux
+Architecture: x86_64
+CPUs: 4
+Total Memory: 7.69GiB
+Name: 4a357c6fbcb0
+ID: GZJC:5UEF:HS25:7VXI:JSH2:LYFO:TXDE:7UJ2:EJ4K:6GIO:Z2E6:KHXE
+Docker Root Dir: /var/lib/docker
+Debug Mode (client): false
+Debug Mode (server): false
+Registry: https://index.docker.io/v1/
+Labels:
+WARNING: No swap limit support
+WARNING: bridge-nf-call-iptables is disabled
+WARNING: bridge-nf-call-ip6tables is disabled
+Experimental: false
+Insecure Registries:
+ 127.0.0.0/8
+Live Restore Enabled: false
+
+[32;1m$ echo $version[0;m
+
+[32;1m$ ls -lart[0;m
+total 36376
+drwxr-xr-x  4 root root     4096 juin  21 20:49 ..
+-rw-rw-rw-  1 root root      178 juin  21 20:49 .gitlab-ci.yml.bck
+-rw-rw-rw-  1 root root     1843 juin  21 20:49 config.toml
+-rwxrwxrwx  1 root root       82 juin  21 20:49 build.sh
+drwxrwxrwx  2 root root     4096 juin  21 20:49 archetypes
+-rwxrwxrwx  1 root root      533 juin  21 20:49 createFolder.sh
+drwxrwxrwx 15 root root     4096 juin  21 20:49 content
+-rwxrwxrwx  1 root root 17377312 juin  21 20:49 hugo
+-rwxrwxrwx  1 root root       35 juin  21 20:49 runMac.sh
+-rwxrwxrwx  1 root root       32 juin  21 20:49 runLinux.sh
+drwxrwxrwx  5 root root     4096 juin  21 20:49 layouts
+-rwxrwxrwx  1 root root 19798000 juin  21 20:49 hugoMac
+drwxrwxrwx  3 root root     4096 juin  21 20:49 themes
+drwxrwxrwx  4 root root     4096 juin  21 20:49 static
+-rw-rw-rw-  1 root root      797 juin  21 21:08 .gitlab-ci.yml
+drwxrwxrwx  3 root root     4096 juin  21 21:17 hugo-image
+drwxrwxrwx 30 root root     4096 juin  21 21:17 public
+drwxrwxrwx  5 root root     4096 juin  21 21:17 .git
+drwxrwxrwx 10 root root     4096 juin  21 21:17 .
+[32;1m$ mv ./public hugo-image/[0;m
+[32;1m$ cd hugo-image[0;m
+[32;1m$ ls -lart[0;m
+total 44
+-rw-rw-rw-  1 root root 2970 juin  21 20:49 localtime
+-rwxrwxrwx  1 root root   44 juin  21 20:49 .htpasswd
+-rwxrwxrwx  1 root root  292 juin  21 20:49 env
+-rw-rw-rw-  1 root root    5 juin  21 20:49 .dockerignore
+-rw-rw-rw-  1 root root  343 juin  21 20:49 DockerfileTemplate
+drwxrwxrwx  2 root root 4096 juin  21 20:49 conf.d
+-rwxrwxrwx  1 root root 2025 juin  21 20:49 buildImage.sh
+-rw-rw-rw-  1 root root  477 juin  21 21:17 Dockerfile
+drwxrwxrwx 30 root root 4096 juin  21 21:17 public
+drwxrwxrwx  9 root root 4096 juin  21 21:17 ..
+drwxrwxrwx  4 root root 4096 juin  21 21:17 .
+[32;1m$ docker build -t registry.services.alin.be/ssb-alin:v1 .[0;m
+Sending build context to Docker daemon  28.38MB
+Step 1/7 : FROM registry.services.alin.be/nginx:1.13.9-alpine
+1.13.9-alpine: Pulling from nginx
+ff3a5c916c92: Pulling fs layer
+b4f3ef22ce5b: Pulling fs layer
+8a6541d11dc3: Pulling fs layer
+7e869e2dcf68: Pulling fs layer
+7e869e2dcf68: Waiting
+8a6541d11dc3: Verifying Checksum
+8a6541d11dc3: Download complete
+b4f3ef22ce5b: Verifying Checksum
+b4f3ef22ce5b: Download complete
+ff3a5c916c92: Verifying Checksum
+ff3a5c916c92: Download complete
+7e869e2dcf68: Verifying Checksum
+7e869e2dcf68: Download complete
+ff3a5c916c92: Pull complete
+b4f3ef22ce5b: Pull complete
+8a6541d11dc3: Pull complete
+7e869e2dcf68: Pull complete
+Digest: sha256:7129a88c455160dc25ce8499e1a4bfc4cb09ca5a67402ec974b9ae96bf2d94d0
+Status: Downloaded newer image for registry.services.alin.be/nginx:1.13.9-alpine
+ ---> 537527661905
+Step 2/7 : COPY .htpasswd /etc/nginx/.htpasswd
+ ---> 6e951ce4097d
+Step 3/7 : COPY conf.d /etc/nginx/conf.d/
+ ---> c543c8827da7
+Step 4/7 : COPY localtime /etc/localtime
+ ---> 4a3226dfa138
+Step 5/7 : ENV NGINX_HOST pa.servicess.alin.be
+ ---> Running in 49b137cedb6c
+Removing intermediate container 49b137cedb6c
+ ---> c645054b0358
+Step 6/7 : ENV NGINX_PORT 80
+ ---> Running in 53d199bcb205
+Removing intermediate container 53d199bcb205
+ ---> d896862ddba5
+Step 7/7 : COPY public/ /usr/share/nginx/html
+ ---> c7ccb1ee9297
+Successfully built c7ccb1ee9297
+Successfully tagged registry.services.alin.be/ssb-alin:v1
+[32;1m$ docker build -t registry.services.alin.be/ssb-alin:latest .[0;m
+Sending build context to Docker daemon  28.38MB
+Step 1/7 : FROM registry.services.alin.be/nginx:1.13.9-alpine
+ ---> 537527661905
+Step 2/7 : COPY .htpasswd /etc/nginx/.htpasswd
+ ---> Using cache
+ ---> 6e951ce4097d
+Step 3/7 : COPY conf.d /etc/nginx/conf.d/
+ ---> Using cache
+ ---> c543c8827da7
+Step 4/7 : COPY localtime /etc/localtime
+ ---> Using cache
+ ---> 4a3226dfa138
+Step 5/7 : ENV NGINX_HOST pa.servicess.alin.be
+ ---> Using cache
+ ---> c645054b0358
+Step 6/7 : ENV NGINX_PORT 80
+ ---> Using cache
+ ---> d896862ddba5
+Step 7/7 : COPY public/ /usr/share/nginx/html
+ ---> Using cache
+ ---> c7ccb1ee9297
+Successfully built c7ccb1ee9297
+Successfully tagged registry.services.alin.be/ssb-alin:latest
+[32;1m$ docker push registry.services.alin.be/ssb-alin:v1[0;m
+The push refers to repository [registry.services.alin.be/ssb-alin]
+c353047a7f35: Preparing
+1ee0114a6967: Preparing
+7731318ed555: Preparing
+b770215616a2: Preparing
+5efc006b5ed6: Preparing
+b0efd61aab3d: Preparing
+fd8dbe3c801b: Preparing
+cd7100a72410: Preparing
+b0efd61aab3d: Waiting
+fd8dbe3c801b: Waiting
+cd7100a72410: Waiting
+5efc006b5ed6: Layer already exists
+b0efd61aab3d: Layer already exists
+fd8dbe3c801b: Layer already exists
+cd7100a72410: Layer already exists
+1ee0114a6967: Pushed
+b770215616a2: Pushed
+7731318ed555: Pushed
+c353047a7f35: Pushed
+v1: digest: sha256:315c2201fc76380f83fdb2b3c20e929e38762015f04a0de1064df6fdae41e9d9 size: 1987
+[32;1m$ docker push registry.services.alin.be/ssb-alin:latest[0;m
+The push refers to repository [registry.services.alin.be/ssb-alin]
+c353047a7f35: Preparing
+1ee0114a6967: Preparing
+7731318ed555: Preparing
+b770215616a2: Preparing
+5efc006b5ed6: Preparing
+b0efd61aab3d: Preparing
+fd8dbe3c801b: Preparing
+cd7100a72410: Preparing
+cd7100a72410: Waiting
+b0efd61aab3d: Waiting
+fd8dbe3c801b: Waiting
+b770215616a2: Layer already exists
+5efc006b5ed6: Layer already exists
+c353047a7f35: Layer already exists
+1ee0114a6967: Layer already exists
+b0efd61aab3d: Layer already exists
+7731318ed555: Layer already exists
+cd7100a72410: Layer already exists
+fd8dbe3c801b: Layer already exists
+latest: digest: sha256:315c2201fc76380f83fdb2b3c20e929e38762015f04a0de1064df6fdae41e9d9 size: 1987
+section_end:1529615884:build_script[0Ksection_start:1529615884:after_script[0Ksection_end:1529615885:after_script[0Ksection_start:1529615885:archive_cache[0Ksection_end:1529615887:archive_cache[0Ksection_start:1529615887:upload_artifacts[0Ksection_end:1529615888:upload_artifacts[0K[32;1mJob succeeded
+[0;m

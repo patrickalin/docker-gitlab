@@ -1,0 +1,35 @@
+[0KRunning with gitlab-runner 10.8.0 (079aad9e)
+[0;m[0K  on b735c4435862 79062fad
+[0;m[0KUsing Docker executor with image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KStarting service docker:dind ...
+[0;m[0KPulling docker image docker:dind ...
+[0;m[0KUsing docker image sha256:1f44348b3ad523d5dc4ae7d53bd873879e06e0df2d686e9029a666945443ef42 for docker:dind ...
+[0;m[0KWaiting for services to be up and running...
+[0;m
+[0;33m*** WARNING:[0;m Service runner-79062fad-project-2-concurrent-0-docker-0 probably didn't start properly.
+
+Health check error:
+ContainerStart: Error response from daemon: Cannot link to a non running container: /runner-79062fad-project-2-concurrent-0-docker-0 AS /runner-79062fad-project-2-concurrent-0-docker-0-wait-for-service/service
+
+Service container logs:
+2018-06-21T20:40:25.737472176Z mount: permission denied (are you root?)
+2018-06-21T20:40:25.739709523Z Could not mount /sys/kernel/security.
+2018-06-21T20:40:25.739734488Z AppArmor detection and --privileged mode might break.
+2018-06-21T20:40:25.739739457Z mount: permission denied (are you root?)
+
+[0;33m*********[0;m
+
+[0KPulling docker image registry.gitlab.com/build-images/docker:latest ...
+[0;m[0KUsing docker image sha256:83ccfaae424dffa470653d8ecc72d20852f51360117b2e7cd984ce4710461953 for registry.gitlab.com/build-images/docker:latest ...
+[0;msection_start:1529613629:prepare_script[0KRunning on runner-79062fad-project-2-concurrent-0 via aa3682306200...
+section_end:1529613631:prepare_script[0Ksection_start:1529613631:get_sources[0K[32;1mCloning repository...[0;m
+Cloning into '/builds/pa/ssb'...
+[32;1mChecking out 1172bed9 as master...[0;m
+[32;1mUpdating/initializing submodules recursively...[0;m
+section_end:1529613637:get_sources[0Ksection_start:1529613637:restore_cache[0Ksection_end:1529613639:restore_cache[0Ksection_start:1529613639:download_artifacts[0K[32;1mDownloading artifacts for hugo-build (6)...[0;m
+Downloading artifacts from coordinator... ok      [0;m  id[0;m=6 responseStatus[0;m=200 OK token[0;m=2VYyfPhi
+section_end:1529613642:download_artifacts[0Ksection_start:1529613642:build_script[0K[32;1m$ cd hugo-image[0;m
+[32;1m$ docker build -t registry.services.alin.be/ssb-alin:v1 .[0;m
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+section_end:1529613645:build_script[0Ksection_start:1529613645:after_script[0Ksection_end:1529613646:after_script[0K[31;1mERROR: Job failed: exit code 1
+[0;m

@@ -1,0 +1,4 @@
+2018-06-21_16:15:47.32358 Received TERM from runit, sending to process group (-PID)
+2018-06-21_16:15:47.33224 Terminated
+2018-06-21_16:15:47.33226 forwarding TERM to unicorn master 577
+2018-06-21_16:15:47.33536 Waiting for unicorn to die...

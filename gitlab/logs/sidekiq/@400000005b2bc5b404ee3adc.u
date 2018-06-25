@@ -1,0 +1,21 @@
+2018-06-21_15:34:03.06162 2018-06-21T15:34:03.060Z 660 TID-ovbsvn9wg INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-660", :url=>nil}
+2018-06-21_15:34:03.27798 2018-06-21T15:34:03.277Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-06-21_15:34:03.28474 2018-06-21T15:34:03.284Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-06-21_15:34:03.34092 2018-06-21T15:34:03.340Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-06-21_15:34:03.34621 2018-06-21T15:34:03.346Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: repository_check_worker
+2018-06-21_15:34:03.35043 2018-06-21T15:34:03.350Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: admin_email_worker
+2018-06-21_15:34:03.35542 2018-06-21T15:34:03.355Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-06-21_15:34:03.36366 2018-06-21T15:34:03.363Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-06-21_15:34:03.36782 2018-06-21T15:34:03.367Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-06-21_15:34:03.37156 2018-06-21T15:34:03.371Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-06-21_15:34:03.37697 2018-06-21T15:34:03.376Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-06-21_15:34:03.38026 2018-06-21T15:34:03.380Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-06-21_15:34:03.38202 2018-06-21T15:34:03.381Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-06-21_15:34:03.38410 2018-06-21T15:34:03.384Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-06-21_15:34:03.38732 2018-06-21T15:34:03.387Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-06-21_15:34:03.39069 2018-06-21T15:34:03.390Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-06-21_15:34:03.39617 2018-06-21T15:34:03.396Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-06-21_15:34:03.39912 2018-06-21T15:34:03.399Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-06-21_15:34:03.40245 2018-06-21T15:34:03.402Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-06-21_15:34:03.40350 2018-06-21T15:34:03.403Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-06-21_15:34:03.44010 2018-06-21T15:34:03.440Z 660 TID-ovbsvn9wg INFO: Cron Jobs - add job with name: issue_due_scheduler_worker
